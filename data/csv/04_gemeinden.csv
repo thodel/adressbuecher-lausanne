@@ -71,7 +71,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-672-034,1907,672,gemeinden,34,34,person,,1,Amacker,1,,,,,,,café Victoria,,,1,,,,1,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Amacker, café Victoria. T",Aigle,
 1907-gemeinden-672-035,1907,672,gemeinden,35,35,person,,1,Chablaix,1,,,Emile,,,,café des Amis,,,1,,rue du Centre,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Chablaix Emile, café des Amis, rue du Centre",Aigle,
 1907-gemeinden-672-036,1907,672,gemeinden,36,36,person,,1,Chervet,1,,,Eugène,,,,café des Messageries,,,1,,,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Chervet Eugène, café des Messageries",Aigle,
-1907-gemeinden-672-037,1907,672,gemeinden,37,37,person,,1,Deladoey,1,Emile,,fils,,,,,,,1,,à la Fontaine,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Deladoey Emile, fils, à la Fontaine",Aigle,alliance_from_forename
+1907-gemeinden-672-037,1907,672,gemeinden,37,37,person,,1,Deladoey,1,,,"Emile, fils",,,,,,,1,,à la Fontaine,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Deladoey Emile, fils, à la Fontaine",Aigle,
 1907-gemeinden-672-038,1907,672,gemeinden,38,38,person,,1,Drapel,1,,,,,veuve,,café du Commerce,,,1,,r. du Centre,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Drapel, veuve, café du Commerce, r. du Centre",Aigle,
 1907-gemeinden-672-039,1907,672,gemeinden,39,39,person,,1,Fenand,1,Roschi,,Ph,,,,café de l'Aigle Noir,,,1,,,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Fenand-Roschi, Ph., café de l'Aigle Noir",Aigle,
 1907-gemeinden-672-040,1907,672,gemeinden,40,40,person,,1,Gaberel,1,,,Justin,,,,,,,1,,r. du Centre,,,Cafetiers.,"qwen3.8-27b, Bild 2x",high,,"— Gaberel Justin, r. du Centre",Aigle,
@@ -586,7 +586,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-676-122,1907,676,gemeinden,122,122,person,,0,Cordcy,,,,F,,,,Dentistes,,,1,,av. de la Gare,,,Dentistes.,"qwen3.8-27b, Bild 2x",high,,"Cordcy F., av. de la Gare. T",Bex,
 1907-gemeinden-676-123,1907,676,gemeinden,123,123,person,,1,Quillet,,,,André,,,,Dentistes,,,1,,pl. du Marché,,,Dentistes.,"qwen3.8-27b, Bild 2x",high,,"Quillet André, pl. du Marché. T.",Bex,
 1907-gemeinden-676-124,1907,676,gemeinden,124,124,person,,0,Borel,,,,Marc,,,,distillerie de la Place,,,1,,,,,Distillateurs-liquoristes.,"qwen3.8-27b, Bild 2x",high,,"Borel Marc, distillerie de la Place",Bex,
-1907-gemeinden-676-125,1907,676,gemeinden,125,125,person,,1,Voutaz,,Charles,,fils,,,,distillerie de la Tour,,,1,,,,,Distillateurs-liquoristes.,"qwen3.8-27b, Bild 2x",high,,"Voutaz Charles, fils, distillerie de la Tour.",Bex,alliance_from_forename
+1907-gemeinden-676-125,1907,676,gemeinden,125,125,person,,1,Voutaz,,,,"Charles, fils",,,,distillerie de la Tour,,,1,,,,,Distillateurs-liquoristes.,"qwen3.8-27b, Bild 2x",high,,"Voutaz Charles, fils, distillerie de la Tour.",Bex,
 1907-gemeinden-676-126,1907,676,gemeinden,126,126,firma,,0,Cherix,,,,Ed,,,,"Draperie, toilerie",,,1,,,,,"Draperie, toilerie.","qwen3.8-27b, Bild 2x",high,,Cherix Ed. & Cie. R,Bex,
 1907-gemeinden-676-127,1907,676,gemeinden,127,127,person,,1,Combaz,,,,Jérôme,,,,"Draperie, toilerie",,,1,,rue de l'Avançon,,,"Draperie, toilerie.","qwen3.8-27b, Bild 2x",high,,"Combaz Jérôme, rue de l'Avançon. R",Bex,
 1907-gemeinden-676-128,1907,676,gemeinden,128,128,person,,1,Dupuis,,,,,,veuve,,"Draperie, toilerie",,,1,,à l'Allex,,,"Draperie, toilerie.","qwen3.8-27b, Bild 2x",high,,"Dupuis, veuve, à l'Allex",Bex,
@@ -1511,10 +1511,10 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-684-066,1907,684,gemeinden,66,66,person,,1,Station publique,1,,,,,,,Téléphone,,,1,,maison de ville,,,Téléphone.,"qwen3.8-27b, Bild 2x",high,,"— Station publique, maison de ville.",Ollon,
 1907-gemeinden-684-067,1907,684,gemeinden,67,67,person,,1,Amiguet,1,,,Emile,,,,Tonnelier,,,1,,,,,Tonneliers.,"qwen3.8-27b, Bild 2x",high,,— Amiguet Emile,Ollon,
 1907-gemeinden-684-068,1907,684,gemeinden,68,68,person,,1,Amiguet,1,,,Louis,,,,Tonnelier,,,1,,,,,Tonneliers.,"qwen3.8-27b, Bild 2x",high,,— Amiguet Louis.,Ollon,
-1907-gemeinden-684-069,1907,684,gemeinden,69,69,person,,1,Croptier,1,Henri,,fils,,,,Tuilerie,,,1,,gare de St-Triphon,,,Tuilerie.,"qwen3.8-27b, Bild 2x",high,,"— Croptier Henri, fils, gare de St-Triphon. R.",Ollon,alliance_from_forename
+1907-gemeinden-684-069,1907,684,gemeinden,69,69,person,,1,Croptier,1,,,"Henri, fils",,,,Tuilerie,,,1,,gare de St-Triphon,,,Tuilerie.,"qwen3.8-27b, Bild 2x",high,,"— Croptier Henri, fils, gare de St-Triphon. R.",Ollon,
 1907-gemeinden-684-070,1907,684,gemeinden,70,70,person,,1,Anex,1,,,Jean,,,,Vins (march. de),,,1,,,,,Vins (march. de).,"qwen3.8-27b, Bild 2x",high,,— Anex Jean,Ollon,
 1907-gemeinden-684-071,1907,684,gemeinden,71,71,firma,,1,Joly & Amiguet,1,,,,,,,Vins (march. de),,,1,,,,,Vins (march. de).,"qwen3.8-27b, Bild 2x",high,,— Joly & Amiguet. R,Ollon,
-1907-gemeinden-684-072,1907,684,gemeinden,72,72,person,,1,Pousaz,1,Louis,,père,,,,Vins (march. de),,,1,,Villy,,,Vins (march. de).,"qwen3.8-27b, Bild 2x",high,,"— Pousaz Louis, père, Villy",Ollon,street_rare alliance_from_forename
+1907-gemeinden-684-072,1907,684,gemeinden,72,72,person,,1,Pousaz,1,,,"Louis, père",,,,Vins (march. de),,,1,,Villy,,,Vins (march. de).,"qwen3.8-27b, Bild 2x",medium,,"— Pousaz Louis, père, Villy",Ollon,street_rare
 1907-gemeinden-684-073,1907,684,gemeinden,73,73,person,,1,Storti,1,,,Jean,,,,Vins (march. de),,,1,,Ollon,,,Vins (march. de).,"qwen3.8-27b, Bild 2x",high,,"— Storti Jean, Ollon.",Ollon,
 1907-gemeinden-684-074,1907,684,gemeinden,74,74,firma,,1,Massip & Lenoir,1,,,,,,,Voituriers,,,1,,,,,Voituriers.,"qwen3.8-27b, Bild 2x",high,,— Massip & Lenoir. T,Ollon,
 1907-gemeinden-684-075,1907,684,gemeinden,75,75,person,,1,Wüirsten,1,,,,,,,Voituriers,,,1,,,,,Voituriers.,"qwen3.8-27b, Bild 2x",high,,— Wüirsten. T.,Ollon,
@@ -1534,7 +1534,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-684-090,1907,684,gemeinden,90,90,person,,1,Marlétaz,1,,,Alexis,,,,Municipal,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"— Marlétaz, Alexis.",Ormont-Dessous,
 1907-gemeinden-684-091,1907,684,gemeinden,91,91,person,,1,Oguey,1,Borlat,,Emile,,,,Municipal,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"— Oguey-Borlat, Emile.",Ormont-Dessous,
 1907-gemeinden-684-092,1907,684,gemeinden,92,92,person,,1,Chablaix,1,,,Paul,,,,Secrétaire municipal,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",medium,,"— Secrétaire municipal, Cha-blaix, Paul.",Ormont-Dessous,hyphen
-1907-gemeinden-684-093,1907,684,gemeinden,93,93,person,,1,Boursier,1,Hubert,,Jules,,,,Boursier,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Hubert, Jules.",Ormont-Dessous,alliance_from_forename
+1907-gemeinden-684-093,1907,684,gemeinden,93,93,person,,1,Boursier,1,,,"Hubert, Jules",,,,Boursier,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Hubert, Jules.",Ormont-Dessous,
 1907-gemeinden-684-094,1907,684,gemeinden,94,94,person,,1,Girod,1,,,Alphonse,,,,Bétail (comm. de),,,1,,Comballaz,,,Bétail (comm. de).,"qwen3.8-27b, Bild 2x",medium,,"— Girod Alphonse, Com-ballaz",Ormont-Dessous,hyphen
 1907-gemeinden-684-095,1907,684,gemeinden,95,95,firma,,1,Monod,1,,,frères,,,,Bétail (comm. de),,,1,,Comballaz,,,Bétail (comm. de).,"qwen3.8-27b, Bild 2x",high,,"— Monod frères, Comballaz",Ormont-Dessous,
 1907-gemeinden-684-096,1907,684,gemeinden,96,96,person,,1,Pernet,1,,,Jules,,,,Bétail (comm. de),,,1,,Sépey,,,Bétail (comm. de).,"qwen3.8-27b, Bild 2x",high,,"— Pernet Jules, Sépey.",Ormont-Dessous,
@@ -2445,7 +2445,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-691-127,1907,691,gemeinden,127,127,person,,1,Baud,1,,,Henri,,,,Apiculteurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,— Baud Henri,Apples,
 1907-gemeinden-691-128,1907,691,gemeinden,128,128,person,,1,Delacrétaaz,1,,,Jean,,,,Apiculteurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,— Delacrétaaz Jean,Apples,
 1907-gemeinden-691-129,1907,691,gemeinden,129,129,person,,1,Decolligny,1,,,Henri,,,,Apiculteurs,,,1,,aux Délices,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Decolligny Henri, aux Délices",Apples,
-1907-gemeinden-691-130,1907,691,gemeinden,130,130,person,,1,Henriod,1,Ls,,fils,,,,Apiculteurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Henriod Ls, fils.",Apples,alliance_from_forename
+1907-gemeinden-691-130,1907,691,gemeinden,130,130,person,,1,Henriod,1,,,"Ls, fils",,,,Apiculteurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Henriod Ls, fils.",Apples,
 1907-gemeinden-691-131,1907,691,gemeinden,131,131,person,,0,Rochat,,,,John-Louis,,,,Appareilleurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,Appareilleurs. — Rochat John-Louis — Estoppey-Marti — Conti César.,Apples,
 1907-gemeinden-691-132,1907,691,gemeinden,132,132,person,,1,Estoppey-Marti,1,Marti,,,,,,Appareilleurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,— Estoppey-Marti,Apples,
 1907-gemeinden-691-133,1907,691,gemeinden,133,133,person,,1,Conti,1,,,César,,,,Appareilleurs,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,— Conti César.,Apples,
@@ -2458,10 +2458,9 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-691-140,1907,691,gemeinden,140,140,person,,0,Bélaz,,,,Ferdinand,,,,Charpentiers-menuisiers,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",medium,,Charpentiers-menuisiers. — Bélaz Ferdinand — Jotterand Louis.,Apples,hyphen
 1907-gemeinden-691-141,1907,691,gemeinden,141,141,person,,1,Jotterand,1,,,Louis,,,,Charpentiers-menuisiers,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,— Jotterand Louis.,Apples,
 1907-gemeinden-691-142,1907,691,gemeinden,142,142,person,,0,Decolligny,,,,fils d'Eugène,,,,Charrons,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"Charrons. — Decolligny fils d'Eugène — Henriod Louis, père. — Henriod Ls, fils.",Apples,
-1907-gemeinden-691-142-d2,1907,691,gemeinden,142,142,person,,0,Henriod,,,,Louis,,,,Charrons,,,1,,père,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"Henriod Louis, père",Apples,aus_liste
 1907-gemeinden-691-142-d3,1907,691,gemeinden,142,142,person,,0,Henriod,,,,Ls,,,,Charrons,,,1,,fils,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"Henriod Ls, fils",Apples,aus_liste
-1907-gemeinden-691-143,1907,691,gemeinden,143,143,person,,1,Henriod,1,Louis,,père,,,,Charrons,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Henriod Louis, père.",Apples,alliance_from_forename
-1907-gemeinden-691-144,1907,691,gemeinden,144,144,person,,1,Henriod,1,Ls,,fils,,,,Charrons,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Henriod Ls, fils.",Apples,alliance_from_forename
+1907-gemeinden-691-143,1907,691,gemeinden,143,143,person,,1,Henriod,1,,,"Louis, père",,,,Charrons,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Henriod Louis, père.",Apples,
+1907-gemeinden-691-144,1907,691,gemeinden,144,144,person,,1,Henriod,1,,,"Ls, fils",,,,Charrons,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,"— Henriod Ls, fils.",Apples,
 1907-gemeinden-691-145,1907,691,gemeinden,145,145,person,,0,Cochet,,,,Gustave,,,,Chaussures (march. de),,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,Chaussures (march. de). — Cochet Gustave T — Lassueur W. R T.,Apples,
 1907-gemeinden-691-146,1907,691,gemeinden,146,146,person,,1,Lassueur,1,,,W,,,,Chaussures (march. de),,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,— Lassueur W. R T.,Apples,
 1907-gemeinden-691-147,1907,691,gemeinden,147,147,person,,0,Baud,,,,Charles,,,,Chef de section,,,1,,,,,APPLES,"qwen3.8-27b, Bild 2x",high,,Chef de section. — Baud Charles.,Apples,
@@ -3432,7 +3431,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-700-005,1907,700,gemeinden,5,5,person,,1,Landriset,1,,,Adrien,,,,Charcutiers,,,1,,,,,Charcutiers.,"qwen3.8-27b, Bild 2x",high,,— Landriset Adrien,Avenches,
 1907-gemeinden-700-006,1907,700,gemeinden,6,6,person,,1,Schmid,1,,,Fritz,,,,Charcutiers,,,1,,,,,Charcutiers.,"qwen3.8-27b, Bild 2x",high,,— Schmid Fritz,Avenches,
 1907-gemeinden-700-007,1907,700,gemeinden,7,7,person,,1,Stucki,1,,,Adolphe,,,,Charcutiers,,,1,,,,,Charcutiers.,"qwen3.8-27b, Bild 2x",high,,— Stucki Adolphe. R.,Avenches,
-1907-gemeinden-700-008,1907,700,gemeinden,8,8,person,,1,Fornerod,1,Louis,,fils,,,,Chaussures,,,1,,,,,Chaussures,"qwen3.8-27b, Bild 2x",high,,"— Fornerod Louis, fils. R",Avenches,alliance_from_forename
+1907-gemeinden-700-008,1907,700,gemeinden,8,8,person,,1,Fornerod,1,,,"Louis, fils",,,,Chaussures,,,1,,,,,Chaussures,"qwen3.8-27b, Bild 2x",high,,"— Fornerod Louis, fils. R",Avenches,
 1907-gemeinden-700-009,1907,700,gemeinden,9,9,person,,1,Gentizon-Leuba,1,Leuba,,Jeanne,,,,Chaussures,,,1,,,,,Chaussures,"qwen3.8-27b, Bild 2x",high,,— Gentizon-Leuba Jeanne. R,Avenches,
 1907-gemeinden-700-010,1907,700,gemeinden,10,10,person,,1,Hefti,1,,,,,veuve,,Chaussures,,,1,,,,,Chaussures,"qwen3.8-27b, Bild 2x",high,,— Hefti veuve,Avenches,
 1907-gemeinden-700-011,1907,700,gemeinden,11,11,person,,1,Hug,1,,,Marie,,,,Chaussures,,,1,,,,,Chaussures,"qwen3.8-27b, Bild 2x",high,,— Hug Marie. R,Avenches,
@@ -3482,7 +3481,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-700-055,1907,700,gemeinden,55,55,person,,1,Schumacher,1,,,Ernest,,,,Etoffes,,,1,,rue Centrale,,1,Etoffes.,"qwen3.8-27b, Bild 2x",high,,"— Schumacher, Ernest, rue Centrale. Tissus en tous genres. R T.",Avenches,
 1907-gemeinden-700-056,1907,700,gemeinden,56,56,person,,1,Rey,1,,,Arnold,,,,Ferblantier,,,1,,,,,Ferblantier.,"qwen3.8-27b, Bild 2x",high,,— Rey Arnold. R.,Avenches,
 1907-gemeinden-700-057,1907,700,gemeinden,57,57,person,,1,Brauchli,1,,,Emile,,,,Fers et métaux,,,1,,,,1,Fers et métaux.,"qwen3.8-27b, Bild 2x",high,,"— Brauchli, Emile. R T.",Avenches,
-1907-gemeinden-700-058,1907,700,gemeinden,58,58,person,,1,Revilly,1,Jules,,fils,,,,Fers et métaux,,,1,,,,,Fers et métaux.,"qwen3.8-27b, Bild 2x",high,,"— Revilly Jules, fils.",Avenches,alliance_from_forename
+1907-gemeinden-700-058,1907,700,gemeinden,58,58,person,,1,Revilly,1,,,"Jules, fils",,,,Fers et métaux,,,1,,,,,Fers et métaux.,"qwen3.8-27b, Bild 2x",high,,"— Revilly Jules, fils.",Avenches,
 1907-gemeinden-700-059,1907,700,gemeinden,59,59,person,,1,Stauffer,1,,,Frédéric,,,,Fromages,,,1,,,,,Fromages.,"qwen3.8-27b, Bild 2x",high,,— Stauffer Frédéric.,Avenches,
 1907-gemeinden-700-060,1907,700,gemeinden,60,60,person,,1,Treyvaud,1,,,Arthur,,,,Greffier de la justice de paix,,,1,,,,,Greffier de la justice de paix.,"qwen3.8-27b, Bild 2x",high,,— Treyvaud Arthur.,Avenches,
 1907-gemeinden-700-061,1907,700,gemeinden,61,61,person,,1,Elia,1,,,Antoine,,,,Gypsiers,,,1,,,,,Gypsiers.,"qwen3.8-27b, Bild 2x",high,,— Elia Antoine,Avenches,
@@ -3558,11 +3557,11 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-700-133,1907,700,gemeinden,133,133,person,,1,Monney,1,,,sœurs,,,,Pensionnats de demoiselles,,,1,,,,1,Pensionnats de demoiselles.,"qwen3.8-27b, Bild 2x",high,,— Monney sœurs. T.,Avenches,
 1907-gemeinden-700-134,1907,700,gemeinden,134,134,person,,1,Chappatte,1,,,Paul,,,,Pharmacien,,,1,,rue Centrale,,,Pharmacien.,"qwen3.8-27b, Bild 2x",high,,"— Chappatte Paul, rue Centrale. R.",Avenches,
 1907-gemeinden-700-135,1907,700,gemeinden,135,135,person,,1,Fornerod,1,,,Louis,,,,Potiers,,,1,,,,,Potiers.,"qwen3.8-27b, Bild 2x",high,,— Fornerod Louis. R,Avenches,
-1907-gemeinden-700-136,1907,700,gemeinden,136,136,person,,1,Fornerod,1,Louis,,fils,,,,Potiers,,,1,,,,,Potiers.,"qwen3.8-27b, Bild 2x",high,,"— Fornerod Louis, fils. R.",Avenches,alliance_from_forename
+1907-gemeinden-700-136,1907,700,gemeinden,136,136,person,,1,Fornerod,1,,,"Louis, fils",,,,Potiers,,,1,,,,,Potiers.,"qwen3.8-27b, Bild 2x",high,,"— Fornerod Louis, fils. R.",Avenches,
 1907-gemeinden-700-137,1907,700,gemeinden,137,137,person,,1,Hermann,1,,,Eugène,,,,Préposé aux poursuites et faillites,,,1,,,,1,Préposé aux poursuites et faillites.,"qwen3.8-27b, Bild 2x",high,,— Hermann Eugène. T.,Avenches,
 1907-gemeinden-700-138,1907,700,gemeinden,138,138,person,,1,Brauchli,1,,,Ernest,,,,Quincaillerie,,,1,,,,,Quincaillerie.,"qwen3.8-27b, Bild 2x",high,,— Brauchli Ernest. R,Avenches,
 1907-gemeinden-700-139,1907,700,gemeinden,139,139,person,,1,Rey,1,,,Arnold,,,,Quincaillerie,,,1,,,,,Quincaillerie.,"qwen3.8-27b, Bild 2x",high,,— Rey Arnold. R,Avenches,
-1907-gemeinden-700-140,1907,700,gemeinden,140,140,person,,1,Revilly,1,Jules,,fils,,,,Quincaillerie,,,1,,,,,Quincaillerie.,"qwen3.8-27b, Bild 2x",high,,"— Revilly Jules, fils.",Avenches,alliance_from_forename
+1907-gemeinden-700-140,1907,700,gemeinden,140,140,person,,1,Revilly,1,,,"Jules, fils",,,,Quincaillerie,,,1,,,,,Quincaillerie.,"qwen3.8-27b, Bild 2x",high,,"— Revilly Jules, fils.",Avenches,
 1907-gemeinden-700-141,1907,700,gemeinden,141,141,person,,1,Faucherre,1,,,Lucien,,,,Renseignements et encaissements,,,1,,,,,Renseignements et encaissements.,"qwen3.8-27b, Bild 2x",high,,— Faucherre Lucien,Avenches,
 1907-gemeinden-700-142,1907,700,gemeinden,142,142,person,,1,Monney,1,,,,notaire,,,Renseignements et encaissements,,,1,,,,,Renseignements et encaissements.,"qwen3.8-27b, Bild 2x",high,,"— Monney, notaire.",Avenches,
 1907-gemeinden-700-143,1907,700,gemeinden,143,143,person,,1,Voir Blanchisseuses,1,,,,,,,Repasseuses,,,1,,,,,Repasseuses.,"qwen3.8-27b, Bild 2x",high,,— Voir Blanchisseuses.,Avenches,
@@ -5103,9 +5102,9 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-714-013,1907,714,gemeinden,13,13,person,,0,Mermoud,,,,Charles,,,,Municipaux,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Municipaux: Mermoud Charles — Desponds Félix — Desponds François — Guerry François, ff. Jules — Secrétaire municipal, Desponds Alexis, ff. Georges — Boursier, Desponds François, ff. Louis.",Lussery,
 1907-gemeinden-714-014,1907,714,gemeinden,14,14,person,,1,Desponds,,,,Félix,,,,Municipaux,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,Desponds Félix,Lussery,
 1907-gemeinden-714-015,1907,714,gemeinden,15,15,person,,1,Desponds,,,,François,,,,Municipaux,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,Desponds François,Lussery,
-1907-gemeinden-714-016,1907,714,gemeinden,16,16,person,,1,Guerry,,François,,ff. Jules,,,,Municipaux,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Guerry François, ff. Jules",Lussery,alliance_from_forename
-1907-gemeinden-714-017,1907,714,gemeinden,17,17,person,,1,Desponds,,Alexis,,ff. Georges,,,,Secrétaire municipal,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Secrétaire municipal, Desponds Alexis, ff. Georges",Lussery,alliance_from_forename
-1907-gemeinden-714-018,1907,714,gemeinden,18,18,person,,1,Desponds,,François,,ff. Louis,,,,Boursier,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Boursier, Desponds François, ff. Louis.",Lussery,alliance_from_forename
+1907-gemeinden-714-016,1907,714,gemeinden,16,16,person,,1,Guerry,,,,"François, ff. Jules",,,,Municipaux,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Guerry François, ff. Jules",Lussery,
+1907-gemeinden-714-017,1907,714,gemeinden,17,17,person,,1,Desponds,,,,"Alexis, ff. Georges",,,,Secrétaire municipal,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Secrétaire municipal, Desponds Alexis, ff. Georges",Lussery,
+1907-gemeinden-714-018,1907,714,gemeinden,18,18,person,,1,Desponds,,,,"François, ff. Louis",,,,Boursier,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Boursier, Desponds François, ff. Louis.",Lussery,
 1907-gemeinden-714-019,1907,714,gemeinden,19,19,person,,0,Walter,,,,Louis,pasteur,,,Président,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,"Commission scolaire. — Président, Walter Louis, pasteur — Guerry François — Delessert Héli.",Lussery,
 1907-gemeinden-714-020,1907,714,gemeinden,20,20,person,,1,Guerry,,,,François,,,,Commission scolaire,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,Guerry François,Lussery,
 1907-gemeinden-714-021,1907,714,gemeinden,21,21,person,,1,Delessert,,,,Héli,,,,Commission scolaire,,,1,,,,,LUSSERY,"qwen3.8-27b, Bild 2x",high,,Delessert Héli.,Lussery,
@@ -6107,7 +6106,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-722-039,1907,722,gemeinden,39,39,person,,1,Dony,1,,,Constant,,,,Municipaux,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,— Dony Constant,Assens,
 1907-gemeinden-722-040,1907,722,gemeinden,40,40,person,,1,Mathey,1,,,Henri,,,,Municipaux,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,— Mathey Henri,Assens,
 1907-gemeinden-722-041,1907,722,gemeinden,41,41,person,,1,Pollien,1,,,Jean,,,,Municipaux,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,— Pollien Jean,Assens,
-1907-gemeinden-722-042,1907,722,gemeinden,42,42,person,,1,Allaz,1,Auguste,,fils,,,,Secrétaire,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Allaz Auguste, fils",Assens,alliance_from_forename
+1907-gemeinden-722-042,1907,722,gemeinden,42,42,person,,1,Allaz,1,,,"Auguste, fils",,,,Secrétaire,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Allaz Auguste, fils",Assens,
 1907-gemeinden-722-043,1907,722,gemeinden,43,43,person,,1,Chambettaz,1,,,Alfred,,,,Boursier,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Chambettaz Alfred",Assens,
 1907-gemeinden-722-044,1907,722,gemeinden,44,44,person,,1,Barby,1,,,Casimir,,,,Huissier,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",high,,"— Huissier, Barby Casimir.",Assens,
 1907-gemeinden-722-045,1907,722,gemeinden,45,45,firma,,0,Allaz,,,,Auguste,,,,Agriculteurs,,,1,,,,,ASSENS,"qwen3.8-27b, Bild 2x",medium,,"Agriculteurs. — Allaz Auguste — Baudère frères — Barby Louis — Chambettaz Auguste — Chambettaz Louis — Cham-bettaz Xavier — Dépierraz Gabriel — Despont Ernest — Despont Jules — Des-pont Louis — Despont Auguste — Dony David — Favre, frères — Jordan Henri — Mathey Emile — Mathey François — Mathey Henri — Pelet Alfred — Pelet Charlotte — Pelet Edouard — Pelet Fer-dinand — Pelet Louis — Pelet Samuel — Pellerin François — Pellerin Georges — Pilloud, frères.",Assens,hyphen
@@ -7697,8 +7696,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-735-018,1907,735,gemeinden,18,18,person,,0,Tharin,,,,Elise,,,,Blanchisseuses,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Blanchisseuses. — Tharin Elise. — Perret Rose.,Champagne,
 1907-gemeinden-735-019,1907,735,gemeinden,19,19,person,,1,Perret,1,,,Rose,,,,Blanchisseuses,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Perret Rose.,Champagne,
 1907-gemeinden-735-020,1907,735,gemeinden,20,20,person,,0,Banderet,,,,Samuel,,,,Bois (march. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Bois (march. de). — Banderet Samuel — Giroud Louis, fils — Patthey Ernest.",Champagne,
-1907-gemeinden-735-020-d2,1907,735,gemeinden,20,20,person,,0,Giroud,,,,Louis,,,,Bois (march. de),,,1,,fils,,,,"qwen3.8-27b, Bild 2x",high,,"Giroud Louis, fils",Champagne,aus_liste
-1907-gemeinden-735-021,1907,735,gemeinden,21,21,person,,1,Giroud,1,Louis,,fils,,,,Bois (march. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Giroud Louis, fils.",Champagne,alliance_from_forename
+1907-gemeinden-735-021,1907,735,gemeinden,21,21,person,,1,Giroud,1,,,"Louis, fils",,,,Bois (march. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Giroud Louis, fils.",Champagne,
 1907-gemeinden-735-022,1907,735,gemeinden,22,22,person,,1,Patthey,1,,,Ernest,,,,Bois (march. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Patthey Ernest.,Champagne,
 1907-gemeinden-735-023,1907,735,gemeinden,23,23,person,,0,Banderet,,,,Rosine,,veuve,,Boulanger,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Boulanger. — Banderet Rosine, veuve. R — Moosheer Jacques.",Champagne,
 1907-gemeinden-735-024,1907,735,gemeinden,24,24,person,,1,Moosheer,1,,,Jacques,,,,Boulanger,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Moosheer Jacques.,Champagne,
@@ -8238,7 +8236,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-739-003,1907,739,gemeinden,3,3,person,,0,Tailliefert,,,,Aline,,,,Rentiers,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Rentiers. — Tailliefert Aline — Perret Lina.,Novalles,
 1907-gemeinden-739-004,1907,739,gemeinden,4,4,person,,1,Perret,1,,,Lina,,,,Rentiers,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Perret Lina.,Novalles,
 1907-gemeinden-739-006,1907,739,gemeinden,6,6,person,,0,Dagon,,Grobet,,Jules,,,,Président du Conseil général,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",medium,,"Autorités communales. — Président du Conseil général, Dagon-Grobet Jules — Secrétaire, Dagon Jules, fils. Syndic, Dagon Rod.-F.",Onnens (VD),surname_split
-1907-gemeinden-739-007,1907,739,gemeinden,7,7,person,,1,Dagon,1,Jules,,fils,,,,Secrétaire,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"— Dagon Jules, fils.",Onnens (VD),alliance_from_forename
+1907-gemeinden-739-007,1907,739,gemeinden,7,7,person,,1,Dagon,1,,,"Jules, fils",,,,Secrétaire,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"— Dagon Jules, fils.",Onnens (VD),
 1907-gemeinden-739-008,1907,739,gemeinden,8,8,person,,1,Dagon,1,,,Rod.-F,,,,Syndic,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,— Dagon Rod.-F.,Onnens (VD),
 1907-gemeinden-739-009,1907,739,gemeinden,9,9,person,,0,Dagon,,,,Paul,,,,Municipaux,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"Municipaux, Dagon Paul — Dagon Constant — Dagon Auguste — Favre Louis — Perdrisat Charles — Seiler Gottfried — Boursier, Schneeberg Fritz — Secrétaire municipal, Dagon Ch.-Louis — Huissier, Filieux Henri-Louis.",Onnens (VD),
 1907-gemeinden-739-010,1907,739,gemeinden,10,10,person,,1,Dagon,1,,,Constant,,,,Municipaux,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,— Dagon Constant,Onnens (VD),
@@ -8302,8 +8300,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-739-071,1907,739,gemeinden,71,71,person,,1,Gander,1,,,Charles,,,,Vins (march. de),,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,— Gander Charles,Onnens (VD),
 1907-gemeinden-739-072,1907,739,gemeinden,72,72,person,,1,Perdrisat,1,,,Humbert,,,,Vins (march. de),,,1,,à Beausite,,,ONNENS,"qwen3.8-27b, Bild 2x",medium,,"— Perdrisat Humbert, à Beausite.",Onnens (VD),street_rare
 1907-gemeinden-739-073,1907,739,gemeinden,73,73,person,,0,Gaille,,,,Alexis,,,,Voituriers,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"Voituriers. — Gaille Alexis — Maag Gaspard, fils.",Onnens (VD),
-1907-gemeinden-739-073-d2,1907,739,gemeinden,73,73,person,,0,Maag,,,,Gaspard,,,,Voituriers,,,1,,fils,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"Maag Gaspard, fils",Onnens (VD),aus_liste
-1907-gemeinden-739-074,1907,739,gemeinden,74,74,person,,1,Maag,1,Gaspard,,fils,,,,Voituriers,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"— Maag Gaspard, fils.",Onnens (VD),alliance_from_forename
+1907-gemeinden-739-074,1907,739,gemeinden,74,74,person,,1,Maag,1,,,"Gaspard, fils",,,,Voituriers,,,1,,,,,ONNENS,"qwen3.8-27b, Bild 2x",high,,"— Maag Gaspard, fils.",Onnens (VD),
 1907-gemeinden-739-076,1907,739,gemeinden,76,76,person,,0,Perrin,,,,Louis,,,,Président du Conseil général,,,1,,,,,PROVENCE,"qwen3.8-27b, Bild 2x",high,,"Autorités communales. — Président du Conseil général, Perrin Louis — Secrétaire, Vuillermet Albert. Syndic, Gattolliat Frédéric.",Provence,
 1907-gemeinden-739-077,1907,739,gemeinden,77,77,person,,1,Vuillermet,1,,,Albert,,,,Secrétaire,,,1,,,,,PROVENCE,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Vuillermet Albert.",Provence,
 1907-gemeinden-739-078,1907,739,gemeinden,78,78,person,,1,Gattolliat,1,,,Frédéric,,,,Syndic,,,1,,,,,PROVENCE,"qwen3.8-27b, Bild 2x",high,,— Gattolliat Frédéric.,Provence,
@@ -9899,11 +9896,10 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-755-118,1907,755,gemeinden,118,118,person,,0,Perrochon,,,,Victor,,,,Officier d'état civil,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,Officier d'état civil. — Perrochon Victor.,Romanel-sur-Lausanne,
 1907-gemeinden-755-119,1907,755,gemeinden,119,119,person,,0,Bovey,,,,Jules,,,,Poste,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,Poste. — Bovey Jules.,Romanel-sur-Lausanne,
 1907-gemeinden-755-120,1907,755,gemeinden,120,120,person,,0,Ami,,,,Marc-François,,,,Propriétaire et fermier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,"Propriétaires et fermiers. — Ami Marc-François — Baudet Alexis, assesseur — Bovey David — Bovey Henri — Bovey Jules, fleu Louis — Groux Louis.",Romanel-sur-Lausanne,
-1907-gemeinden-755-120-d5,1907,755,gemeinden,120,120,person,,0,Bovey,,,,Jules,,,,Propriétaire et fermier,,,1,,fleu Louis,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,"Bovey Jules, fleu Louis",Romanel-sur-Lausanne,aus_liste
 1907-gemeinden-755-121,1907,755,gemeinden,121,121,person,,1,Baudet,1,,,Alexis,,,,assesseur,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,"— Baudet Alexis, assesseur",Romanel-sur-Lausanne,
 1907-gemeinden-755-122,1907,755,gemeinden,122,122,person,,1,Bovey,1,,,David,,,,Propriétaire et fermier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,— Bovey David,Romanel-sur-Lausanne,
 1907-gemeinden-755-123,1907,755,gemeinden,123,123,person,,1,Bovey,1,,,Henri,,,,Propriétaire et fermier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,— Bovey Henri,Romanel-sur-Lausanne,
-1907-gemeinden-755-124,1907,755,gemeinden,124,124,person,,1,Bovey,1,Jules,,fleu Louis,,,,Propriétaire et fermier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,"— Bovey Jules, fleu Louis",Romanel-sur-Lausanne,alliance_from_forename
+1907-gemeinden-755-124,1907,755,gemeinden,124,124,person,,1,Bovey,1,,,"Jules, fleu Louis",,,,Propriétaire et fermier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,"— Bovey Jules, fleu Louis",Romanel-sur-Lausanne,
 1907-gemeinden-755-125,1907,755,gemeinden,125,125,person,,1,Groux,1,,,Louis,,,,Propriétaire et fermier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,— Groux Louis.,Romanel-sur-Lausanne,
 1907-gemeinden-755-126,1907,755,gemeinden,126,126,person,,0,Favrât,,,,Eugène,,,,Sellier,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,Sellier. — Favrât Eugène.,Romanel-sur-Lausanne,
 1907-gemeinden-755-128,1907,755,gemeinden,128,128,person,,0,Richli,,,,Joseph,,,,Tailleur,,,1,,,,,ROMANEL,"qwen3.8-27b, Bild 2x",high,,Tailleur. — Richli Joseph.,Romanel-sur-Lausanne,
@@ -10634,8 +10630,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-762-057,1907,762,gemeinden,57,57,person,,0,Benoit,,,,Ami,,,,Blantiers,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,Blantiers. — Benoit Ami — Guignard Ami-Constant.,Le Chenit,
 1907-gemeinden-762-058,1907,762,gemeinden,58,58,person,,1,Guignard,1,,,Ami-Constant,,,,Blantiers,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Guignard Ami-Constant.,Le Chenit,
 1907-gemeinden-762-059,1907,762,gemeinden,59,59,person,,0,Aubert,,,,Charles,,,,Cadraturs,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,"Cadraturs. — Aubert Charles — Caillet Louis, fils — Capt Firmin — Golay Lucien — Meylan Ernest — Rochat Aug.",Le Chenit,
-1907-gemeinden-762-059-d2,1907,762,gemeinden,59,59,person,,0,Caillet,,,,Louis,,,,Cadraturs,,,1,,fils,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,"Caillet Louis, fils",Le Chenit,aus_liste
-1907-gemeinden-762-060,1907,762,gemeinden,60,60,person,,1,Caillet,1,Louis,,fils,,,,Cadraturs,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,"— Caillet Louis, fils",Le Chenit,alliance_from_forename
+1907-gemeinden-762-060,1907,762,gemeinden,60,60,person,,1,Caillet,1,,,"Louis, fils",,,,Cadraturs,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,"— Caillet Louis, fils",Le Chenit,
 1907-gemeinden-762-061,1907,762,gemeinden,61,61,person,,1,Capt,1,,,Firmin,,,,Cadraturs,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Capt Firmin,Le Chenit,
 1907-gemeinden-762-062,1907,762,gemeinden,62,62,person,,1,Golay,1,,,Lucien,,,,Cadraturs,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Golay Lucien,Le Chenit,
 1907-gemeinden-762-063,1907,762,gemeinden,63,63,person,,1,Meylan,1,,,Ernest,,,,Cadraturs,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Meylan Ernest,Le Chenit,
@@ -11053,19 +11048,17 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-765-106,1907,765,gemeinden,106,106,person,,0,Guignard,,,,Aloïs,,,,Pivoteur,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,Pivoteur. — Guignard Aloïs.,Le Lieu,
 1907-gemeinden-765-107,1907,765,gemeinden,107,107,person,,0,Dépraz,,,,Jules,,,,Remontoirs (fabr. de),,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,Remontoirs (fabr. de). — Dépraz Jules.,Le Lieu,
 1907-gemeinden-766-001,1907,766,gemeinden,1,1,person,,0,Rochat,,Golay,,Elie,,,,ministration,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"ministration, Rochat-Golay Elie — Secrétaire municipal, Rochat Samuel, de Jules — Président du Conseil général, Rochat J.-Jérémie, fils — Secrétaire, Rochat Ch.-Jules.",Le Lieu,
-1907-gemeinden-766-002,1907,766,gemeinden,2,2,person,,1,Rochat,1,Samuel,,de Jules,,,,Secrétaire municipal,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Samuel, de Jules",Le Lieu,alliance_from_forename
+1907-gemeinden-766-002,1907,766,gemeinden,2,2,person,,1,Rochat,1,,,"Samuel, de Jules",,,,Secrétaire municipal,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Samuel, de Jules",Le Lieu,
 1907-gemeinden-766-003,1907,766,gemeinden,3,3,person,,1,Rochat,1,,,"J.-Jérémie, fils",,,,Président du Conseil général,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat J.-Jérémie, fils",Le Lieu,
 1907-gemeinden-766-004,1907,766,gemeinden,4,4,person,,1,Rochat,1,,,Ch.-Jules,,,,Secrétaire,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Rochat Ch.-Jules.,Le Lieu,
 1907-gemeinden-766-005,1907,766,gemeinden,5,5,person,,0,Rochat,,,,Samuel,,,,Assesseur,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Assesseur. — Rochat Samuel.,Le Lieu,
 1907-gemeinden-766-006,1907,766,gemeinden,6,6,person,,0,Humberset,,,,Fritz,,,,Agent de police,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Agent de police. — Humberset Fritz.,Le Lieu,
 1907-gemeinden-766-007,1907,766,gemeinden,7,7,person,,0,Rochat,,,,Eugène,,,,Amodiateurs de montagne,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Amodiateurs de montagne. — Rochat Eugène — Rochat Albert — Rochat Auguste, à la Cornaz — Rochat Fernand, à la Cornaz — Rochat Elie, feu Henri — Rochat Alfred, Charles et Jules Samuel, l'Epine — Rochat Louis-Charles, Vieux Cabaret — Rochat Louis-Etienne, sapeur — Rochat Samuel, l'Epine.",Le Lieu,
-1907-gemeinden-766-007-d5,1907,766,gemeinden,7,7,person,,0,Rochat,,,,Elie,,,,Amodiateurs de montagne,,,1,,feu Henri,,,,"qwen3.8-27b, Bild 2x",high,,"Rochat Elie, feu Henri",Le Lieu,aus_liste
-1907-gemeinden-766-007-d6,1907,766,gemeinden,7,7,person,,0,Rochat,,,,Alfred,,,,Amodiateurs de montagne,,,1,,"Charles et Jules Samuel, l'Epine",,,,"qwen3.8-27b, Bild 2x",high,,"Rochat Alfred, Charles et Jules Samuel, l'Epine",Le Lieu,aus_liste
 1907-gemeinden-766-008,1907,766,gemeinden,8,8,person,,1,Rochat,1,,,Albert,,,,Amodiateurs de montagne,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Rochat Albert,Le Lieu,
 1907-gemeinden-766-009,1907,766,gemeinden,9,9,person,,1,Rochat,1,,,Auguste,,,,Amodiateurs de montagne,,,1,,la Cornaz,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Auguste, à la Cornaz",Le Lieu,
 1907-gemeinden-766-010,1907,766,gemeinden,10,10,person,,1,Rochat,1,,,Fernand,,,,Amodiateurs de montagne,,,1,,la Cornaz,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Fernand, à la Cornaz",Le Lieu,
-1907-gemeinden-766-011,1907,766,gemeinden,11,11,person,,1,Rochat,1,Elie,,feu Henri,,,,Amodiateurs de montagne,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Elie, feu Henri",Le Lieu,alliance_from_forename
-1907-gemeinden-766-012,1907,766,gemeinden,12,12,person,,1,Rochat,1,Alfred,,Charles et Jules Samuel,,,,Amodiateurs de montagne,,,1,,l'Epine,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Alfred, Charles et Jules Samuel, l'Epine",Le Lieu,alliance_from_forename
+1907-gemeinden-766-011,1907,766,gemeinden,11,11,person,,1,Rochat,1,,,"Elie, feu Henri",,,,Amodiateurs de montagne,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Elie, feu Henri",Le Lieu,
+1907-gemeinden-766-012,1907,766,gemeinden,12,12,person,,1,Rochat,1,,,"Alfred, Charles et Jules Samuel",,,,Amodiateurs de montagne,,,1,,l'Epine,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Alfred, Charles et Jules Samuel, l'Epine",Le Lieu,
 1907-gemeinden-766-013,1907,766,gemeinden,13,13,person,,1,Rochat,1,,,Louis-Charles,,,,Amodiateurs de montagne,,,1,,Vieux Cabaret,,,,"qwen3.8-27b, Bild 2x",medium,,"— Rochat Louis-Charles, Vieux Cabaret",Le Lieu,street_rare
 1907-gemeinden-766-014,1907,766,gemeinden,14,14,person,,1,Rochat,1,,,Louis-Etienne,,,,sapeur,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Louis-Etienne, sapeur",Le Lieu,
 1907-gemeinden-766-015,1907,766,gemeinden,15,15,person,,1,Rochat,1,,,Samuel,,,,Amodiateurs de montagne,,,1,,l'Epine,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Samuel, l'Epine.",Le Lieu,
@@ -11184,17 +11177,16 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-766-130,1907,766,gemeinden,130,130,person,,1,Rochat,1,,,Louis-Etienne,,,,sapeur,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Louis-Etienne, sapeur.",Le Lieu,
 1907-gemeinden-766-131,1907,766,gemeinden,131,131,firma,,0,Rochat,,,,frères,,,,Vins (march. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Vins (march. de). — Rochat frères. R.,Le Lieu,
 1907-gemeinden-766-132,1907,766,gemeinden,132,132,person,,0,Rochat,,,,Emile,,,,Voituriers,,,1,,Cygne,,,,"qwen3.8-27b, Bild 2x",medium,,"Voituriers. — Rochat Emile, Cygne — Rochat Charles — Rochat Marius, d'Elie — Rochat Louis, Tri.",Le Lieu,street_rare
-1907-gemeinden-766-132-d3,1907,766,gemeinden,132,132,person,,0,Rochat,,,,Marius,,,,Voituriers,,,1,,d'Elie,,,,"qwen3.8-27b, Bild 2x",high,,"Rochat Marius, d'Elie",Le Lieu,aus_liste
 1907-gemeinden-766-133,1907,766,gemeinden,133,133,person,,1,Rochat,1,,,Charles,,,,Voituriers,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Rochat Charles,Le Lieu,
-1907-gemeinden-766-134,1907,766,gemeinden,134,134,person,,1,Rochat,1,Marius,,d'Elie,,,,Voituriers,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Marius, d'Elie",Le Lieu,alliance_from_forename
+1907-gemeinden-766-134,1907,766,gemeinden,134,134,person,,1,Rochat,1,,,"Marius, d'Elie",,,,Voituriers,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Marius, d'Elie",Le Lieu,
 1907-gemeinden-766-135,1907,766,gemeinden,135,135,person,,1,Rochat,1,,,Louis,,,,Voituriers,,,1,,Tri,,,,"qwen3.8-27b, Bild 2x",medium,,"— Rochat Louis, Tri.",Le Lieu,street_rare
 1907-gemeinden-766-136,1907,766,gemeinden,136,136,firma,,0,Golay,,,,frères,,,,Contre-pivots,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",medium,,Contre-pivots. — Golay frères. R — Lugin-Rochat Léon — Rochat Charles-Louis fils. R — Rochat-Golay Elie. R,Le Lieu,hyphen
 1907-gemeinden-766-137,1907,766,gemeinden,137,137,person,,1,Lugin,1,Rochat,,Léon,,,,Contre-pivots,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Lugin-Rochat Léon,Le Lieu,
 1907-gemeinden-766-138,1907,766,gemeinden,138,138,person,,1,Rochat,1,,,Charles-Louis fils,,,,Contre-pivots,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Rochat Charles-Louis fils. R,Le Lieu,
 1907-gemeinden-766-139,1907,766,gemeinden,139,139,person,,1,Rochat,1,Golay,,Elie,,,,Contre-pivots,,,1,,,,,HORLOGERIE,"qwen3.8-27b, Bild 2x",high,,— Rochat-Golay Elie. R,Le Lieu,
-1907-gemeinden-767-001,1907,767,gemeinden,1,1,person,,1,Rochat,1,Louis,,de Jules-Isaac — Rochat Albin,,,,,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Louis, de Jules-Isaac — Rochat Albin.",Le Lieu,alliance_from_forename
+1907-gemeinden-767-001,1907,767,gemeinden,1,1,person,,1,Rochat,1,,,"Louis, de Jules-Isaac — Rochat Albin",,,,,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Rochat Louis, de Jules-Isaac — Rochat Albin.",Le Lieu,
 1907-gemeinden-767-002,1907,767,gemeinden,2,2,person,,0,Rochat,,Hafner,,Eugène,,,,contre-pivots pour horlogerie et bijouterie,,,1,,,,,Contre-pivots en verre (fondeurs de).,"qwen3.8-27b, Bild 2x",high,,"Rochat-Hafner Eugène, contre-pivots pour horlogerie et bijouterie.",Le Lieu,hyphen surname_split
-1907-gemeinden-767-003,1907,767,gemeinden,3,3,person,,1,Rochat,1,Louis,,de J.-Isaac,,,,,,,1,,,,,Contre-pivots en verre (fondeurs de).,"qwen3.8-27b, Bild 2x",high,,"— Rochat Louis, de J.-Isaac.",Le Lieu,alliance_from_forename
+1907-gemeinden-767-003,1907,767,gemeinden,3,3,person,,1,Rochat,1,,,"Louis, de J.-Isaac",,,,,,,1,,,,,Contre-pivots en verre (fondeurs de).,"qwen3.8-27b, Bild 2x",high,,"— Rochat Louis, de J.-Isaac.",Le Lieu,
 1907-gemeinden-767-004,1907,767,gemeinden,4,4,person,,1,Rochat,1,,,Gustave — Rochat Albin — Rochat Wilfrid,,,,,,,1,,,,,Découpages.,"qwen3.8-27b, Bild 2x",high,,— Rochat Gustave — Rochat Albin — Rochat Wilfrid.,Le Lieu,
 1907-gemeinden-767-004-d1,1907,767,gemeinden,4,4,person,,0,Rochat,,,,Albin,,,,,,,1,,,,,Découpages.,"qwen3.8-27b, Bild 2x",high,,Rochat Albin,Le Lieu,aus_liste
 1907-gemeinden-767-004-d2,1907,767,gemeinden,4,4,person,,0,Rochat,,,,Wilfrid,,,,,,,1,,,,,Découpages.,"qwen3.8-27b, Bild 2x",high,,Rochat Wilfrid,Le Lieu,aus_liste
@@ -13820,7 +13812,7 @@ entry_id,volume,page,section,line_from,line_to,entry_type,citizen_flag,dash_pref
 1907-gemeinden-792-067,1907,792,gemeinden,67,67,person,,1,Solliard,1,,,Constant,,,,Propriétaires et fermiers,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,— Solliard Constant,Lully (VD),
 1907-gemeinden-792-068,1907,792,gemeinden,68,68,person,,1,Solliard,1,,,Jules-Rodolphe,,,,Propriétaires et fermiers,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,— Solliard Jules-Rodolphe,Lully (VD),
 1907-gemeinden-792-069,1907,792,gemeinden,69,69,person,,1,Vez,1,,,Louis,,,,Propriétaires et fermiers,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,— Vez Louis,Lully (VD),
-1907-gemeinden-792-070,1907,792,gemeinden,70,70,person,,1,Vez,1,Louis,,fils,,,,Propriétaires et fermiers,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,"— Vez Louis, fils.",Lully (VD),alliance_from_forename
+1907-gemeinden-792-070,1907,792,gemeinden,70,70,person,,1,Vez,1,,,"Louis, fils",,,,Propriétaires et fermiers,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,"— Vez Louis, fils.",Lully (VD),
 1907-gemeinden-792-071,1907,792,gemeinden,71,71,firma,,0,Société du poids public,,,,,,,,Sociétés,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,Sociétés. — Société du poids public. R — Société de tir.,Lully (VD),
 1907-gemeinden-792-072,1907,792,gemeinden,72,72,firma,,1,Société de tir,1,,,,,,,Sociétés,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,— Société de tir.,Lully (VD),
 1907-gemeinden-792-073,1907,792,gemeinden,73,73,person,,0,Chevallard,,,,Henri-Jean,,,,Tailleur,,,1,,,,,LULLY,"qwen3.8-27b, Bild 2x",high,,Tailleur. — Chevallard Henri-Jean.,Lully (VD),
@@ -17192,8 +17184,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-826-084,1907,826,gemeinden,84,84,person,,0,Coindet,,,,Louis,,,,Menuisiers,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,Menuisiers. — Coindet Louis — Fayet Jules.,Begnins,
 1907-gemeinden-826-085,1907,826,gemeinden,85,85,person,,1,Fayet,1,,,Jules,,,,Menuisiers,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,— Fayet Jules.,Begnins,
 1907-gemeinden-826-086,1907,826,gemeinden,86,86,person,,0,Capt,,,,Daniel,,,,Meuniers,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,"Meuniers. — Capt Daniel — Gallay Gustave, Cézille. T.",Begnins,
-1907-gemeinden-826-086-d2,1907,826,gemeinden,86,86,person,,0,Gallay,,,,Gustave,,,,Meuniers,,,1,,Cézille,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,"Gallay Gustave, Cézille. T",Begnins,aus_liste
-1907-gemeinden-826-087,1907,826,gemeinden,87,87,person,,1,Gallay,1,Gustave,,Cézille,,,,Meuniers,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,"— Gallay Gustave, Cézille. T.",Begnins,alliance_from_forename
+1907-gemeinden-826-087,1907,826,gemeinden,87,87,person,,1,Gallay,1,,,"Gustave, Cézille",,,,Meuniers,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,"— Gallay Gustave, Cézille. T.",Begnins,
 1907-gemeinden-826-088,1907,826,gemeinden,88,88,person,,0,Gervais,,,,Pauline,,,,Modistes,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,Modistes. — Gervais Pauline. R — Giovanna-Stucky Marguerite.,Begnins,
 1907-gemeinden-826-089,1907,826,gemeinden,89,89,person,,1,Giovanna-Stucky,1,Stucky,,Marguerite,,,,Modistes,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,— Giovanna-Stucky Marguerite.,Begnins,
 1907-gemeinden-826-090,1907,826,gemeinden,90,90,person,,0,Brandt,,,,Henri,,,,Officier d'état civil,,,1,,,,,BEGNINS,"qwen3.8-27b, Bild 2x",high,,Officier d'état civil. — Brandt Henri.,Begnins,
@@ -19958,7 +19949,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-852-019,1907,852,gemeinden,19,19,person,,1,Urech,1,,,Rodolphe,,,,Epicerie,,,1,,pl. du Marché,,,,"qwen3.8-27b, Bild 2x",high,,"— Urech Rodolphe, pl. du Marché. R.",Vallorbe,
 1907-gemeinden-852-020,1907,852,gemeinden,20,20,firma,,1,Société coopérative de consommation,1,,,Jaquet L,,,,Epicerie,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"— Société coopérative de consommation, Jaquet L., gérant. R.",Vallorbe,
 1907-gemeinden-852-022,1907,852,gemeinden,22,22,person,,0,Jaquet,,,,S. et H,,,,Fers et métaux,,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,Fers et métaux. — Jaquet S. et H. R T,Vallorbe,
-1907-gemeinden-852-023,1907,852,gemeinden,23,23,person,,1,Vallotton,1,Henri,,fils,,,,Fers et métaux,,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,"— Vallotton Henri, fils. T.",Vallorbe,alliance_from_forename
+1907-gemeinden-852-023,1907,852,gemeinden,23,23,person,,1,Vallotton,1,,,"Henri, fils",,,,Fers et métaux,,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,"— Vallotton Henri, fils. T.",Vallorbe,
 1907-gemeinden-852-024,1907,852,gemeinden,24,24,person,,0,Jaquet,,,,"Louis, fils",,,,Fourneaux (fabr. de),,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,"Fourneaux (fabr. de). — Jaquet Louis, fils. R T",Vallorbe,
 1907-gemeinden-852-025,1907,852,gemeinden,25,25,person,,1,Spagnol,1,,,Isidore,,,,Fourneaux (fabr. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Spagnol Isidore,Vallorbe,
 1907-gemeinden-852-026,1907,852,gemeinden,26,26,person,,1,Viotti,1,,,Valentin,,,,Fourneaux (fabr. de),,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,— Viotti Valentin.,Vallorbe,
@@ -20049,7 +20040,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-852-095,1907,852,gemeinden,95,95,person,,0,Urech,,,,Rodolphe,,,,Porcelaine et lampisterie,,,1,,pl. du Marché,,,,"qwen3.8-27b, Bild 2x",high,,"Porcelaine et lampisterie. — Urech Rodolphe, pl. du Marché. R.",Vallorbe,
 1907-gemeinden-852-097,1907,852,gemeinden,97,97,person,,0,Jaquet,,,,S. et H,,,,Quincaillerie,,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,Quincaillerie. — Jaquet S. et H. R T,Vallorbe,
 1907-gemeinden-852-098,1907,852,gemeinden,98,98,person,,1,Urech,1,,,Rodolphe,,,,Quincaillerie,,,1,,pl. du Marché,,,,"qwen3.8-27b, Bild 2x",high,,"— Urech Rodolphe, pl. du Marché. R",Vallorbe,
-1907-gemeinden-852-099,1907,852,gemeinden,99,99,person,,1,Vallotton,1,Henri,,fils,,,,Quincaillerie,,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,"— Vallotton Henri, fils. R T.",Vallorbe,alliance_from_forename
+1907-gemeinden-852-099,1907,852,gemeinden,99,99,person,,1,Vallotton,1,,,"Henri, fils",,,,Quincaillerie,,,1,,,,1,,"qwen3.8-27b, Bild 2x",high,,"— Vallotton Henri, fils. R T.",Vallorbe,
 1907-gemeinden-852-101,1907,852,gemeinden,101,101,firma,,0,Addor & Michaud,,,,,,,,Relieur,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Relieur. — Addor & Michaud. R.,Vallorbe,
 1907-gemeinden-853-001,1907,853,gemeinden,1,1,person,,0,Lerresche,,,,Adrienne,,,,Sages-femmes,,,1,,,,,,"qwen3.8-27b, Bild 2x",medium,,Sages-femmes. — Lerresche Adrienne — Matthey-Rapin Léa.,Vallorbe,hyphen
 1907-gemeinden-853-002,1907,853,gemeinden,2,2,person,,1,Matthey-Rapin,,Rapin,,Léa,,,,Sages-femmes,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Matthey-Rapin Léa.,Vallorbe,
@@ -20408,7 +20399,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-856-075,1907,856,gemeinden,75,75,person,,1,Porchet,1,,,Henri,,,,Municipaux,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,— Porchet Henri,Corcelles-le-Jorat,
 1907-gemeinden-856-076,1907,856,gemeinden,76,76,person,,1,Freymond,1,,,Jules,,,,Secrétaire municipal,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire municipal, Freymond Jules",Corcelles-le-Jorat,
 1907-gemeinden-856-077,1907,856,gemeinden,77,77,person,,1,Porchet,1,,,Alexis,,,,Huissier,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,— Huissier Porchet Alexis,Corcelles-le-Jorat,
-1907-gemeinden-856-078,1907,856,gemeinden,78,78,person,,1,Porchet,1,Edouard,,de Louis-Daniel,,,,Boursier,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Porchet Edouard, de Louis-Daniel.",Corcelles-le-Jorat,alliance_from_forename
+1907-gemeinden-856-078,1907,856,gemeinden,78,78,person,,1,Porchet,1,,,"Edouard, de Louis-Daniel",,,,Boursier,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Porchet Edouard, de Louis-Daniel.",Corcelles-le-Jorat,
 1907-gemeinden-856-079,1907,856,gemeinden,79,79,person,,0,Liaudet,,,,Oscar,,,,Aubergistes,,,1,,,,1,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"Aubergistes. — Liaudet Oscar, Auberge communale. R T — Carrard Ed. — Diserens Emile — Porchet Louis.",Corcelles-le-Jorat,
 1907-gemeinden-856-080,1907,856,gemeinden,80,80,person,,1,Carrard,1,,,Ed,,,,Aubergistes,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,— Carrard Ed.,Corcelles-le-Jorat,
 1907-gemeinden-856-081,1907,856,gemeinden,81,81,person,,1,Diserens,1,,,Emile,,,,Aubergistes,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,— Diserens Emile,Corcelles-le-Jorat,
@@ -20452,8 +20443,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-856-120,1907,856,gemeinden,120,120,person,,0,Klett,,,,Sébastien,,,,Maréchal,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,Maréchal. — Klett Sébastian.,Corcelles-le-Jorat,
 1907-gemeinden-856-121,1907,856,gemeinden,121,121,person,,0,Chenevard,,,,Jules,,,,Mécanicien,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,Mécanicien. — Chenevard Jules.,Corcelles-le-Jorat,
 1907-gemeinden-856-122,1907,856,gemeinden,122,122,person,,0,Carrard,,,,Edouard,,,,Rentiers,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"Rentiers. — Carrard Edouard, régent émérite — Porchet Jean, feu Jean-Philippe — Porchet Louise.",Corcelles-le-Jorat,
-1907-gemeinden-856-122-d2,1907,856,gemeinden,122,122,person,,0,Porchet,,,,Jean,,,,Rentiers,,,1,,feu Jean-Philippe,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"Porchet Jean, feu Jean-Philippe",Corcelles-le-Jorat,aus_liste
-1907-gemeinden-856-123,1907,856,gemeinden,123,123,person,,1,Porchet,1,Jean,,feu Jean-Philippe,,,,Rentiers,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"— Porchet Jean, feu Jean-Philippe",Corcelles-le-Jorat,alliance_from_forename
+1907-gemeinden-856-123,1907,856,gemeinden,123,123,person,,1,Porchet,1,,,"Jean, feu Jean-Philippe",,,,Rentiers,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,"— Porchet Jean, feu Jean-Philippe",Corcelles-le-Jorat,
 1907-gemeinden-856-124,1907,856,gemeinden,124,124,person,,1,Porchet,1,,,Louise,,,,Rentiers,,,1,,,,,CORCELLES-LE-JORAT,"qwen3.8-27b, Bild 2x",high,,— Porchet Louise.,Corcelles-le-Jorat,
 1907-gemeinden-857-001,1907,857,gemeinden,1,1,firma,,0,Chenevard,,Bovey,,Société du Moulin agricole,,,,Scieurs,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Scieurs. — Chenevard-Bovey, Société du Moulin agricole. R.",Corcelles-le-Jorat,
 1907-gemeinden-857-002,1907,857,gemeinden,2,2,firma,,0,Société de fromagerie,,,,,,,,Sociétés,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Sociétés. — Société de fromagerie. R — Société de chant (Chœur d'hommes) — Société de musique (Union instrumentale) — Société de tir Union fédérale. R — Caisse locale d'assurance du bétail Société du Moulin agricole. R.,Corcelles-le-Jorat,
@@ -22449,13 +22439,12 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-876-079,1907,876,gemeinden,79,79,person,,1,Quillet,1,,,Auguste,Secrétaire,,,Autorités communales,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Quillet Auguste.",Missy,
 1907-gemeinden-876-080,1907,876,gemeinden,80,80,person,,0,Thévoz,,Quillet,,Auguste,Syndic,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",medium,,"Syndic, Thévoz-Quillet Auguste.",Missy,surname_split
 1907-gemeinden-876-081,1907,876,gemeinden,81,81,person,,0,Blanc,,Bonny,,Constant,Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",medium,,"Municipaux, Blanc-Bonny Constant — Detrey Louis, fils — Thévoz-Blanc Paul — Morel Alfred — Roulet Samuel — Blanc - Bonny Gustave — Secrétaire, Quillet Charles, fils — Boursier, Thévoz-Péter Constant.",Missy,surname_split
-1907-gemeinden-876-081-d1,1907,876,gemeinden,81,81,person,,0,Detrey,,,,Louis,Municipaux,,,,,,1,,fils,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"Detrey Louis, fils",Missy,aus_liste
-1907-gemeinden-876-082,1907,876,gemeinden,82,82,person,,1,Detrey,1,Louis,,fils,Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Detrey Louis, fils",Missy,alliance_from_forename
+1907-gemeinden-876-082,1907,876,gemeinden,82,82,person,,1,Detrey,1,,,"Louis, fils",Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Detrey Louis, fils",Missy,
 1907-gemeinden-876-083,1907,876,gemeinden,83,83,person,,1,Thévoz-Blanc,1,Blanc,,Paul,Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Thévoz-Blanc Paul,Missy,
 1907-gemeinden-876-084,1907,876,gemeinden,84,84,person,,1,Morel,1,,,Alfred,Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Morel Alfred,Missy,
 1907-gemeinden-876-085,1907,876,gemeinden,85,85,person,,1,Roulet,1,,,Samuel,Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Roulet Samuel,Missy,
 1907-gemeinden-876-086,1907,876,gemeinden,86,86,person,,1,Blanc - Bonny,1,Bonny,,Gustave,Municipaux,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Blanc - Bonny Gustave,Missy,
-1907-gemeinden-876-087,1907,876,gemeinden,87,87,person,,1,Quillet,1,Charles,,fils,Secrétaire,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Quillet Charles, fils",Missy,alliance_from_forename
+1907-gemeinden-876-087,1907,876,gemeinden,87,87,person,,1,Quillet,1,,,"Charles, fils",Secrétaire,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Quillet Charles, fils",Missy,
 1907-gemeinden-876-088,1907,876,gemeinden,88,88,person,,1,Thévoz-Péter,1,Péter,,Constant,Boursier,,,,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Thévoz-Péter Constant.",Missy,
 1907-gemeinden-876-089,1907,876,gemeinden,89,89,person,,0,Blanc,,,,Emma,,,,Aubergiste,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,Aubergiste. — Blanc Emma.,Missy,
 1907-gemeinden-876-090,1907,876,gemeinden,90,90,person,,0,Thévoz,,,,Eugène,,,,Charrons,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,Charrons. — Thévoz Eugène — Diacon J.,Missy,
@@ -22485,7 +22474,6 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-876-114,1907,876,gemeinden,114,114,person,,0,Delacour,,,,Alice,,,,Modiste,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,Modiste. — Delacour Alice.,Missy,
 1907-gemeinden-876-115,1907,876,gemeinden,115,115,person,,0,Burnier,,,,Jean,,,,Pasteur,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,Pasteur. — Burnier Jean (église libre).,Missy,
 1907-gemeinden-876-116,1907,876,gemeinden,116,116,person,,0,Blanc,,,,Jules,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"Propriétaires. — Blanc Jules — Blanc Constant — Blanc-Bonny Gustave — Christinat Auguste — Cornaz Henri — Cottier Louis — Morel Charles. — Morel-Quillet Jules — Morel-Thévoz Fritz — Morel-Vacheron Louis — Péter - Morel Henri — Quillet Charles, père et fils — Quillet-Cherbuin Louis — Quillet-Roulet Auguste — Quillet-Thévoz Paul — Roulet-Combremont Martin — Roulet Samuel — Thévoz Albert — Thévoz-Quillet Auguste — Thévoz-Roulet Robert.",Missy,
-1907-gemeinden-876-116-d12,1907,876,gemeinden,116,116,person,,0,Quillet,,,,Charles,,,,Propriétaires,,,1,,père et fils,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"Quillet Charles, père et fils",Missy,aus_liste
 1907-gemeinden-876-117,1907,876,gemeinden,117,117,person,,1,Blanc,1,,,Constant,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Blanc Constant,Missy,
 1907-gemeinden-876-118,1907,876,gemeinden,118,118,person,,1,Blanc,1,Bonny,,Gustave,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",medium,,— Blanc-Bonny Gustave,Missy,surname_split
 1907-gemeinden-876-119,1907,876,gemeinden,119,119,person,,1,Christinat,1,,,Auguste,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Christinat Auguste,Missy,
@@ -22496,7 +22484,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-876-124,1907,876,gemeinden,124,124,person,,1,Morel-Thévoz,1,Thévoz,,Fritz,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Morel-Thévoz Fritz,Missy,
 1907-gemeinden-876-125,1907,876,gemeinden,125,125,person,,1,Morel-Vacheron,1,Vacheron,,Louis,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Morel-Vacheron Louis,Missy,
 1907-gemeinden-876-126,1907,876,gemeinden,126,126,person,,1,Péter - Morel,1,Morel,,Henri,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Péter - Morel Henri,Missy,
-1907-gemeinden-876-127,1907,876,gemeinden,127,127,person,,1,Quillet,1,Charles,,père et fils,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Quillet Charles, père et fils",Missy,alliance_from_forename
+1907-gemeinden-876-127,1907,876,gemeinden,127,127,person,,1,Quillet,1,,,"Charles, père et fils",,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,"— Quillet Charles, père et fils",Missy,
 1907-gemeinden-876-128,1907,876,gemeinden,128,128,person,,1,Quillet-Cherbuin,1,Cherbuin,,Louis,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Quillet-Cherbuin Louis,Missy,
 1907-gemeinden-876-129,1907,876,gemeinden,129,129,person,,1,Quillet-Roulet,1,Roulet,,Auguste,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Quillet-Roulet Auguste,Missy,
 1907-gemeinden-876-130,1907,876,gemeinden,130,130,person,,1,Quillet-Thévoz,1,Thévoz,,Paul,,,,Propriétaires,,,1,,,,,MISSY,"qwen3.8-27b, Bild 2x",high,,— Quillet-Thévoz Paul,Missy,
@@ -23804,10 +23792,9 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-891-024,1907,891,gemeinden,24,24,person,,0,Rapin,,,,Aimé,,,,Pasteur,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Pasteur. — Rapin Aimé.,Burtigny,
 1907-gemeinden-891-025,1907,891,gemeinden,25,25,person,,0,Bovy,,,,Julien,,,,Poste,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Poste. — Bovy Julien.,Burtigny,
 1907-gemeinden-891-026,1907,891,gemeinden,26,26,person,,0,Ansermet,,,,Jules,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Propriétaires. — Ansermet Jules — Badel Abram — Bichet Alphonse — Bichet Jules, de John — Bovy Jules — Burnet Marc-André — Burnet-Bovy François — Burnet-Raymond François — Burnet Auguste — Delamuraz Henri — Dumartheray veuve — Feignoux Samuel — Golay, veuve de Charles — Gudet Louis, juge — Gudet frères — Humbert Lucien — Pilloud Albert — Pilloud Isaline — Raymond Louis — Sergy Ch.",Burtigny,
-1907-gemeinden-891-026-d4,1907,891,gemeinden,26,26,person,,0,Bichet,,,,Jules,,,,Propriétaires,,,1,,de John,,,,"qwen3.8-27b, Bild 2x",high,,"Bichet Jules, de John",Burtigny,aus_liste
 1907-gemeinden-891-027,1907,891,gemeinden,27,27,person,,1,Badel,,,,Abram,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Badel Abram,Burtigny,
 1907-gemeinden-891-028,1907,891,gemeinden,28,28,person,,1,Bichet,,,,Alphonse,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Bichet Alphonse,Burtigny,
-1907-gemeinden-891-029,1907,891,gemeinden,29,29,person,,1,Bichet,,Jules,,de John,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Bichet Jules, de John",Burtigny,alliance_from_forename
+1907-gemeinden-891-029,1907,891,gemeinden,29,29,person,,1,Bichet,,,,"Jules, de John",,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,"Bichet Jules, de John",Burtigny,
 1907-gemeinden-891-030,1907,891,gemeinden,30,30,person,,1,Bovy,,,,Jules,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Bovy Jules,Burtigny,
 1907-gemeinden-891-031,1907,891,gemeinden,31,31,person,,1,Burnet,,,,Marc-André,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Burnet Marc-André,Burtigny,
 1907-gemeinden-891-032,1907,891,gemeinden,32,32,person,,1,Burnet,,Bovy,,François,,,,Propriétaires,,,1,,,,,,"qwen3.8-27b, Bild 2x",high,,Burnet-Bovy François,Burtigny,
@@ -24007,7 +23994,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-892-102,1907,892,gemeinden,102,102,person,,1,Pernoud,,,,Jean,,,,Vignerons,,,1,,,,,Vignerons.,"qwen3.8-27b, Bild 2x",high,,Pernoud Jean,Luins,
 1907-gemeinden-892-103,1907,892,gemeinden,103,103,person,,1,Rosset,,,,Louis,,,,Vignerons,,,1,,,,,Vignerons.,"qwen3.8-27b, Bild 2x",high,,Rosset Louis.,Luins,
 1907-gemeinden-892-106,1907,892,gemeinden,106,106,person,,0,de Meuron,,,,Aug,,,,Président du Conseil communal,,,1,,,,1,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Président du Conseil communal, de Meuron Aug. T",Mont-sur-Rolle,
-1907-gemeinden-892-107,1907,892,gemeinden,107,107,person,,1,Gallay,,David,,fils,,,,Secrétaire,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Secrétaire, Gallay David, fils.",Mont-sur-Rolle,alliance_from_forename
+1907-gemeinden-892-107,1907,892,gemeinden,107,107,person,,1,Gallay,,,,"David, fils",,,,Secrétaire,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Secrétaire, Gallay David, fils.",Mont-sur-Rolle,
 1907-gemeinden-892-108,1907,892,gemeinden,108,108,person,,0,Ansermet,,,,J,,,,Syndic,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Syndic, Ansermet J.",Mont-sur-Rolle,
 1907-gemeinden-892-109,1907,892,gemeinden,109,109,person,,0,Rosset,,,,Constant,,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Municipaux, Rosset Constant",Mont-sur-Rolle,
 1907-gemeinden-892-110,1907,892,gemeinden,110,110,person,,1,Monnard,,,,F,,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,Monnard F.,Mont-sur-Rolle,
@@ -25108,7 +25095,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-907-054,1907,907,gemeinden,54,54,person,,0,Forney,,,,E,,,,Menuisiers,,,1,,avenue de Plan,26,,Menuisiers.,"qwen3.8-27b, Bild 2x",high,,"Forney E., avenue de Plan 26. R.",Vevey,
 1907-gemeinden-907-055,1907,907,gemeinden,55,55,person,,0,Fanel,,,,Georges,,,,Menuisiers,,,1,,quai de la Veveyse,6-8,,Menuisiers.,"qwen3.8-27b, Bild 2x",high,,"Fanel Georges, quai de la Veveyse 6-8. T.",Vevey,
 1907-gemeinden-907-056,1907,907,gemeinden,56,56,person,,0,Guignard,,,,François,,,,Menuisiers,,,1,,rue d'Italie,39,,Menuisiers.,"qwen3.8-27b, Bild 2x",high,,"Guignard François, rue d'Italie 39.",Vevey,
-1907-gemeinden-907-057,1907,907,gemeinden,57,57,person,,0,Guyot,,,,Jules,,,,Menuisiers,,,1,,Tour-de-Peilz,,,Menuisiers.,"qwen3.8-27b, Bild 2x",high,,"Guyot Jules, Tour-de-Peilz. R.",Vevey,street_rare hyphen
+1907-gemeinden-907-057,1907,907,gemeinden,57,57,person,,0,Guyot,,,,Jules,,,,Menuisiers,,,1,,Tour-de-Peilz,,,Menuisiers.,"qwen3.8-27b, Bild 2x",medium,,"Guyot Jules, Tour-de-Peilz. R.",Vevey,hyphen
 1907-gemeinden-907-058,1907,907,gemeinden,58,58,person,,0,Hahn,,,,Georges,,,,Menuisiers,,,1,,ruelle Anciens-Fossés,10,,Menuisiers.,"qwen3.8-27b, Bild 2x",medium,,"Hahn Georges, ruelle Anciens-Fossés 10.",Vevey,street_rare
 1907-gemeinden-907-059,1907,907,gemeinden,59,59,person,,0,Jutzi,,,,Théophile,,,,Menuisiers,,,1,,rue du Léman,6,,Menuisiers.,"qwen3.8-27b, Bild 2x",high,,"Jutzi Théophile, rue du Léman 6.",Vevey,
 1907-gemeinden-907-060,1907,907,gemeinden,60,60,person,,0,Kopp,,,,Joseph,,,,Menuisiers,,,1,,rue du Simplon,30,,Menuisiers.,"qwen3.8-27b, Bild 2x",high,,"Kopp Joseph, rue du Simplon 30. R.",Vevey,
@@ -28241,8 +28228,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-954-096,1907,954,gemeinden,96,96,person,,1,Bezençon,1,,,Justin,,,,Secrétaire municipal,,,1,,,,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire municipal, Bezençon Justin",Donneloye,
 1907-gemeinden-954-097,1907,954,gemeinden,97,97,person,,1,Peytrignet,1,,,Pierre-Eugène,,,,Boursier,,,1,,,,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,"— Boursier, Peytrignet Pierre-Eugène.",Donneloye,
 1907-gemeinden-954-098,1907,954,gemeinden,98,98,person,,0,Duc,,,,Armand,,,,Aubergistes,,,1,,hôtel du Commerce,,,DONNELOYE,"qwen3.8-27b, Bild 2x",medium,,"Aubergistes. — Duc Armand, hôtel du Commerce — Vuagniaux Antoine, dit Henri, hôtel des Champs.",Donneloye,street_rare
-1907-gemeinden-954-098-d2,1907,954,gemeinden,98,98,person,,0,Vuagniaux,,,,Antoine,,,,Aubergistes,,,1,,"dit Henri, hôtel des Champs",,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,"Vuagniaux Antoine, dit Henri, hôtel des Champs",Donneloye,aus_liste
-1907-gemeinden-954-099,1907,954,gemeinden,99,99,person,,1,Vuagniaux,1,Antoine,,dit Henri,,,,Aubergistes,,,1,,hôtel des Champs,,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,"— Vuagniaux Antoine, dit Henri, hôtel des Champs.",Donneloye,street_rare alliance_from_forename
+1907-gemeinden-954-099,1907,954,gemeinden,99,99,person,,1,Vuagniaux,1,,,"Antoine, dit Henri",,,,Aubergistes,,,1,,hôtel des Champs,,,DONNELOYE,"qwen3.8-27b, Bild 2x",medium,,"— Vuagniaux Antoine, dit Henri, hôtel des Champs.",Donneloye,street_rare
 1907-gemeinden-954-100,1907,954,gemeinden,100,100,person,,0,Romanens,,,,Eugène,,,,Boulanger,,,1,,,,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,Boulanger. — Romanens Eugène — Stucky Paul.,Donneloye,
 1907-gemeinden-954-101,1907,954,gemeinden,101,101,person,,1,Stucky,1,,,Paul,,,,Boulanger,,,1,,,,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,— Stucky Paul.,Donneloye,
 1907-gemeinden-954-102,1907,954,gemeinden,102,102,person,,0,Billaud,,Barraud,,,,veuve,,Charcuteries,,,1,,,,,DONNELOYE,"qwen3.8-27b, Bild 2x",high,,Charcuteries. — Billaud-Barraud veuve — Magnenat Edouard. R.,Donneloye,
@@ -28324,7 +28310,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-955-055,1907,955,gemeinden,55,55,person,,0,Massonnet,,,,Edouard,,,,Municipaux,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,"Municipaux, Massonnet Edouard — du Plessis Henri. T — Massonnet Julien — Perrin Henri, fils — Secrétaire, Massonnet Jean — Boursier, du Plessis Henri.",Ependes (VD),
 1907-gemeinden-955-056,1907,955,gemeinden,56,56,person,,1,du Plessis,1,,,Henri,,,,Municipaux,,,1,,,,1,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,— du Plessis Henri. T,Ependes (VD),
 1907-gemeinden-955-057,1907,955,gemeinden,57,57,person,,1,Massonnet,1,,,Julien,,,,Municipaux,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,— Massonnet Julien,Ependes (VD),
-1907-gemeinden-955-058,1907,955,gemeinden,58,58,person,,1,Perrin,1,Henri,,fils,,,,Municipaux,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,"— Perrin Henri, fils",Ependes (VD),alliance_from_forename
+1907-gemeinden-955-058,1907,955,gemeinden,58,58,person,,1,Perrin,1,,,"Henri, fils",,,,Municipaux,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,"— Perrin Henri, fils",Ependes (VD),
 1907-gemeinden-955-059,1907,955,gemeinden,59,59,person,,1,Massonnet,1,,,Jean,,,,Secrétaire,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,"— Secrétaire, Massonnet Jean",Ependes (VD),
 1907-gemeinden-955-060,1907,955,gemeinden,60,60,person,,1,du Plessis,1,,,Henri,,,,Boursier,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,"— Boursier, du Plessis Henri.",Ependes (VD),
 1907-gemeinden-955-061,1907,955,gemeinden,61,61,person,,0,Perrin,,,,"Henri, fils",,,,Apiculteurs,,,1,,,,,ÉPENDES,"qwen3.8-27b, Bild 2x",high,,"Apiculteurs. — Perrin Henri, fils — Massonnet Jean.",Ependes (VD),
@@ -28947,8 +28933,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-961-004,1907,961,gemeinden,4,4,person,,0,Bovet,,,,Louis,,,,Président du Conseil général,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Président du Conseil général, Bovet Louis.",Villars-sous-Champvent,
 1907-gemeinden-961-005,1907,961,gemeinden,5,5,person,,0,Genaine,,,,David,,,,Syndic,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Syndic, Genaine David.",Villars-sous-Champvent,
 1907-gemeinden-961-006,1907,961,gemeinden,6,6,person,,0,Wild,,,,Jean,,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Municipaux, Wild Jean — Mercier Samuel, fils — Secrétaire, Urfer Théophile — Boursier, Meyerat L.",Villars-sous-Champvent,
-1907-gemeinden-961-006-d1,1907,961,gemeinden,6,6,person,,0,Mercier,,,,Samuel,,,,Municipaux,,,1,,fils,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Mercier Samuel, fils",Villars-sous-Champvent,aus_liste
-1907-gemeinden-961-007,1907,961,gemeinden,7,7,person,,1,Mercier,,Samuel,,fils,,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Mercier Samuel, fils",Villars-sous-Champvent,alliance_from_forename
+1907-gemeinden-961-007,1907,961,gemeinden,7,7,person,,1,Mercier,,,,"Samuel, fils",,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Mercier Samuel, fils",Villars-sous-Champvent,
 1907-gemeinden-961-008,1907,961,gemeinden,8,8,person,,1,Urfer,,,,Théophile,,,,Secrétaire,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Secrétaire, Urfer Théophile",Villars-sous-Champvent,
 1907-gemeinden-961-009,1907,961,gemeinden,9,9,person,,1,Meyerat,,,,L,,,,Boursier,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Boursier, Meyerat L.",Villars-sous-Champvent,
 1907-gemeinden-961-010,1907,961,gemeinden,10,10,person,,0,Chanson,,,,Emile,,,,Cordonnier,,,1,,,,,Cordonniers.,"qwen3.8-27b, Bild 2x",high,,Chanson Emile — Wenker Alfred.,Villars-sous-Champvent,
@@ -28971,7 +28956,7 @@ Appareillage pour eau et gaz.",Nyon,
 1907-gemeinden-961-031,1907,961,gemeinden,31,31,person,,1,Marchand,,,,Maurice,,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,Marchand Maurice,Vugelles-La Mothe,
 1907-gemeinden-961-032,1907,961,gemeinden,32,32,person,,1,Marchand,,,,Edouard,,,,Municipaux,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,Marchand Edouard,Vugelles-La Mothe,
 1907-gemeinden-961-033,1907,961,gemeinden,33,33,person,,1,Zbinden,,,,John,,,,Secrétaire,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Secrétaire, Zbinden John",Vugelles-La Mothe,
-1907-gemeinden-961-034,1907,961,gemeinden,34,34,person,,1,Gaillard,,Eugène,,fils,,,,Boursier,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Boursier, Gaillard Eugène, fils.",Vugelles-La Mothe,alliance_from_forename
+1907-gemeinden-961-034,1907,961,gemeinden,34,34,person,,1,Gaillard,,,,"Eugène, fils",,,,Boursier,,,1,,,,,Autorités communales.,"qwen3.8-27b, Bild 2x",high,,"Boursier, Gaillard Eugène, fils.",Vugelles-La Mothe,
 1907-gemeinden-961-035,1907,961,gemeinden,35,35,person,,0,Jaccard,,,,Justin,,,,Aubergiste,,,1,,Croix fédérale,,,Aubergistes.,"qwen3.8-27b, Bild 2x",high,,"Jaccard Justin, Croix fédérale — Viguier Henri, Fleur de Lys — Marchand Maurice, l'Etoile. R.",Vugelles-La Mothe,
 1907-gemeinden-961-036,1907,961,gemeinden,36,36,person,,1,Viguier,,,,Henri,,,,Aubergiste,,,1,,Fleur de Lys,,,Aubergistes.,"qwen3.8-27b, Bild 2x",medium,,"Viguier Henri, Fleur de Lys",Vugelles-La Mothe,street_rare
 1907-gemeinden-961-037,1907,961,gemeinden,37,37,person,,1,Marchand,,,,Maurice,,,,Aubergiste,,,1,,l'Etoile,,,Aubergistes.,"qwen3.8-27b, Bild 2x",high,,"Marchand Maurice, l'Etoile. R.",Vugelles-La Mothe,

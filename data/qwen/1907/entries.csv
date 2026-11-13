@@ -2976,7 +2976,7 @@ lausanne1907-052-063,lausanne1907,52,63,,"Bordini-Poletti Louis, maçon, Pré 23
 lausanne1907-052-064,lausanne1907,52,64,,"Borel Caroline, gouv., av. d'Ouchy 96.",0,Borel,,Caroline,,,gouv.,,av. d'Ouchy,96,,,,,
 lausanne1907-052-065,lausanne1907,52,65,,"— Charles, Martheray 28.",1,Borel,,Charles,,,,,Martheray,28,,,,,
 lausanne1907-052-066,lausanne1907,52,66,,"— Gustave, représentant de la fabr. Suchard, m. a. T 1294.",1,Borel,,Gustave,,,"représentant de la fabr. Suchard, m. a.",,,,,1294,,,
-lausanne1907-052-067,lausanne1907,52,67,,"— -Gustave, fils, m. a.",1,Borel,Gustave,fils,,,m. a.,,,,,,,,alliance_from_forename
+lausanne1907-052-067,lausanne1907,52,67,,"— Gustave, fils, m. a.",1,Borel,,"Gustave, fils",,,m. a.,,,,,,,,
 lausanne1907-052-068,lausanne1907,52,68,,"— Henri-Célestin, étudiant, St-Roch 1.",1,Borel,,Henri-Célestin,,,étudiant,,St-Roch,1,,,,,
 lausanne1907-052-069,lausanne1907,52,69,,"— Henriette, journalière, Rose Mousse, r. des Oliviers.",1,Borel,,Henriette,,,journalière,,"Rose Mousse, r. des Oliviers",,,,,,
 lausanne1907-052-070,lausanne1907,52,70,,"— Fritz, jardinier, Pontaise 18.",1,Borel,,Fritz,,,jardinier,,Pontaise,18,,,,,
@@ -6996,6 +6996,53 @@ lausanne1907-099-082,lausanne1907,99,82,,"Deschamps-Kirchhoffer Henri-Fréd., m�
 lausanne1907-099-083,lausanne1907,99,83,,"Deschamps-Renaud Louis-Ami, concierge, ch. de Malley 19.",0,Deschamps,Renaud,Louis-Ami,,,concierge,,ch. de Malley,19,,,,,
 lausanne1907-099-084,lausanne1907,99,84,,"Deschamps-Schwab Elise, ménagère, r. Neuve 6.",0,Deschamps,Schwab,Elise,,,ménagère,,r. Neuve,6,,,,,
 lausanne1907-099-085,lausanne1907,99,85,,"Deschamps J. & Blanc E., agents d'affaires, Grand Chêne 14. T 2047.",0,Deschamps,,J. & Blanc E.,,,agents d'affaires,,Grand Chêne,14,,2047,,,
+lausanne1907-1004-001,lausanne1907,1004,1,Montant maximum. Cours de versement.,Serbie … 1000 dinar = 500 fr. Au pair. (1 d. = 1 fr.; 1 para = 1 c.).,0,Serbie,,,,,,,,,,,,,
+lausanne1907-1004-002,lausanne1907,1004,2,Montant maximum. Cours de versement.,Shang-haï (bureau allemand) … Mk. 403 40 = 500 fr. 124 c. = 1 mark.,0,Shang-haï,bureau allemand,,,,,,,,,,,,hyphen
+lausanne1907-1004-003,lausanne1907,1004,3,Montant maximum. Cours de versement.,Suède … 720 cour. = 1008 fr. 140 c. = 1 cour. (100 öre).,0,Suède,,,,,,,,,,,,,
+lausanne1907-1004-004,lausanne1907,1004,4,Montant maximum. Cours de versement.,"Siam (Bangkok, Chiengmaï) … Mk. 800 = 1000 fr. 124 c. = 1 mark. (Chiengmaï).",0,Siam,"Bangkok, Chiengmaï",,,,,,,,,,,,
+lausanne1907-1004-005,lausanne1907,1004,5,Montant maximum. Cours de versement.,Tientsin (bureau de poste allemand) … Mk. 800 = 1000 fr. 124 c. = 1 mark.,0,Tientsin,bureau de poste allemand,,,,,,,,,,,,
+lausanne1907-1004-006,lausanne1907,1004,6,Montant maximum. Cours de versement.,Tripoli (ville) et Tunisie (seulement pour les principales localités) … Fr. 1000 Au pair.,0,Tripoli,ville,et Tunisie,,,,,,,,,,,
+lausanne1907-1004-007,lausanne1907,1004,7,Montant maximum. Cours de versement.,"Turquie (Constantinople, bureau postal allemand), sur demande. — (Bureau français et autrichiens sans autre demande sont dirigés sur ce dernier, rédigé en francs et centimes). … Mk. 800 = 1000 fr. 124 c. = 1 mark. (Soit 18 marks 55 = 1 livre turque).",0,Turquie,"Constantinople, bureau postal allemand",,,,,,,,,,,,
+lausanne1907-1004-008,lausanne1907,1004,8,Montant maximum. Cours de versement.,Uruguay (seulement pour Montevideo) … Fr. 1000. Au pair.,0,Uruguay,seulement pour Montevideo,,,,,,,,,,,,
+lausanne1907-1004-009,lausanne1907,1004,9,Montant maximum. Cours de versement.,"Zanzibar (île), voir aussi sous Colonies britanniques). … Fr. 500. Au pair.",0,Zanzibar,île,,,,,,,,,,,,
+lausanne1907-1004-010,lausanne1907,1004,10,Montant maximum. Cours de versement.,Tunisie … Fr. 1000.,0,Tunisie,,,,,,,,,,,,,
+lausanne1907-1004-011,lausanne1907,1004,11,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Allemagne.,0,Allemagne,,,,,,,,,,,,,
+lausanne1907-1004-012,lausanne1907,1004,12,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Autriche-Hongrie.,0,Autriche,Hongrie,,,,,,,,,,,,
+lausanne1907-1004-013,lausanne1907,1004,13,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Belgique.,0,Belgique,,,,,,,,,,,,,
+lausanne1907-1004-014,lausanne1907,1004,14,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Bulgarie.,0,Bulgarie,,,,,,,,,,,,,
+lausanne1907-1004-015,lausanne1907,1004,15,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Danemark (sans les îles Féroë et l'Islande).,0,Danemark,sans les îles Féroë et l'Islande,,,,,,,,,,,,
+lausanne1907-1004-016,lausanne1907,1004,16,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,"Egypte (Alexandrie, Caire, Ismaïlia, Port-Saïd, Suez).",0,Egypte,"Alexandrie, Caire, Ismaïlia, Port-Saïd, Suez",,,,,,,,,,,,
+lausanne1907-1004-017,lausanne1907,1004,17,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,"France (avec Algérie, Corse et Monte-Carlo).",0,France,"avec Algérie, Corse et Monte-Carlo",,,,,,,,,,,,
+lausanne1907-1004-018,lausanne1907,1004,18,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Italie.,0,Italie,,,,,,,,,,,,,
+lausanne1907-1004-019,lausanne1907,1004,19,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Indes néerlandaises,0,Indes néerlandaises,,,,,,,,,,,,,
+lausanne1907-1004-020,lausanne1907,1004,20,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Japon (Tokio et Yokohama).,0,Japon,Tokio et Yokohama,,,,,,,,,,,,
+lausanne1907-1004-021,lausanne1907,1004,21,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Luxembourg.,0,Luxembourg,,,,,,,,,,,,,
+lausanne1907-1004-022,lausanne1907,1004,22,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Monténégro.,0,Monténégro,,,,,,,,,,,,,
+lausanne1907-1004-023,lausanne1907,1004,23,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Norvège.,0,Norvège,,,,,,,,,,,,,
+lausanne1907-1004-024,lausanne1907,1004,24,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Pays-Bas.,0,Pays,Bas,,,,,,,,,,,,
+lausanne1907-1004-025,lausanne1907,1004,25,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Portugal (Lisbonne et Porto).,0,Portugal,Lisbonne et Porto,,,,,,,,,,,,
+lausanne1907-1004-026,lausanne1907,1004,26,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Roumanie.,0,Roumanie,,,,,,,,,,,,,
+lausanne1907-1004-027,lausanne1907,1004,27,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Salvador (San Salvador).,0,Salvador,San Salvador,,,,,,,,,,,,
+lausanne1907-1004-028,lausanne1907,1004,28,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Serbie.,0,Serbie,,,,,,,,,,,,,
+lausanne1907-1004-029,lausanne1907,1004,29,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Suède.,0,Suède,,,,,,,,,,,,,
+lausanne1907-1004-030,lausanne1907,1004,30,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Tunisie (principales localités).,0,Tunisie,principales localités,,,,,,,,,,,,
+lausanne1907-1004-031,lausanne1907,1004,31,Les mandats télégraphiques sont admis dans l'échange avec les pays suivants:,Grande-Bretagne et Irlande.,0,Grande,Bretagne et Irlande,,,,,,,,,,,,
+lausanne1907-1004-032,lausanne1907,1004,32,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",l'Allemagne.,0,l'Allemagne,,,,,,,,,,,,,
+lausanne1907-1004-033,lausanne1907,1004,33,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",l'Autriche-Hongrie.,0,l'Autriche,Hongrie,,,,,,,,,,,,
+lausanne1907-1004-034,lausanne1907,1004,34,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",la Belgique.,0,la Belgique,,,,,,,,,,,,,
+lausanne1907-1004-035,lausanne1907,1004,35,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",l'Egypte.,0,l'Egypte,,,,,,,,,,,,,
+lausanne1907-1004-036,lausanne1907,1004,36,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",la France (compris Corse et Algérie).,0,la France,compris Corse et Algérie,,,,,,,,,,,,
+lausanne1907-1004-037,lausanne1907,1004,37,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",le Chili.,0,le Chili,,,,,,,,,,,,,
+lausanne1907-1004-038,lausanne1907,1004,38,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",l'Italie.,0,l'Italie,,,,,,,,,,,,,
+lausanne1907-1004-039,lausanne1907,1004,39,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",le Luxembourg.,0,le Luxembourg,,,,,,,,,,,,,
+lausanne1907-1004-040,lausanne1907,1004,40,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",la Norvège.,0,la Norvège,,,,,,,,,,,,,
+lausanne1907-1004-041,lausanne1907,1004,41,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",les Pays-Bas.,0,les Pays,Bas,,,,,,,,,,,,
+lausanne1907-1004-042,lausanne1907,1004,42,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",l'Inde néerlandaise.,0,l'Inde néerlandaise,,,,,,,,,,,,,
+lausanne1907-1004-043,lausanne1907,1004,43,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",le Portugal.,0,le Portugal,,,,,,,,,,,,,
+lausanne1907-1004-044,lausanne1907,1004,44,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",la Roumanie.,0,la Roumanie,,,,,,,,,,,,,
+lausanne1907-1004-045,lausanne1907,1004,45,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",la Suède.,0,la Suède,,,,,,,,,,,,,
+lausanne1907-1004-046,lausanne1907,1004,46,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:",la Tunisie.,0,la Tunisie,,,,,,,,,,,,,
+lausanne1907-1004-047,lausanne1907,1004,47,"Admis dans l'intérieur de la Suisse, puis dans l'échange avec:","la Turquie (Constantinople, Andrinople, Beyrouth, Salonique, Smyrne, Jaffa et Jérusalem).",0,la Turquie,"Constantinople, Andrinople, Beyrouth, Salonique, Smyrne, Jaffa et Jérusalem",,,,,,,,,,,,
 lausanne1907-1007-001,lausanne1907,1007,1,Télégraphes.,"Inspection du 1er arrondissement. (Bureaux : Hôtel des postes, 2e étage, place St-François). Curti, Xavier, inspecteur, les Primevères, 25, boulevard de Grancy. Rapin, Jules, adjoint, La Côtère, Solitude, 20.",0,Curti,,Xavier,,,inspecteur,,"les Primevères, 25, boulevard de Grancy",25,,,,,
 lausanne1907-1007-002,lausanne1907,1007,2,Télégraphes.,"Rapin, Jules, adjoint, La Côtère, Solitude, 20.",0,Rapin,,Jules,,,adjoint,,"La Côtère, Solitude",20,,,,,
 lausanne1907-1007-003,lausanne1907,1007,3,Télégraphes.,"Chef du bureau des télégraphes : Rossat, Ernest, villa Laurence, 2.",0,Rossat,,Ernest,,,Chef du bureau des télégraphes,,villa Laurence,2,,,,,
@@ -10329,7 +10376,7 @@ lausanne1907-133-064,lausanne1907,133,64,,"— Lina, domest., Haute Combe, ch. V
 lausanne1907-133-065,lausanne1907,133,65,,"— Louis, menuisier, Vallon 5.",1,Gilliéron,,Louis,,,menuisier,,Vallon,5,,,,,
 lausanne1907-133-066,lausanne1907,133,66,,"— Louis, journalier C. F. F., Simplon 42.",1,Gilliéron,,Louis,,,journalier C. F. F.,,Simplon,42,,,,,
 lausanne1907-133-067,lausanne1907,133,67,,"— Louise, modiste, Bourg 6. Mag. au 2me.",1,Gilliéron,,Louise,,,modiste,,Bourg,6,,,,,
-lausanne1907-133-068,lausanne1907,133,68,,"— -Lucien, dit Charles, menuisier, Echellettes 8.",1,Gilliéron,Lucien,dit Charles,,,menuisier,,Echellettes,8,,,,,alliance_from_forename
+lausanne1907-133-068,lausanne1907,133,68,,"— Lucien, dit Charles, menuisier, Echellettes 8.",1,Gilliéron,,"Lucien, dit Charles",,,menuisier,,Echellettes,8,,,,,
 lausanne1907-133-069,lausanne1907,133,69,,"— Marc, manœuvre, Fabre 5.",1,Gilliéron,,Marc,,,manœuvre,,Fabre,5,,,,,
 lausanne1907-133-070,lausanne1907,133,70,,"— Marguerite, domest., Mornex-Dessus.",1,Gilliéron,,Marguerite,,,domest.,,Mornex-Dessus,,,,,,street_rare
 lausanne1907-133-071,lausanne1907,133,71,,"— Marguerite, employée, Valentin 54.",1,Gilliéron,,Marguerite,,,employée,,Valentin,54,,,,,
@@ -19160,7 +19207,7 @@ lausanne1907-238-070,lausanne1907,238,70,,"— Louise, m. couturière, m. a.",1,
 lausanne1907-238-071,lausanne1907,238,71,,"— Auguste-Henri, banq., Louve 1. T 1230.",1,Regamey,,Auguste-Henri,,,banq.,,Louve,1,,1230,,,
 lausanne1907-238-072,lausanne1907,238,72,,"— Augustine, La Sallaz.",1,Regamey,,Augustine,,,,,La Sallaz.,,,,,,
 lausanne1907-238-073,lausanne1907,238,73,,"— Charles, empl. postal, Martheray 32.",1,Regamey,,Charles,,,empl. postal,,Martheray,32,,,,,
-lausanne1907-238-074,lausanne1907,238,74,,"— -Henriette, dite Emma, repass., m. a.",1,Regamey,Henriette,dite Emma,,,repass.,,,,,,,,alliance_from_forename
+lausanne1907-238-074,lausanne1907,238,74,,"— Henriette, dite Emma, repass., m. a.",1,Regamey,,"Henriette, dite Emma",,,repass.,,,,,,,,
 lausanne1907-238-075,lausanne1907,238,75,,"— Jenny, couturière, m. a.",1,Regamey,,Jenny,,,couturière,,,,,,,,
 lausanne1907-238-076,lausanne1907,238,76,,"— Marie, m. a.",1,Regamey,,Marie,,,m. a.,,,,,,,,
 lausanne1907-238-077,lausanne1907,238,77,,"— Charles-Frédéric, Les Forges, Chalet à Gobet.",1,Regamey,,Charles-Frédéric,,,,,"Les Forges, Chalet à Gobet.",,,,,,
@@ -29772,7 +29819,7 @@ lausanne1907-393-002,lausanne1907,393,2,,"Gerber H., violon, Ecole normale, aven
 lausanne1907-393-003,lausanne1907,393,3,,"Gilliéron - Duboux, géométrie, Ecole d'agriculture, Cully.",0,Gilliéron,Duboux,,,,géométrie,,"Ecole d'agriculture, Cully",,,,,,
 lausanne1907-393-004,lausanne1907,393,4,,"Glas Blanche, demlle, maîtresse d'études à l'Ecole supérieure de jeunes filles, v. Ariane, Fleurettes.",0,Glas,,Blanche,,demlle,maîtresse d'études à l'Ecole supérieure de jeunes filles,,"v. Ariane, Fleurettes",,,,,,
 lausanne1907-393-005,lausanne1907,393,5,,"Godet S., demlle, directr. de l'Ecole Vinet, Grancy 8.",0,Godet,,S.,,demlle,directr. de l'Ecole Vinet,,Grancy,8,,,,,
-lausanne1907-393-006,lausanne1907,393,6,,"Golay E., langue hébraïque, Gymnase, Vuarens.",0,Golay,,E.,,,langue hébraïque,,"Gymnase, Vuarens",,,,,,street_rare
+lausanne1907-393-006,lausanne1907,393,6,,"Golay E., langue hébraïque, Gymnase, Vuarens.",0,Golay,,E.,,,langue hébraïque,,"Gymnase, Vuarens",,,,,,
 lausanne1907-393-007,lausanne1907,393,7,,"Græser Louis, français, Ecole de commerce, Clochetons 5, ro. de Morges.",0,Græser,,Louis,,,français,,Clochetons,5,,,,,
 lausanne1907-393-008,lausanne1907,393,8,,"Grand F., demoiselle, maîtresse d'études, Ecole normale, av. Léman 10.",0,Grand,,F.,,demoiselle,maîtresse d'études,,av. Léman,10,,,,,
 lausanne1907-393-009,lausanne1907,393,9,,"Grandchamp Aug., travaux manuels et comptabilité, Ecole normale, Le Closy, av. Beaumont.",0,Grandchamp,,Aug.,,,travaux manuels et comptabilité,,"Le Closy, av. Beaumont",,,,,,
@@ -47228,6 +47275,46 @@ lausanne1907-561-099,lausanne1907,561,99,VULLIEMIN (avenue).,"Diserens Jules, co
 lausanne1907-561-100,lausanne1907,561,100,VULLIEMIN (avenue).,"Berger Louis-Justin, employé.",0,Berger,,Louis-Justin,,,employé.,,,,,,,,
 lausanne1907-561-101,lausanne1907,561,101,VULLIEMIN (avenue).,"Woringer Hugo, ministre.",0,Woringer,,Hugo,,,ministre.,,,,,,,,
 lausanne1907-561-102,lausanne1907,561,102,VULLIEMIN (avenue).,"Demiéville Ulysse, gérant, brasserie du Cardinal.",0,Demiéville,,Ulysse,,,"gérant, brasserie du Cardinal.",,,,,,,,
+lausanne1907-562-001,lausanne1907,562,1,,"12 Bassin Augustine, veuve.",0,Bassin,,Augustine,,veuve,,,,12,,,,,
+lausanne1907-562-002,lausanne1907,562,2,,"Judicetti Richard, vitrier.",0,Judicetti,,Richard,,,vitrier,,,,,,,,
+lausanne1907-562-003,lausanne1907,562,3,,"Cottens Maurice, greffier",0,Cottens,,Maurice,,,greffier,,,,,,,,
+lausanne1907-562-004,lausanne1907,562,4,,"Delacrausaz Henri, empl. postal.",0,Delacrausaz,,Henri,,,empl. postal.,,,,,,,,
+lausanne1907-562-005,lausanne1907,562,5,,"14 et 16 Dufaux Emma, veuve. (Jaton, notaire. G.)",0,Dufaux,,Emma,,veuve,,,,14 et 16,,,,,
+lausanne1907-562-006,lausanne1907,562,6,,"Cottens Cécile, ménagère.",0,Cottens,,Cécile,,,ménagère,,,,,,,,
+lausanne1907-562-007,lausanne1907,562,7,,"Marolf Charles, typo.",0,Marolf,,Charles,,,typo.,,,,,,,,
+lausanne1907-562-008,lausanne1907,562,8,,"de Büren Alfred, manœuvre.",0,de Büren,,Alfred,,,manœuvre,,,,,,,,
+lausanne1907-562-009,lausanne1907,562,9,,"16 Nicod Jules, journalier.",0,Nicod,,Jules,,,journalier,,,16,,,,,
+lausanne1907-562-010,lausanne1907,562,10,,"Gutknecht L.-Henriette, ménagère.",0,Gutknecht,,L.-Henriette,,,ménagère,,,,,,,,
+lausanne1907-562-011,lausanne1907,562,11,Grande Borde. Commune de Lausanne.,"Cellier, veuve.",0,Cellier,,,,veuve,,,,,,,,,
+lausanne1907-562-012,lausanne1907,562,12,Grande Borde. Commune de Lausanne.,"20 Les Crétels. Aigroz Emile-Charles, facteur.",0,Aigroz,,Emile-Charles,,,facteur,,Les Crétels,20,,,,,street_rare
+lausanne1907-562-013,lausanne1907,562,13,Grande Borde. Commune de Lausanne.,"Rubattel Auguste, empl. C. F. F.",0,Rubattel,,Auguste,,,empl. C. F. F.,,,,,,,,
+lausanne1907-562-014,lausanne1907,562,14,Grande Borde. Commune de Lausanne.,"22 Freiss Henri, maçon.",0,Freiss,,Henri,,,maçon,,,22,,,,,
+lausanne1907-562-015,lausanne1907,562,15,Grande Borde. Commune de Lausanne.,"Zoffini Luciano, maçon.",0,Zoffini,,Luciano,,,maçon,,,,,,,,
+lausanne1907-562-016,lausanne1907,562,16,Grande Borde. Commune de Lausanne.,"Pache Julie, veuve.",0,Pache,,Julie,,veuve,,,,,,,,,
+lausanne1907-562-017,lausanne1907,562,17,"Haut Séjour. Chatelanz Suzanne, Vve.","Augsburger Charles, empl. téléph.",0,Augsburger,,Charles,,,empl. téléph.,,,,,,,,
+lausanne1907-562-018,lausanne1907,562,18,"Haut Séjour. Chatelanz Suzanne, Vve.","Roulet Jonas, mécanicien.",0,Roulet,,Jonas,,,mécanicien,,,,,,,,
+lausanne1907-562-019,lausanne1907,562,19,"Haut Séjour. Chatelanz Suzanne, Vve.","Chappuis Louis, empl. au gaz.",0,Chappuis,,Louis,,,empl. au gaz.,,,,,,,,
+lausanne1907-562-020,lausanne1907,562,20,"Haut Séjour. Chatelanz Suzanne, Vve.","Post Victor, empl. de bureau.",0,Post,,Victor,,,empl. de bureau.,,,,,,,,
+lausanne1907-562-021,lausanne1907,562,21,"Haut Séjour. Chatelanz Suzanne, Vve.","Desarzens Alfred, ag. de sûreté.",0,Desarzens,,Alfred,,,ag. de sûreté.,,,,,,,,
+lausanne1907-562-022,lausanne1907,562,22,"Haut Séjour. Chatelanz Suzanne, Vve.","Tzaut Jules, ouv. de ville.",0,Tzaut,,Jules,,,ouv. de ville.,,,,,,,,
+lausanne1907-562-023,lausanne1907,562,23,"Haut Séjour. Chatelanz Suzanne, Vve.","Bozier Louis, artiste peintre.",0,Bozier,,Louis,,,artiste peintre,,,,,,,,
+lausanne1907-562-024,lausanne1907,562,24,"Haut Séjour. Buffat, hoirie, Vallon 11.","Freymond Albert, carrier.",0,Freymond,,Albert,,,carrier,,Vallon,11,,,,,
+lausanne1907-562-025,lausanne1907,562,25,"Le Rocher. Diserens Gustave, employé.","Cassat Charles, pêcheur.",0,Cassat,,Charles,,,pêcheur,,,,,,,,
+lausanne1907-562-026,lausanne1907,562,26,,"Duvoisin Henri, peintre.",0,Duvoisin,,Henri,,,peintre,,,,,,,,
+lausanne1907-562-027,lausanne1907,562,27,,"Favez Emile, ferblantier.",0,Favez,,Emile,,,ferblantier,,,,,,,,
+lausanne1907-562-028,lausanne1907,562,28,"Clos Montana. Wüst Louis, charpentier.","Bron Paul, boulanger.",0,Bron,,Paul,,,boulanger,,,,,,,,
+lausanne1907-562-029,lausanne1907,562,29,"Clos Montana. Wüst Louis, charpentier.","Favre Auguste, gendarme.",0,Favre,,Auguste,,,gendarme,,,,,,,,
+lausanne1907-562-030,lausanne1907,562,30,"Brillant Site. Doxat, dame, Clos Mont, Valentin.","Florian Louis, m. de mathématiques.",0,Florian,,Louis,,,m. de mathématiques,,,,,,,,
+lausanne1907-562-031,lausanne1907,562,31,"Villa Beau-Mont. Luquiens Auguste, rentier.","Coigny Aline, veuve, pension.",0,Coigny,,Aline,,veuve,pension,,,,,,,,
+lausanne1907-562-032,lausanne1907,562,32,"Villa Beau-Mont. Luquiens Auguste, rentier.","Jaccard Ernest, professeur.",0,Jaccard,,Ernest,,,professeur,,,,,,,,
+lausanne1907-562-033,lausanne1907,562,33,"Petit Château. Roseng Louis, Les Galeries. (Durussel, not. G.)","Georget Pierre-Eugène, fumiste.",0,Georget,,Pierre-Eugène,,,fumiste,,,,,,,,
+lausanne1907-562-034,lausanne1907,562,34,"Petit Château. Roseng Louis, Les Galeries. (Durussel, not. G.)","Jenny Emile, empl. C. F. F.",0,Jenny,,Emile,,,empl. C. F. F.,,,,,,,,
+lausanne1907-562-035,lausanne1907,562,35,"Petit Château. Gruffel Charles, peintre, place du Tunnel 3.","Arnold Emile, négociant.",0,Arnold,,Emile,,,négociant,,,,,,,,
+lausanne1907-562-036,lausanne1907,562,36,"Petit Château. Gruffel Charles, peintre, place du Tunnel 3.","Gay Edouard, menuisier.",0,Gay,,Edouard,,,menuisier,,,,,,,,
+lausanne1907-562-037,lausanne1907,562,37,"Petit Château. Gruffel Charles, peintre, place du Tunnel 3.","Foglio Jean, menuisier.",0,Foglio,,Jean,,,menuisier,,,,,,,,
+lausanne1907-562-038,lausanne1907,562,38,"Le Jardin. Bugnion Ch., l'Hermitage.","Reichel Henri, pasteur.",0,Reichel,,Henri,,,pasteur,,,,,,,,
+lausanne1907-562-039,lausanne1907,562,39,"L'Hermitage. Bugnion Ch., banquier.","Petite maison. Marmet Henri, jardinier.",0,Marmet,,Henri,,,jardinier,,Petite maison,,,,,,
+lausanne1907-562-040,lausanne1907,562,40,"L'Hermitage. Bugnion Ch., banquier.","Grande maison. Rochat Alex., cocher.",0,Rochat,,Alex.,,,cocher,,Grande maison,,,,,,
 lausanne1907-563-001,lausanne1907,563,1,,"Abattoirs, route de la Borde. — B. 3.",0,Abattoirs,,,,,,,route de la Borde,,,,,,
 lausanne1907-563-002,lausanne1907,563,2,,"Abeille (l'), propr. Hoffet, au midi de l'av. Ruchonnet, 1 k. S.-O. — E. 2.",0,Abeille,,,,,propr.,,au midi de l'av. Ruchonnet,,,,,,street_rare
 lausanne1907-563-003,lausanne1907,563,3,,"Abeille (maisons de la Société l'), Nos 1 à 4, à dr. de l'av. Recordon, 1 k. occ. — C. 1.",0,Abeille,,,,,,,à dr. de l'av. Recordon,1 à 4,,,,,street_rare
@@ -48513,7 +48600,7 @@ lausanne1907-586-044,lausanne1907,586,44,,"Sur-Choisy, prop. brasserie St-Jean, 
 lausanne1907-586-045,lausanne1907,586,45,,"Sur-Ville, camp. Piot, à dr. de la rue du Bugnion, vis-à-vis l'Hôpital, 1 k. N. B. 4. 5.",0,Sur-Ville,,,,,camp. Piot,,rue du Bugnion,,,,,,
 lausanne1907-586-046,lausanne1907,586,46,,"Sussex - Villa, propriété Piotet, à gauche de la Pontaise, no 15. — B. 2. 3.",0,Sussex,Villa,,,,propriété Piotet,,la Pontaise,15,,,,,
 lausanne1907-586-047,lausanne1907,586,47,,"Tabatière (la), camp. Regamey, à g. de l'arrêt de Marin, ro. de Berne, 6 k. N.",0,Tabatière,,,,,camp. Regamey,,ro. de Berne,,,,,,
-lausanne1907-586-048,lausanne1907,586,48,,"Taulard (le), plusieurs camp. à l'occ. de Romanel, 6 k. N.-O.",0,Taulard,,,,,plusieurs camp.,,Romanel,,,,,,street_rare
+lausanne1907-586-048,lausanne1907,586,48,,"Taulard (le), plusieurs camp. à l'occ. de Romanel, 6 k. N.-O.",0,Taulard,,,,,plusieurs camp.,,Romanel,,,,,,
 lausanne1907-586-049,lausanne1907,586,49,,"Tamarins (les), A et B, prop. Messerli, à g. de l'avenue de Béthusy, près la place de l'Ours. — C. 5.",0,Tamarins,,,,,prop. Messerli,,avenue de Béthusy,,,,,,
 lausanne1907-586-050,lausanne1907,586,50,,"Tente (la), camp. Delessert, à g. de la route d'Echallens, au carrefour de Montétan 2 k. occ. — C. 0.",0,Tente,,,,,camp. Delessert,,"route d'Echallens, carrefour de Montétan",,,,,,street_rare
 lausanne1907-586-051,lausanne1907,586,51,,"Terrasse (la), prop. Perrin, notaire, à la rue du Lac (Ouchy), 1 1/2 k. S. — G. 4.",0,Terrasse,,,,,"prop. Perrin, notaire",,rue du Lac (Ouchy),,,,,,street_rare
@@ -48584,7 +48671,7 @@ lausanne1907-588-001,lausanne1907,588,1,,"à g. de la route d'Echallens, au del�
 lausanne1907-588-002,lausanne1907,588,2,,"Vernand-la-Chapelle, camp. et chapelle A. Roch, à g. de la ro. d'Echallens, 7 k. occ.",0,Vernand-la-Chapelle,,,,,camp. et chapelle,,A. Roch,,,,,,street_rare hyphen
 lausanne1907-588-003,lausanne1907,588,3,,"Vernand-Emery, camp. Emery frères, sur la gauche de l'ancienne route d'Yverdon, au N. de Romanel et à droite de la route d'Echallens, 6 k. occ.",0,Vernand,Emery,,,,camp.,,,,,,,,surname_split
 lausanne1907-588-004,lausanne1907,588,4,,"Vert-Clos, prop. Rossier, Pedroni & Moulin, à g. Pré-du-Marché, no 17-23. C. 1.",0,Vert,Clos,,,,prop.,,Pré-du-Marché,17-23,,,,,surname_split
-lausanne1907-588-005,lausanne1907,588,5,,"Vert Clos-Malley, prop. Mignot, en Malley, Grande Maison.",0,Vert Clos,Malley,,,,prop.,,Grande Maison,,,,,,street_rare surname_split
+lausanne1907-588-005,lausanne1907,588,5,,"Vert Clos-Malley, prop. Mignot, en Malley, Grande Maison.",0,Vert Clos,Malley,,,,prop.,,Grande Maison,,,,,,surname_split
 lausanne1907-588-006,lausanne1907,588,6,,"Vert-Mont, campagne Gervais, à dr. de la rue du Bugnion, vis-à-vis de l'Hôpital, 1 k. N. — B. 4. 5.",0,Vert,Mont,,,,campagne,,rue du Bugnion,,,,,,surname_split
 lausanne1907-588-007,lausanne1907,588,7,,"Vert-Mont, propriété C. F. F., à droite du chemin des Epinettes. — E. 3.",0,Vert,Mont,C. F. F.,,,propriété,,chemin des Epinettes,,,,,,surname_split
 lausanne1907-588-008,lausanne1907,588,8,,"Vert Mont (ancien Château Sec), prop. P. de Reyher, au S. du pont du Château Sec.",0,Vert Mont,Mont,P. de Reyher,,,prop.,,pont du Château Sec,,,,,,street_rare
@@ -50240,6 +50327,30 @@ lausanne1907-636-027,lausanne1907,636,27,Union vaudoise du Crédit. (Fondée en 
 lausanne1907-636-028,lausanne1907,636,28,Union vaudoise du Crédit. (Fondée en 1864 sur le principe de la mutualité.,"Directeur: Pilet, Paul.",0,Pilet,,Paul,,,Directeur,,,,,,,,
 lausanne1907-636-029,lausanne1907,636,29,Union vaudoise du Crédit. (Fondée en 1864 sur le principe de la mutualité.,"Administrateurs: Badel, Alfred et Rathgeb-Moulin J.",0,"Badel, Rathgeb",Moulin,"Alfred, J.",,,Administrateurs,,,,,,,,surname_split
 lausanne1907-636-030,lausanne1907,636,30,But de l'Union.,"Le but de l'association est de procurer par l'escompte, au commerce, à l'industrie, à l'agriculture, aux travailleurs enfin de toutes les classes, les capitaux qui leur",0,,,,,,,,,,,,,,no_surname
+lausanne1907-637-001,lausanne1907,637,1,L'Union a fondé dans le canton les agences suivantes :,"Aigle, … titul. : H. Genillard.",0,Genillard,,H.,titul.,,,,,,,,,,
+lausanne1907-637-002,lausanne1907,637,2,L'Union a fondé dans le canton les agences suivantes :,"Avenches, … » Arth. Treyvaud.",0,Treyvaud,,Arth.,,,,,,,,,,,
+lausanne1907-637-003,lausanne1907,637,3,L'Union a fondé dans le canton les agences suivantes :,"Cully, … » S. Möri.",0,Möri,,S.,,,,,,,,,,,
+lausanne1907-637-004,lausanne1907,637,4,L'Union a fondé dans le canton les agences suivantes :,"Echallens, … » E. Jaques.",0,Jaques,,E.,,,,,,,,,,,
+lausanne1907-637-005,lausanne1907,637,5,L'Union a fondé dans le canton les agences suivantes :,La Sarraz-Cossonay … » F. Gaudin.,0,Gaudin,,F.,,,,,,,,,,,
+lausanne1907-637-006,lausanne1907,637,6,L'Union a fondé dans le canton les agences suivantes :,"Morges, … » Louis Brélaz.",0,Brélaz,,Louis,,,,,,,,,,,
+lausanne1907-637-007,lausanne1907,637,7,L'Union a fondé dans le canton les agences suivantes :,"Moudon, … » E. Cherpillod.",0,Cherpillod,,E.,,,,,,,,,,,
+lausanne1907-637-008,lausanne1907,637,8,L'Union a fondé dans le canton les agences suivantes :,"Nyon, … titul. : L. Champrenaud.",0,Champrenaud,,L.,titul.,,,,,,,,,,
+lausanne1907-637-009,lausanne1907,637,9,L'Union a fondé dans le canton les agences suivantes :,"Orbe, … » G. Bernard.",0,Bernard,,G.,,,,,,,,,,,
+lausanne1907-637-010,lausanne1907,637,10,L'Union a fondé dans le canton les agences suivantes :,"Rolle-Aubonne, … » H. Peter.",0,Peter,,H.,,,,,,,,,,,
+lausanne1907-637-011,lausanne1907,637,11,L'Union a fondé dans le canton les agences suivantes :,"Vallorbe, … » E. Glardon.",0,Glaridon,,E.,,,,,,,,,,,
+lausanne1907-637-012,lausanne1907,637,12,L'Union a fondé dans le canton les agences suivantes :,"Yverdon-Grandson, » Ed. Patthey.",0,Patthey,,Ed.,,,,,,,,,,,
+lausanne1907-637-013,lausanne1907,637,13,Banques suisses d'émission.,Aargauische Bank.,0,Aargauische Bank,,,,,,,,,,,,,
+lausanne1907-637-014,lausanne1907,637,14,Banques suisses d'émission.,Appenzell-Ausserrhod Kantonalbank.,0,Appenzell-Ausserrhod Kantonalbank,,,,,,,,,,,,,
+lausanne1907-637-015,lausanne1907,637,15,Banques suisses d'émission.,Banca cantonale ticinese.,0,Banca cantonale ticinese,,,,,,,,,,,,,
+lausanne1907-637-016,lausanne1907,637,16,Banques suisses d'émission.,"Banca della Svizzera italiana, à Lugano.",0,Banca della Svizzera italiana,,,,,,,à Lugano,,,,,,street_rare
+lausanne1907-637-017,lausanne1907,637,17,Banques suisses d'émission.,Bank in Basel.,0,Bank in Basel,,,,,,,,,,,,,
+lausanne1907-637-018,lausanne1907,637,18,Banques suisses d'émission.,Bank in Luzern.,0,Bank in Luzern,,,,,,,,,,,,,
+lausanne1907-637-019,lausanne1907,637,19,Banques suisses d'émission.,Bank in Schaffhausen.,0,Bank in Schaffhausen,,,,,,,,,,,,,
+lausanne1907-637-020,lausanne1907,637,20,Banques suisses d'émission.,Bank in St-Gallen.,0,Bank in St-Gallen,,,,,,,,,,,,,
+lausanne1907-637-021,lausanne1907,637,21,Banques suisses d'émission.,Banque cantonale fribourgeoise.,0,Banque cantonale fribourgeoise,,,,,,,,,,,,,
+lausanne1907-637-022,lausanne1907,637,22,Banques suisses d'émission.,Banque cantonale neuchâteloise.,0,Banque cantonale neuchâteloise,,,,,,,,,,,,,
+lausanne1907-637-023,lausanne1907,637,23,Banques suisses d'émission.,Banque cantonale vaudoise.,0,Banque cantonale vaudoise,,,,,,,,,,,,,
+lausanne1907-637-024,lausanne1907,637,24,Banques suisses d'émission.,Banque commerciale neuchâteloise.,0,Banque commerciale neuchâteloise,,,,,,,,,,,,,
 lausanne1907-638-001,lausanne1907,638,1,,Banque de l'Etat de Fribourg.,0,,,,,,,,,,,,,,no_surname
 lausanne1907-638-002,lausanne1907,638,2,,"Banque du commerce, à Genève.",0,,,,,,,,,,,,,,no_surname
 lausanne1907-638-003,lausanne1907,638,3,,Basellandschaftliche Kantonalbank.,0,,,,,,,,,,,,,,no_surname
@@ -51114,7 +51225,7 @@ lausanne1907-662-053,lausanne1907,662,53,LOCALITÉS,Lanciau. . . . . . . . . . .
 lausanne1907-662-054,lausanne1907,662,54,LOCALITÉS,Lapraz (1) . . . . . . . . . . Lapraz . . . . Romainmôtier . . Orbe. 193,0,,,,,,,,,,,,,,no_surname
 lausanne1907-664-001,lausanne1907,664,1,LOCALITÉS,Mollendruz (le) . . . . Mont-la-Ville . . . . L'Isle . . . . Cossonay. . . . . 61,0,Mollendruz,,(le),,,,Cossonay,Mont-la-Ville,,,,,,hyphen
 lausanne1907-664-002,lausanne1907,664,2,LOCALITÉS,Mollens (1). . . . . Mollens . . . . Ballens . . . . Aubonne. . . . . 42,0,Mollens,,(1),,,,Aubonne,Mollens,,,,,,
-lausanne1907-664-003,lausanne1907,664,3,LOCALITÉS,Mollondins (2) . . . . Mollondins . . . . Mollondins . . . . Yverdon. . . . . 302,0,Mollondins,,(2),,,,Yverdon,Mollondins,,,,,,street_rare
+lausanne1907-664-003,lausanne1907,664,3,LOCALITÉS,Mollondins (2) . . . . Mollondins . . . . Mollondins . . . . Yverdon. . . . . 302,0,Mollondins,,(2),,,,Yverdon,Mollondins,,,,,,
 lausanne1907-664-004,lausanne1907,664,4,LOCALITÉS,Monnaz (1). . . . . Monnaz . . . . Collombier . . . . Morges. . . . . 138,0,Monnaz,,(1),,,,Morges,Monnaz,,,,,,street_rare
 lausanne1907-664-005,lausanne1907,664,5,LOCALITÉS,Monnéaz . . . . Palézieux . . . . Oron . . . . Oron. . . . . 207,0,Monnéaz,,,,,,Oron,Palézieux,,,,,,street_rare
 lausanne1907-664-006,lausanne1907,664,6,LOCALITÉS,Monod . . . . Mollens . . . . Ballens . . . . Aubonne. . . . . 42,0,Monod,,,,,,Aubonne,Mollens,,,,,,
@@ -51230,6 +51341,64 @@ lausanne1907-665-055,lausanne1907,665,55,Pages,Peyres (1) . . . . . . Peyres et 
 lausanne1907-665-056,lausanne1907,665,56,Pages,Pierre-Vieille . . . . . . Puidoux. . . . St-Saphorin. . . . Lavaux. 119,0,,,,,,,,,,,,,,no_surname
 lausanne1907-665-057,lausanne1907,665,57,Pages,Piévrax . . . . . . Blonay . . . Tour-de-Peilz . . . Vevey. 259,0,,,,,,,,,,,,,,hyphen no_surname
 lausanne1907-665-058,lausanne1907,665,58,Pages,Piguet (Chez les) . . . . . . Chenit (le) . . . Chenit (le) . . . La Vallée. 104,0,,,,,,,,,,,,,,no_surname
+lausanne1907-668-001,lausanne1907,668,1,,Rovray (1) … Rovray … Mollondins … Yverdon. … 304,0,Rovray,,(1),,,,Rovray,Mollondins,Yverdon.,,304,,,
+lausanne1907-668-002,lausanne1907,668,2,,Rueyres (1) … Rueyres … Vuarens … Echalens. … 75,0,Rueyres,,(1),,,,Rueyres,Vuarens,Echalens.,,75,,,
+lausanne1907-668-003,lausanne1907,668,3,,Russille (la) … Clées (les) … Romainmôtier … Orbe. … 191,0,Russille,,(la),,,,Clées (les),Romainmôtier,Orbe.,,191,,,street_rare
+lausanne1907-668-004,lausanne1907,668,4,,Russine (la) … Baulmes … Baulmes … Id. … 189,0,Russine,,(la),,,,Baulmes,Baulmes,Id.,,189,,,
+lausanne1907-668-005,lausanne1907,668,5,,Sagne (la) … Ste-Croix … Ste-Croix … Grandson. … 86,0,Sagne,,(la),,,,Ste-Croix,Ste-Croix,Grandson.,,86,,,
+lausanne1907-668-006,lausanne1907,668,6,,Salavaux … Bellerive … Cudrefin. … Avenches. … 47,0,Salavaux,,,,,,Bellerive,Cudrefin.,Avenches.,,47,,,
+lausanne1907-668-007,lausanne1907,668,7,,Sallaz (la) … Lausanne … Lausanne … Lausanne. … 94,0,Sallaz,,(la),,,,Lausanne,Lausanne,Lausanne.,,94,,,
+lausanne1907-668-008,lausanne1907,668,8,,Sales … Châtelard … Montreux … Vevey. … 264,0,Sales,,,,,,Châtelard,Montreux,Vevey.,,264,,,
+lausanne1907-668-009,lausanne1907,668,9,,Saphorin (Saint-) (2) … St-Saphorin … St-Saphorin … Lavaux. … 120,0,Saphorin,,(Saint-) (2),,,,St-Saphorin,St-Saphorin,Lavaux.,,120,,,street_rare
+lausanne1907-668-010,lausanne1907,668,10,,Id. (1) … Id. … Collombier … Morges. … 140,0,Id.,,(1),,,,Id.,Collombier,Morges.,,140,,,street_rare
+lausanne1907-668-011,lausanne1907,668,11,,Sarzens (1) … Sarzens … Lucens … Moudon. … 158,0,Sarzens,,(1),,,,Sarzens,Lucens,Moudon.,,158,,,street_rare
+lausanne1907-668-012,lausanne1907,668,12,,Sassel (1) … Sassel … Granges … Payerne. … 223,0,Sassel,,(1),,,,Sassel,Granges,Payerne.,,223,,,
+lausanne1907-668-013,lausanne1907,668,13,,Saubraz (1) … Saubraz … Gimel … Aubonne. … 44,0,Saubraz,,(1),,,,Saubraz,Gimel,Aubonne.,,44,,,
+lausanne1907-668-014,lausanne1907,668,14,,Sauge (la) … Cudrefin. … Cudrefin. … Avenches. … 48,0,Sauge,,(la),,,,Cudrefin.,Cudrefin.,Avenches.,,48,,,
+lausanne1907-668-015,lausanne1907,668,15,,Saughey … Féchy … Aubonne … Aubonne. … 40,0,Saughey,,,,,,Féchy,Aubonne,Aubonne.,,40,,,
+lausanne1907-668-016,lausanne1907,668,16,,Saussaz (la) … Rougemont. … Rougemont. … Pays-d'Enh. … 229,0,Saussaz,,(la),,,,Rougemont.,Rougemont.,Pays-d'Enh.,,229,,,hyphen
+lausanne1907-668-017,lausanne1907,668,17,,Savigny (1) … Savigny … Lutry … Lavaux. … 121,0,Savigny,,(1),,,,Savigny,Lutry,Lavaux.,,121,,,
+lausanne1907-668-018,lausanne1907,668,18,,Savuit … Lutry … Id. … Id. … 117,0,Savuit,,,,,,Lutry,Id.,Id.,,117,,,
+lausanne1907-668-019,lausanne1907,668,19,,Scex (sous le) … Château-d'Œx. … Château-d'Œx. … Pays-d'Enh. … 225,0,Scex,,(sous le),,,,Château-d'Œx.,Château-d'Œx.,Pays-d'Enh.,,225,,,hyphen
+lausanne1907-668-020,lausanne1907,668,20,,Séchey … Lieu (le). … Pont (le) … La Vallée. … 113,0,Séchey,,,,,,Lieu (le).,Pont (le),La Vallée.,,113,,,street_rare
+lausanne1907-668-021,lausanne1907,668,21,,Sédeilles (1) … Sédeilles … Granges … Payerne. … 223,0,Sédeilles,,(1),,,,Sédeilles,Granges,Payerne.,,223,,,
+lausanne1907-668-022,lausanne1907,668,22,,Seigneux (1) … Seigneux … Id. … Id. … 223,0,Seigneux,,(1),,,,Seigneux,Id.,Id.,,223,,,
+lausanne1907-668-023,lausanne1907,668,23,,Senarclens (1) … Senarclens … Cossonay … Cossonay. … 64,0,Senarclens,,(1),,,,Senarclens,Cossonay,Cossonay.,,64,,,
+lausanne1907-668-024,lausanne1907,668,24,,Sentier (le) … Chenit (le) … Chenit (le) … La Vallée. … 108,0,Sentier,,(le),,,,Chenit (le),Chenit (le),La Vallée.,,108,,,
+lausanne1907-668-025,lausanne1907,668,25,,Sépey (le) … Ormont-dessous … Ormonts (les) … Aigle. … 30,0,Sépey,,(le),,,,Ormont-dessous,Ormonts (les),Aigle.,,30,,,street_rare hyphen
+lausanne1907-668-026,lausanne1907,668,26,,Sépey … Vulliens … Mézières. … Oron. … 209,0,Sépey,,,,,,Vulliens,Mézières.,Oron.,,209,,,
+lausanne1907-668-027,lausanne1907,668,27,,Sergey (1) … Sergey … Baulmes. … Orbe. … 196,0,Sergey,,(1),,,,Sergey,Baulmes.,Orbe.,,196,,,
+lausanne1907-668-028,lausanne1907,668,28,,Serjaulaz … Thierrons … St-Cierges … Moudon. … 158,0,Serjaulaz,,,,,,Thierrons,St-Cierges,Moudon.,,158,,,
+lausanne1907-668-029,lausanne1907,668,29,,Sermuz … Gressy … Belmont … Yverdon. … 302,0,Sermuz,,,,,,Gressy,Belmont,Yverdon.,,302,,,
+lausanne1907-668-030,lausanne1907,668,30,,Serniemen … Gryon … Bex … Aigle. … 25,0,Serniemen,,,,,,Gryon,Bex,Aigle.,,25,,,
+lausanne1907-668-031,lausanne1907,668,31,,Servion (1) … Servion … Mézières. … Oron. … 208,0,Servion,,(1),,,,Servion,Mézières.,Oron.,,208,,,
+lausanne1907-668-032,lausanne1907,668,32,,Sévery (1) … Sévery … Cossonay … Cossonay. … 64,0,Sévery,,(1),,,,Sévery,Cossonay,Cossonay.,,64,,,
+lausanne1907-668-033,lausanne1907,668,33,,Signy (1) … Signy … Gingins … Nyon. … 181,0,Signy,,(1),,,,Signy,Gingins,Nyon.,,181,,,
+lausanne1907-668-034,lausanne1907,668,34,,Solliat … Chenit (le) … Chenit (le) … La Vallée. … 110,0,Solliat,,,,,,Chenit (le),Chenit (le),La Vallée.,,110,,,
+lausanne1907-668-035,lausanne1907,668,35,,Sonzier … Châtelard … Montreux … Vevey. … 264,0,Sonzier,,,,,,Châtelard,Montreux,Vevey.,,264,,,
+lausanne1907-668-036,lausanne1907,668,36,,Sottens (1) … Sottens … St-Cierges … Moudon. … 158,0,Sottens,,(1),,,,Sottens,St-Cierges,Moudon.,,158,,,
+lausanne1907-668-037,lausanne1907,668,37,,Suchy (1) … Suchy … Belmont. … Yverdon. … 305,0,Suchy,,(1),,,,Suchy,Belmont.,Yverdon.,,305,,,
+lausanne1907-668-038,lausanne1907,668,38,,Sugnens (1) … Sugnens. … Vuarens … Echalens. … 76,0,Sugnens,,(1),,,,Sugnens.,Vuarens,Echalens.,,76,,,
+lausanne1907-668-039,lausanne1907,668,39,,Sullens (2) … Sullens … Sullens … Cossonay. … 64,0,Sullens,,(2),,,,Sullens,Sullens,Cossonay.,,64,,,street_rare
+lausanne1907-668-040,lausanne1907,668,40,,Sulpice (Saint-) (1) … St-Sulpice … Ecublens … Morges. … 140,0,Sulpice,,(Saint-) (1),,,,St-Sulpice,Ecublens,Morges.,,140,,,
+lausanne1907-668-041,lausanne1907,668,41,,Surcrêt … Grandson … Grandson … Grandson. … 78,0,Surcrêt,,,,,,Grandson,Grandson,Grandson.,,78,,,
+lausanne1907-668-042,lausanne1907,668,42,,Suscévaz (1) … Suscévaz … Champvent. … Yverdon. … 305,0,Suscévaz,,(1),,,,Suscévaz,Champvent.,Yverdon.,,305,,,
+lausanne1907-668-043,lausanne1907,668,43,,Syens (1) … Syens … Moudon … Moudon. … 158,0,Syens,,(1),,,,Syens,Moudon,Moudon.,,158,,,
+lausanne1907-668-044,lausanne1907,668,44,,Taisejeurs … Château-d'Œx … Château-d'Œx … Pays-d'Enh. … 225,0,Taisejeurs,,,,,,Château-d'Œx,Château-d'Œx,Pays-d'Enh.,,225,,,hyphen
+lausanne1907-668-045,lausanne1907,668,45,,Tannay (1) … Tannay … Coppet … Nyon. … 181,0,Tannay,,(1),,,,Tannay,Coppet,Nyon.,,181,,,
+lausanne1907-668-046,lausanne1907,668,46,,Tartegins (1) … Tartegins … Gilly … Rolle. … 239,0,Tartegins,,(1),,,,Tartegins,Gilly,Rolle.,,239,,,
+lausanne1907-668-047,lausanne1907,668,47,,Tattes … Commugny. … Coppet … Nyon. … 174,0,Tattes,,,,,,Commugny.,Coppet,Nyon.,,174,,,
+lausanne1907-668-048,lausanne1907,668,48,,Tavel … Châtelard … Montreux … Vevey. … 264,0,Tavel,,,,,,Châtelard,Montreux,Vevey.,,264,,,
+lausanne1907-668-049,lausanne1907,668,49,,Tavernes (les) (1) … Tavernes (les) … Oron … Oron. … 208,0,Tavernes,,(les) (1),,,,Tavernes (les),Oron,Oron.,,208,,,
+lausanne1907-668-050,lausanne1907,668,50,,Taveyannaz … Gryon … Bex … Aigle. … 25,0,Taveyannaz,,,,,,Gryon,Bex,Aigle.,,25,,,
+lausanne1907-668-051,lausanne1907,668,51,,Tercier … Blonay … Tour-de-Peilz … Vevey. … 259,0,Tercier,,,,,,Blonay,Tour-de-Peilz,Vevey.,,259,,,hyphen
+lausanne1907-668-052,lausanne1907,668,52,,Territet. … Planches (les) … Montreux … Id. … 264,0,Territet.,,,,,,Planches (les),Montreux,Id.,,264,,,
+lausanne1907-668-053,lausanne1907,668,53,,Thierrens (1) … Thierrens … St-Cierges … Moudon. … 158,0,Thierrens,,(1),,,,Thierrens,St-Cierges,Moudon.,,158,,,
+lausanne1907-668-054,lausanne1907,668,54,,Thioleyres (les) (1) … Thioleyres (les) … Oron … Oron. … 209,0,Thioleyres,,(les) (1),,,,Thioleyres (les),Oron,Oron.,,209,,,
+lausanne1907-668-055,lausanne1907,668,55,,Id. … Bex … Bex … Aigle. … 21,0,Id.,,,,,,Bex,Bex,Aigle.,,21,,,
+lausanne1907-668-056,lausanne1907,668,56,,Timonets (les). … Crissier … Romanel … Lausanne. … 94,0,Timonets,,(les).,,,,Crissier,Romanel,Lausanne.,,94,,,
+lausanne1907-668-057,lausanne1907,668,57,,Tine (la) … Rossinières … Rougemont. … Pays-d'Enh. … 228,0,Tine,,(la),,,,Rossinières,Rougemont.,Pays-d'Enh.,,228,,,hyphen
+lausanne1907-668-058,lausanne1907,668,58,,Tolochenaz (1). … Tolochenaz. … Morges … Morges. … 141,0,Tolochenaz,,(1).,,,,Tolochenaz.,Morges,Morges.,,141,,,
 lausanne1907-669-001,lausanne1907,669,1,LOCALITÉS,Tour-de-Peilz (1) . . . . Tour-de-Peilz . Vevey . . . Vevey. 262,0,,,,,,,,,,,,,,hyphen no_surname
 lausanne1907-669-002,lausanne1907,669,2,LOCALITÉS,Toury (Vers chez) . . . . Ballaigues . Vallorbes . . . Orbe. 188,0,,,,,,,,,,,,,,no_surname
 lausanne1907-669-003,lausanne1907,669,3,LOCALITÉS,Tranche pied . . . . La Rippe . Gingins . . . Nyon. 179,0,,,,,,,,,,,,,,no_surname
@@ -51379,7 +51548,7 @@ lausanne1907-672-033,lausanne1907,672,33,Bureau de police.,"— Maison-de-Ville,
 lausanne1907-672-034,lausanne1907,672,34,Cafetiers.,"— Amacker, café Victoria. T",1,Amacker,,,,,café Victoria,,,,,1,,,
 lausanne1907-672-035,lausanne1907,672,35,Cafetiers.,"— Chablaix Emile, café des Amis, rue du Centre",1,Chablaix,,Emile,,,café des Amis,,rue du Centre,,,,,,
 lausanne1907-672-036,lausanne1907,672,36,Cafetiers.,"— Chervet Eugène, café des Messageries",1,Chervet,,Eugène,,,café des Messageries,,,,,,,,
-lausanne1907-672-037,lausanne1907,672,37,Cafetiers.,"— Deladoey Emile, fils, à la Fontaine",1,Deladoey,Emile,fils,,,,,à la Fontaine,,,,,,alliance_from_forename
+lausanne1907-672-037,lausanne1907,672,37,Cafetiers.,"— Deladoey Emile, fils, à la Fontaine",1,Deladoey,,"Emile, fils",,,,,à la Fontaine,,,,,,
 lausanne1907-672-038,lausanne1907,672,38,Cafetiers.,"— Drapel, veuve, café du Commerce, r. du Centre",1,Drapel,,,,veuve,café du Commerce,,r. du Centre,,,,,,
 lausanne1907-672-039,lausanne1907,672,39,Cafetiers.,"— Fenand-Roschi, Ph., café de l'Aigle Noir",1,Fenand,Roschi,Ph.,,,café de l'Aigle Noir,,,,,,,,
 lausanne1907-672-040,lausanne1907,672,40,Cafetiers.,"— Gaberel Justin, r. du Centre",1,Gaberel,,Justin,,,,,r. du Centre,,,,,,
@@ -51894,7 +52063,7 @@ lausanne1907-676-121,lausanne1907,676,121,Couturières.,"Sangrouber-Mages, A.",1
 lausanne1907-676-122,lausanne1907,676,122,Dentistes.,"Cordcy F., av. de la Gare. T",0,Cordcy,,F.,,,Dentistes,,av. de la Gare,,,,,,
 lausanne1907-676-123,lausanne1907,676,123,Dentistes.,"Quillet André, pl. du Marché. T.",1,Quillet,,André,,,Dentistes,,pl. du Marché,,,,,,
 lausanne1907-676-124,lausanne1907,676,124,Distillateurs-liquoristes.,"Borel Marc, distillerie de la Place",0,Borel,,Marc,,,distillerie de la Place,,,,,,,,
-lausanne1907-676-125,lausanne1907,676,125,Distillateurs-liquoristes.,"Voutaz Charles, fils, distillerie de la Tour.",1,Voutaz,Charles,fils,,,distillerie de la Tour,,,,,,,,alliance_from_forename
+lausanne1907-676-125,lausanne1907,676,125,Distillateurs-liquoristes.,"Voutaz Charles, fils, distillerie de la Tour.",1,Voutaz,,"Charles, fils",,,distillerie de la Tour,,,,,,,,
 lausanne1907-676-126,lausanne1907,676,126,"Draperie, toilerie.",Cherix Ed. & Cie. R,0,Cherix,,Ed.,,,"Draperie, toilerie",,,,,,,,
 lausanne1907-676-127,lausanne1907,676,127,"Draperie, toilerie.","Combaz Jérôme, rue de l'Avançon. R",1,Combaz,,Jérôme,,,"Draperie, toilerie",,rue de l'Avançon,,,,,,
 lausanne1907-676-128,lausanne1907,676,128,"Draperie, toilerie.","Dupuis, veuve, à l'Allex",1,Dupuis,,,,veuve,"Draperie, toilerie",,à l'Allex,,,,,,
@@ -52650,10 +52819,10 @@ lausanne1907-684-065,lausanne1907,684,65,Télégraphistes.,"— Mme veuve Anex-D
 lausanne1907-684-066,lausanne1907,684,66,Téléphone.,"— Station publique, maison de ville.",1,Station publique,,,,,Téléphone,,maison de ville,,,,,,
 lausanne1907-684-067,lausanne1907,684,67,Tonneliers.,— Amiguet Emile,1,Amiguet,,Emile,,,Tonnelier,,,,,,,,
 lausanne1907-684-068,lausanne1907,684,68,Tonneliers.,— Amiguet Louis.,1,Amiguet,,Louis,,,Tonnelier,,,,,,,,
-lausanne1907-684-069,lausanne1907,684,69,Tuilerie.,"— Croptier Henri, fils, gare de St-Triphon. R.",1,Croptier,Henri,fils,,,Tuilerie,,gare de St-Triphon,,,,,,alliance_from_forename
+lausanne1907-684-069,lausanne1907,684,69,Tuilerie.,"— Croptier Henri, fils, gare de St-Triphon. R.",1,Croptier,,"Henri, fils",,,Tuilerie,,gare de St-Triphon,,,,,,
 lausanne1907-684-070,lausanne1907,684,70,Vins (march. de).,— Anex Jean,1,Anex,,Jean,,,Vins (march. de),,,,,,,,
 lausanne1907-684-071,lausanne1907,684,71,Vins (march. de).,— Joly & Amiguet. R,1,Joly & Amiguet,,,,,Vins (march. de),,,,,,,,
-lausanne1907-684-072,lausanne1907,684,72,Vins (march. de).,"— Pousaz Louis, père, Villy",1,Pousaz,Louis,père,,,Vins (march. de),,Villy,,,,,,street_rare alliance_from_forename
+lausanne1907-684-072,lausanne1907,684,72,Vins (march. de).,"— Pousaz Louis, père, Villy",1,Pousaz,,"Louis, père",,,Vins (march. de),,Villy,,,,,,street_rare
 lausanne1907-684-073,lausanne1907,684,73,Vins (march. de).,"— Storti Jean, Ollon.",1,Storti,,Jean,,,Vins (march. de),,Ollon,,,,,,
 lausanne1907-684-074,lausanne1907,684,74,Voituriers.,— Massip & Lenoir. T,1,Massip & Lenoir,,,,,Voituriers,,,,,,,,
 lausanne1907-684-075,lausanne1907,684,75,Voituriers.,— Wüirsten. T.,1,Wüirsten,,,,,Voituriers,,,,,,,,
@@ -52674,7 +52843,7 @@ lausanne1907-684-089,lausanne1907,684,89,Autorités communales.,— Jouvenat L.,
 lausanne1907-684-090,lausanne1907,684,90,Autorités communales.,"— Marlétaz, Alexis.",1,Marlétaz,,Alexis,,,Municipal,,,,,,,,
 lausanne1907-684-091,lausanne1907,684,91,Autorités communales.,"— Oguey-Borlat, Emile.",1,Oguey,Borlat,Emile,,,Municipal,,,,,,,,
 lausanne1907-684-092,lausanne1907,684,92,Autorités communales.,"— Secrétaire municipal, Cha-blaix, Paul.",1,Chablaix,,Paul,,,Secrétaire municipal,,,,,,,,hyphen
-lausanne1907-684-093,lausanne1907,684,93,Autorités communales.,"— Boursier, Hubert, Jules.",1,Boursier,Hubert,Jules,,,Boursier,,,,,,,,alliance_from_forename
+lausanne1907-684-093,lausanne1907,684,93,Autorités communales.,"— Boursier, Hubert, Jules.",1,Boursier,,"Hubert, Jules",,,Boursier,,,,,,,,
 lausanne1907-684-094,lausanne1907,684,94,Bétail (comm. de).,"— Girod Alphonse, Com-ballaz",1,Girod,,Alphonse,,,Bétail (comm. de),,Comballaz,,,,,,hyphen
 lausanne1907-684-095,lausanne1907,684,95,Bétail (comm. de).,"— Monod frères, Comballaz",1,Monod,,frères,,,Bétail (comm. de),,Comballaz,,,,,,
 lausanne1907-684-096,lausanne1907,684,96,Bétail (comm. de).,"— Pernet Jules, Sépey.",1,Pernet,,Jules,,,Bétail (comm. de),,Sépey,,,,,,
@@ -53531,7 +53700,7 @@ lausanne1907-691-126,lausanne1907,691,126,APPLES,"Apiculteurs. — Baud William 
 lausanne1907-691-127,lausanne1907,691,127,APPLES,— Baud Henri,1,Baud,,Henri,,,Apiculteurs,,,,,,,,
 lausanne1907-691-128,lausanne1907,691,128,APPLES,— Delacrétaaz Jean,1,Delacrétaaz,,Jean,,,Apiculteurs,,,,,,,,
 lausanne1907-691-129,lausanne1907,691,129,APPLES,"— Decolligny Henri, aux Délices",1,Decolligny,,Henri,,,Apiculteurs,,aux Délices,,,,,,
-lausanne1907-691-130,lausanne1907,691,130,APPLES,"— Henriod Ls, fils.",1,Henriod,Ls,fils,,,Apiculteurs,,,,,,,,alliance_from_forename
+lausanne1907-691-130,lausanne1907,691,130,APPLES,"— Henriod Ls, fils.",1,Henriod,,"Ls, fils",,,Apiculteurs,,,,,,,,
 lausanne1907-691-131,lausanne1907,691,131,APPLES,Appareilleurs. — Rochat John-Louis — Estoppey-Marti — Conti César.,0,Rochat,,John-Louis,,,Appareilleurs,,,,,,,,
 lausanne1907-691-132,lausanne1907,691,132,APPLES,— Estoppey-Marti,1,Estoppey-Marti,Marti,,,,Appareilleurs,,,,,,,,
 lausanne1907-691-133,lausanne1907,691,133,APPLES,— Conti César.,1,Conti,,César,,,Appareilleurs,,,,,,,,
@@ -53544,8 +53713,8 @@ lausanne1907-691-139,lausanne1907,691,139,APPLES,Buraliste postal. — Delacrét
 lausanne1907-691-140,lausanne1907,691,140,APPLES,Charpentiers-menuisiers. — Bélaz Ferdinand — Jotterand Louis.,0,Bélaz,,Ferdinand,,,Charpentiers-menuisiers,,,,,,,,hyphen
 lausanne1907-691-141,lausanne1907,691,141,APPLES,— Jotterand Louis.,1,Jotterand,,Louis,,,Charpentiers-menuisiers,,,,,,,,
 lausanne1907-691-142,lausanne1907,691,142,APPLES,"Charrons. — Decolligny fils d'Eugène — Henriod Louis, père. — Henriod Ls, fils.",0,Decolligny,,fils d'Eugène,,,Charrons,,,,,,,,
-lausanne1907-691-143,lausanne1907,691,143,APPLES,"— Henriod Louis, père.",1,Henriod,Louis,père,,,Charrons,,,,,,,,alliance_from_forename
-lausanne1907-691-144,lausanne1907,691,144,APPLES,"— Henriod Ls, fils.",1,Henriod,Ls,fils,,,Charrons,,,,,,,,alliance_from_forename
+lausanne1907-691-143,lausanne1907,691,143,APPLES,"— Henriod Louis, père.",1,Henriod,,"Louis, père",,,Charrons,,,,,,,,
+lausanne1907-691-144,lausanne1907,691,144,APPLES,"— Henriod Ls, fils.",1,Henriod,,"Ls, fils",,,Charrons,,,,,,,,
 lausanne1907-691-145,lausanne1907,691,145,APPLES,Chaussures (march. de). — Cochet Gustave T — Lassueur W. R T.,0,Cochet,,Gustave,,,Chaussures (march. de),,,,,,,,
 lausanne1907-691-146,lausanne1907,691,146,APPLES,— Lassueur W. R T.,1,Lassueur,,W.,,,Chaussures (march. de),,,,,,,,
 lausanne1907-691-147,lausanne1907,691,147,APPLES,Chef de section. — Baud Charles.,0,Baud,,Charles,,,Chef de section,,,,,,,,
@@ -54250,7 +54419,7 @@ lausanne1907-700-004,lausanne1907,700,4,Charcutiers.,— Doleires Paul — Landr
 lausanne1907-700-005,lausanne1907,700,5,Charcutiers.,— Landriset Adrien,1,Landriset,,Adrien,,,Charcutiers,,,,,,,,
 lausanne1907-700-006,lausanne1907,700,6,Charcutiers.,— Schmid Fritz,1,Schmid,,Fritz,,,Charcutiers,,,,,,,,
 lausanne1907-700-007,lausanne1907,700,7,Charcutiers.,— Stucki Adolphe. R.,1,Stucki,,Adolphe,,,Charcutiers,,,,,,,,
-lausanne1907-700-008,lausanne1907,700,8,Chaussures,"— Fornerod Louis, fils. R",1,Fornerod,Louis,fils,,,Chaussures,,,,,,,,alliance_from_forename
+lausanne1907-700-008,lausanne1907,700,8,Chaussures,"— Fornerod Louis, fils. R",1,Fornerod,,"Louis, fils",,,Chaussures,,,,,,,,
 lausanne1907-700-009,lausanne1907,700,9,Chaussures,— Gentizon-Leuba Jeanne. R,1,Gentizon-Leuba,Leuba,Jeanne,,,Chaussures,,,,,,,,
 lausanne1907-700-010,lausanne1907,700,10,Chaussures,— Hefti veuve,1,Hefti,,,,veuve,Chaussures,,,,,,,,
 lausanne1907-700-011,lausanne1907,700,11,Chaussures,— Hug Marie. R,1,Hug,,Marie,,,Chaussures,,,,,,,,
@@ -54300,7 +54469,7 @@ lausanne1907-700-054,lausanne1907,700,54,Etoffes.,— Meyer-Löb. R.,1,Meyer-Lö
 lausanne1907-700-055,lausanne1907,700,55,Etoffes.,"— Schumacher, Ernest, rue Centrale. Tissus en tous genres. R T.",1,Schumacher,,Ernest,,,Etoffes,,rue Centrale,,,1,,,
 lausanne1907-700-056,lausanne1907,700,56,Ferblantier.,— Rey Arnold. R.,1,Rey,,Arnold,,,Ferblantier,,,,,,,,
 lausanne1907-700-057,lausanne1907,700,57,Fers et métaux.,"— Brauchli, Emile. R T.",1,Brauchli,,Emile,,,Fers et métaux,,,,,1,,,
-lausanne1907-700-058,lausanne1907,700,58,Fers et métaux.,"— Revilly Jules, fils.",1,Revilly,Jules,fils,,,Fers et métaux,,,,,,,,alliance_from_forename
+lausanne1907-700-058,lausanne1907,700,58,Fers et métaux.,"— Revilly Jules, fils.",1,Revilly,,"Jules, fils",,,Fers et métaux,,,,,,,,
 lausanne1907-700-059,lausanne1907,700,59,Fromages.,— Stauffer Frédéric.,1,Stauffer,,Frédéric,,,Fromages,,,,,,,,
 lausanne1907-700-060,lausanne1907,700,60,Greffier de la justice de paix.,— Treyvaud Arthur.,1,Treyvaud,,Arthur,,,Greffier de la justice de paix,,,,,,,,
 lausanne1907-700-061,lausanne1907,700,61,Gypsiers.,— Elia Antoine,1,Elia,,Antoine,,,Gypsiers,,,,,,,,
@@ -54378,11 +54547,11 @@ lausanne1907-700-132,lausanne1907,700,132,Pensionnats de demoiselles.,"— Jomin
 lausanne1907-700-133,lausanne1907,700,133,Pensionnats de demoiselles.,— Monney sœurs. T.,1,Monney,,sœurs,,,Pensionnats de demoiselles,,,,,1,,,
 lausanne1907-700-134,lausanne1907,700,134,Pharmacien.,"— Chappatte Paul, rue Centrale. R.",1,Chappatte,,Paul,,,Pharmacien,,rue Centrale,,,,,,
 lausanne1907-700-135,lausanne1907,700,135,Potiers.,— Fornerod Louis. R,1,Fornerod,,Louis,,,Potiers,,,,,,,,
-lausanne1907-700-136,lausanne1907,700,136,Potiers.,"— Fornerod Louis, fils. R.",1,Fornerod,Louis,fils,,,Potiers,,,,,,,,alliance_from_forename
+lausanne1907-700-136,lausanne1907,700,136,Potiers.,"— Fornerod Louis, fils. R.",1,Fornerod,,"Louis, fils",,,Potiers,,,,,,,,
 lausanne1907-700-137,lausanne1907,700,137,Préposé aux poursuites et faillites.,— Hermann Eugène. T.,1,Hermann,,Eugène,,,Préposé aux poursuites et faillites,,,,,1,,,
 lausanne1907-700-138,lausanne1907,700,138,Quincaillerie.,— Brauchli Ernest. R,1,Brauchli,,Ernest,,,Quincaillerie,,,,,,,,
 lausanne1907-700-139,lausanne1907,700,139,Quincaillerie.,— Rey Arnold. R,1,Rey,,Arnold,,,Quincaillerie,,,,,,,,
-lausanne1907-700-140,lausanne1907,700,140,Quincaillerie.,"— Revilly Jules, fils.",1,Revilly,Jules,fils,,,Quincaillerie,,,,,,,,alliance_from_forename
+lausanne1907-700-140,lausanne1907,700,140,Quincaillerie.,"— Revilly Jules, fils.",1,Revilly,,"Jules, fils",,,Quincaillerie,,,,,,,,
 lausanne1907-700-141,lausanne1907,700,141,Renseignements et encaissements.,— Faucherre Lucien,1,Faucherre,,Lucien,,,Renseignements et encaissements,,,,,,,,
 lausanne1907-700-142,lausanne1907,700,142,Renseignements et encaissements.,"— Monney, notaire.",1,Monney,,,notaire,,Renseignements et encaissements,,,,,,,,
 lausanne1907-700-143,lausanne1907,700,143,Repasseuses.,— Voir Blanchisseuses.,1,Voir Blanchisseuses,,,,,Repasseuses,,,,,,,,
@@ -55786,9 +55955,9 @@ lausanne1907-714-012,lausanne1907,714,12,LUSSERY,"Syndic, Desponds Benjamin.",0,
 lausanne1907-714-013,lausanne1907,714,13,LUSSERY,"Municipaux: Mermoud Charles — Desponds Félix — Desponds François — Guerry François, ff. Jules — Secrétaire municipal, Desponds Alexis, ff. Georges — Boursier, Desponds François, ff. Louis.",0,Mermoud,,Charles,,,Municipaux,,,,,,,,
 lausanne1907-714-014,lausanne1907,714,14,LUSSERY,Desponds Félix,1,Desponds,,Félix,,,Municipaux,,,,,,,,
 lausanne1907-714-015,lausanne1907,714,15,LUSSERY,Desponds François,1,Desponds,,François,,,Municipaux,,,,,,,,
-lausanne1907-714-016,lausanne1907,714,16,LUSSERY,"Guerry François, ff. Jules",1,Guerry,François,ff. Jules,,,Municipaux,,,,,,,,alliance_from_forename
-lausanne1907-714-017,lausanne1907,714,17,LUSSERY,"Secrétaire municipal, Desponds Alexis, ff. Georges",1,Desponds,Alexis,ff. Georges,,,Secrétaire municipal,,,,,,,,alliance_from_forename
-lausanne1907-714-018,lausanne1907,714,18,LUSSERY,"Boursier, Desponds François, ff. Louis.",1,Desponds,François,ff. Louis,,,Boursier,,,,,,,,alliance_from_forename
+lausanne1907-714-016,lausanne1907,714,16,LUSSERY,"Guerry François, ff. Jules",1,Guerry,,"François, ff. Jules",,,Municipaux,,,,,,,,
+lausanne1907-714-017,lausanne1907,714,17,LUSSERY,"Secrétaire municipal, Desponds Alexis, ff. Georges",1,Desponds,,"Alexis, ff. Georges",,,Secrétaire municipal,,,,,,,,
+lausanne1907-714-018,lausanne1907,714,18,LUSSERY,"Boursier, Desponds François, ff. Louis.",1,Desponds,,"François, ff. Louis",,,Boursier,,,,,,,,
 lausanne1907-714-019,lausanne1907,714,19,LUSSERY,"Commission scolaire. — Président, Walter Louis, pasteur — Guerry François — Delessert Héli.",0,Walter,,Louis,pasteur,,Président,,,,,,,,
 lausanne1907-714-020,lausanne1907,714,20,LUSSERY,Guerry François,1,Guerry,,François,,,Commission scolaire,,,,,,,,
 lausanne1907-714-021,lausanne1907,714,21,LUSSERY,Delessert Héli.,1,Delessert,,Héli,,,Commission scolaire,,,,,,,,
@@ -56717,7 +56886,7 @@ lausanne1907-722-038,lausanne1907,722,38,ASSENS,— Despont Edouard,1,Despont,,E
 lausanne1907-722-039,lausanne1907,722,39,ASSENS,— Dony Constant,1,Dony,,Constant,,,Municipaux,,,,,,,,
 lausanne1907-722-040,lausanne1907,722,40,ASSENS,— Mathey Henri,1,Mathey,,Henri,,,Municipaux,,,,,,,,
 lausanne1907-722-041,lausanne1907,722,41,ASSENS,— Pollien Jean,1,Pollien,,Jean,,,Municipaux,,,,,,,,
-lausanne1907-722-042,lausanne1907,722,42,ASSENS,"— Secrétaire, Allaz Auguste, fils",1,Allaz,Auguste,fils,,,Secrétaire,,,,,,,,alliance_from_forename
+lausanne1907-722-042,lausanne1907,722,42,ASSENS,"— Secrétaire, Allaz Auguste, fils",1,Allaz,,"Auguste, fils",,,Secrétaire,,,,,,,,
 lausanne1907-722-043,lausanne1907,722,43,ASSENS,"— Boursier, Chambettaz Alfred",1,Chambettaz,,Alfred,,,Boursier,,,,,,,,
 lausanne1907-722-044,lausanne1907,722,44,ASSENS,"— Huissier, Barby Casimir.",1,Barby,,Casimir,,,Huissier,,,,,,,,
 lausanne1907-722-045,lausanne1907,722,45,ASSENS,"Agriculteurs. — Allaz Auguste — Baudère frères — Barby Louis — Chambettaz Auguste — Chambettaz Louis — Cham-bettaz Xavier — Dépierraz Gabriel — Despont Ernest — Despont Jules — Des-pont Louis — Despont Auguste — Dony David — Favre, frères — Jordan Henri — Mathey Emile — Mathey François — Mathey Henri — Pelet Alfred — Pelet Charlotte — Pelet Edouard — Pelet Fer-dinand — Pelet Louis — Pelet Samuel — Pellerin François — Pellerin Georges — Pilloud, frères.",0,Allaz,,Auguste,,,Agriculteurs,,,,,,,,hyphen
@@ -58144,7 +58313,7 @@ lausanne1907-735-017,lausanne1907,735,17,,Assesseur. — Guilloud Gustave.,0,Gui
 lausanne1907-735-018,lausanne1907,735,18,,Blanchisseuses. — Tharin Elise. — Perret Rose.,0,Tharin,,Elise.,,,Blanchisseuses,,,,,,,,
 lausanne1907-735-019,lausanne1907,735,19,,— Perret Rose.,1,Perret,,Rose.,,,Blanchisseuses,,,,,,,,
 lausanne1907-735-020,lausanne1907,735,20,,"Bois (march. de). — Banderet Samuel — Giroud Louis, fils — Patthey Ernest.",0,Banderet,,Samuel,,,Bois (march. de),,,,,,,,
-lausanne1907-735-021,lausanne1907,735,21,,"— Giroud Louis, fils.",1,Giroud,Louis,fils,,,Bois (march. de),,,,,,,,alliance_from_forename
+lausanne1907-735-021,lausanne1907,735,21,,"— Giroud Louis, fils.",1,Giroud,,"Louis, fils",,,Bois (march. de),,,,,,,,
 lausanne1907-735-022,lausanne1907,735,22,,— Patthey Ernest.,1,Patthey,,Ernest,,,Bois (march. de),,,,,,,,
 lausanne1907-735-023,lausanne1907,735,23,,"Boulanger. — Banderet Rosine, veuve. R — Moosheer Jacques.",0,Banderet,,Rosine,,veuve,Boulanger,,,,,,,,
 lausanne1907-735-024,lausanne1907,735,24,,— Moosheer Jacques.,1,Moosheer,,Jacques,,,Boulanger,,,,,,,,
@@ -58699,7 +58868,7 @@ lausanne1907-739-003,lausanne1907,739,3,,Rentiers. — Tailliefert Aline — Per
 lausanne1907-739-004,lausanne1907,739,4,,— Perret Lina.,1,Perret,,Lina,,,Rentiers,,,,,,,,
 lausanne1907-739-005,lausanne1907,739,5,ONNENS,349 habitants — Altitude 474 mètres. Dépôt de poste — Chemin de fer — Téléphone public à l'Hôtel Bellevue — Monuments historiques classés : Station lacustre. Chœur du temple.,0,,,,,,,,,,,,,,no_surname
 lausanne1907-739-006,lausanne1907,739,6,ONNENS,"Autorités communales. — Président du Conseil général, Dagon-Grobet Jules — Secrétaire, Dagon Jules, fils. Syndic, Dagon Rod.-F.",0,Dagon,Grobet,Jules,,,Président du Conseil général,,,,,,,,surname_split
-lausanne1907-739-007,lausanne1907,739,7,ONNENS,"— Dagon Jules, fils.",1,Dagon,Jules,fils,,,Secrétaire,,,,,,,,alliance_from_forename
+lausanne1907-739-007,lausanne1907,739,7,ONNENS,"— Dagon Jules, fils.",1,Dagon,,"Jules, fils",,,Secrétaire,,,,,,,,
 lausanne1907-739-008,lausanne1907,739,8,ONNENS,— Dagon Rod.-F.,1,Dagon,,Rod.-F.,,,Syndic,,,,,,,,
 lausanne1907-739-009,lausanne1907,739,9,ONNENS,"Municipaux, Dagon Paul — Dagon Constant — Dagon Auguste — Favre Louis — Perdrisat Charles — Seiler Gottfried — Boursier, Schneeberg Fritz — Secrétaire municipal, Dagon Ch.-Louis — Huissier, Filieux Henri-Louis.",0,Dagon,,Paul,,,Municipaux,,,,,,,,
 lausanne1907-739-010,lausanne1907,739,10,ONNENS,— Dagon Constant,1,Dagon,,Constant,,,Municipaux,,,,,,,,
@@ -58766,7 +58935,7 @@ lausanne1907-739-070,lausanne1907,739,70,ONNENS,"Vins (march. de). — Dagon Rod
 lausanne1907-739-071,lausanne1907,739,71,ONNENS,— Gander Charles,1,Gander,,Charles,,,Vins (march. de),,,,,,,,
 lausanne1907-739-072,lausanne1907,739,72,ONNENS,"— Perdrisat Humbert, à Beausite.",1,Perdrisat,,Humbert,,,Vins (march. de),,à Beausite,,,,,,street_rare
 lausanne1907-739-073,lausanne1907,739,73,ONNENS,"Voituriers. — Gaille Alexis — Maag Gaspard, fils.",0,Gaille,,Alexis,,,Voituriers,,,,,,,,
-lausanne1907-739-074,lausanne1907,739,74,ONNENS,"— Maag Gaspard, fils.",1,Maag,Gaspard,fils,,,Voituriers,,,,,,,,alliance_from_forename
+lausanne1907-739-074,lausanne1907,739,74,ONNENS,"— Maag Gaspard, fils.",1,Maag,,"Gaspard, fils",,,Voituriers,,,,,,,,
 lausanne1907-739-075,lausanne1907,739,75,PROVENCE,"815 habitants — Altitude 780 m. Poste — Télégraphe — Téléphone. Gare à Concise, 7 km., ou St-Aubin, 5 km.",0,,,,,,,,,,,,,,no_surname
 lausanne1907-739-076,lausanne1907,739,76,PROVENCE,"Autorités communales. — Président du Conseil général, Perrin Louis — Secrétaire, Vuillermet Albert. Syndic, Gattolliat Frédéric.",0,Perrin,,Louis,,,Président du Conseil général,,,,,,,,
 lausanne1907-739-077,lausanne1907,739,77,PROVENCE,"— Secrétaire, Vuillermet Albert.",1,Vuillermet,,Albert,,,Secrétaire,,,,,,,,
@@ -60334,7 +60503,7 @@ lausanne1907-755-120,lausanne1907,755,120,ROMANEL,"Propriétaires et fermiers. �
 lausanne1907-755-121,lausanne1907,755,121,ROMANEL,"— Baudet Alexis, assesseur",1,Baudet,,Alexis,,,assesseur,,,,,,,,
 lausanne1907-755-122,lausanne1907,755,122,ROMANEL,— Bovey David,1,Bovey,,David,,,Propriétaire et fermier,,,,,,,,
 lausanne1907-755-123,lausanne1907,755,123,ROMANEL,— Bovey Henri,1,Bovey,,Henri,,,Propriétaire et fermier,,,,,,,,
-lausanne1907-755-124,lausanne1907,755,124,ROMANEL,"— Bovey Jules, fleu Louis",1,Bovey,Jules,fleu Louis,,,Propriétaire et fermier,,,,,,,,alliance_from_forename
+lausanne1907-755-124,lausanne1907,755,124,ROMANEL,"— Bovey Jules, fleu Louis",1,Bovey,,"Jules, fleu Louis",,,Propriétaire et fermier,,,,,,,,
 lausanne1907-755-125,lausanne1907,755,125,ROMANEL,— Groux Louis.,1,Groux,,Louis,,,Propriétaire et fermier,,,,,,,,
 lausanne1907-755-126,lausanne1907,755,126,ROMANEL,Sellier. — Favrât Eugène.,0,Favrât,,Eugène,,,Sellier,,,,,,,,
 lausanne1907-755-127,lausanne1907,755,127,ROMANEL,Société. — Syndicat agricole de Romanel et Vernands. R. — Section Croix Bleue.,0,Syndicat agricole de Romanel et Vernands,,,,,Société,,,,,,,,
@@ -61015,7 +61184,7 @@ lausanne1907-762-056,lausanne1907,762,56,HORLOGERIE,Balanciers. — Meylan Elie.
 lausanne1907-762-057,lausanne1907,762,57,HORLOGERIE,Blantiers. — Benoit Ami — Guignard Ami-Constant.,0,Benoit,,Ami,,,Blantiers,,,,,,,,
 lausanne1907-762-058,lausanne1907,762,58,HORLOGERIE,— Guignard Ami-Constant.,1,Guignard,,Ami-Constant,,,Blantiers,,,,,,,,
 lausanne1907-762-059,lausanne1907,762,59,HORLOGERIE,"Cadraturs. — Aubert Charles — Caillet Louis, fils — Capt Firmin — Golay Lucien — Meylan Ernest — Rochat Aug.",0,Aubert,,Charles,,,Cadraturs,,,,,,,,
-lausanne1907-762-060,lausanne1907,762,60,HORLOGERIE,"— Caillet Louis, fils",1,Caillet,Louis,fils,,,Cadraturs,,,,,,,,alliance_from_forename
+lausanne1907-762-060,lausanne1907,762,60,HORLOGERIE,"— Caillet Louis, fils",1,Caillet,,"Louis, fils",,,Cadraturs,,,,,,,,
 lausanne1907-762-061,lausanne1907,762,61,HORLOGERIE,— Capt Firmin,1,Capt,,Firmin,,,Cadraturs,,,,,,,,
 lausanne1907-762-062,lausanne1907,762,62,HORLOGERIE,— Golay Lucien,1,Golay,,Lucien,,,Cadraturs,,,,,,,,
 lausanne1907-762-063,lausanne1907,762,63,HORLOGERIE,— Meylan Ernest,1,Meylan,,Ernest,,,Cadraturs,,,,,,,,
@@ -61440,7 +61609,7 @@ lausanne1907-765-107,lausanne1907,765,107,HORLOGERIE,Remontoirs (fabr. de). — 
 lausanne1907-765-108,lausanne1907,765,108,Les Charbonnières.,500 habitants — Altitude 1020 m. Bureau de poste — Téléphone — Chemin de fer — Douanes.,0,,,,,,,,,,,,,,no_surname
 lausanne1907-765-109,lausanne1907,765,109,Les Charbonnières.,Autorités. — Président du Conseil d'ad-,0,,,,,,Autorités,,,,,,,,no_surname
 lausanne1907-766-001,lausanne1907,766,1,,"ministration, Rochat-Golay Elie — Secrétaire municipal, Rochat Samuel, de Jules — Président du Conseil général, Rochat J.-Jérémie, fils — Secrétaire, Rochat Ch.-Jules.",0,Rochat,Golay,Elie,,,ministration,,,,,,,,
-lausanne1907-766-002,lausanne1907,766,2,,"— Rochat Samuel, de Jules",1,Rochat,Samuel,de Jules,,,Secrétaire municipal,,,,,,,,alliance_from_forename
+lausanne1907-766-002,lausanne1907,766,2,,"— Rochat Samuel, de Jules",1,Rochat,,"Samuel, de Jules",,,Secrétaire municipal,,,,,,,,
 lausanne1907-766-003,lausanne1907,766,3,,"— Rochat J.-Jérémie, fils",1,Rochat,,"J.-Jérémie, fils",,,Président du Conseil général,,,,,,,,
 lausanne1907-766-004,lausanne1907,766,4,,— Rochat Ch.-Jules.,1,Rochat,,Ch.-Jules,,,Secrétaire,,,,,,,,
 lausanne1907-766-005,lausanne1907,766,5,,Assesseur. — Rochat Samuel.,0,Rochat,,Samuel,,,Assesseur,,,,,,,,
@@ -61449,8 +61618,8 @@ lausanne1907-766-007,lausanne1907,766,7,,"Amodiateurs de montagne. — Rochat Eu
 lausanne1907-766-008,lausanne1907,766,8,,— Rochat Albert,1,Rochat,,Albert,,,Amodiateurs de montagne,,,,,,,,
 lausanne1907-766-009,lausanne1907,766,9,,"— Rochat Auguste, à la Cornaz",1,Rochat,,Auguste,,,Amodiateurs de montagne,,la Cornaz,,,,,,
 lausanne1907-766-010,lausanne1907,766,10,,"— Rochat Fernand, à la Cornaz",1,Rochat,,Fernand,,,Amodiateurs de montagne,,la Cornaz,,,,,,
-lausanne1907-766-011,lausanne1907,766,11,,"— Rochat Elie, feu Henri",1,Rochat,Elie,feu Henri,,,Amodiateurs de montagne,,,,,,,,alliance_from_forename
-lausanne1907-766-012,lausanne1907,766,12,,"— Rochat Alfred, Charles et Jules Samuel, l'Epine",1,Rochat,Alfred,Charles et Jules Samuel,,,Amodiateurs de montagne,,l'Epine,,,,,,alliance_from_forename
+lausanne1907-766-011,lausanne1907,766,11,,"— Rochat Elie, feu Henri",1,Rochat,,"Elie, feu Henri",,,Amodiateurs de montagne,,,,,,,,
+lausanne1907-766-012,lausanne1907,766,12,,"— Rochat Alfred, Charles et Jules Samuel, l'Epine",1,Rochat,,"Alfred, Charles et Jules Samuel",,,Amodiateurs de montagne,,l'Epine,,,,,,
 lausanne1907-766-013,lausanne1907,766,13,,"— Rochat Louis-Charles, Vieux Cabaret",1,Rochat,,Louis-Charles,,,Amodiateurs de montagne,,Vieux Cabaret,,,,,,street_rare
 lausanne1907-766-014,lausanne1907,766,14,,"— Rochat Louis-Etienne, sapeur",1,Rochat,,Louis-Etienne,,,sapeur,,,,,,,,
 lausanne1907-766-015,lausanne1907,766,15,,"— Rochat Samuel, l'Epine.",1,Rochat,,Samuel,,,Amodiateurs de montagne,,l'Epine,,,,,,
@@ -61572,15 +61741,15 @@ lausanne1907-766-130,lausanne1907,766,130,,"— Rochat Louis-Etienne, sapeur.",1
 lausanne1907-766-131,lausanne1907,766,131,,Vins (march. de). — Rochat frères. R.,0,Rochat,,frères,,,Vins (march. de),,,,,,,,
 lausanne1907-766-132,lausanne1907,766,132,,"Voituriers. — Rochat Emile, Cygne — Rochat Charles — Rochat Marius, d'Elie — Rochat Louis, Tri.",0,Rochat,,Emile,,,Voituriers,,Cygne,,,,,,street_rare
 lausanne1907-766-133,lausanne1907,766,133,,— Rochat Charles,1,Rochat,,Charles,,,Voituriers,,,,,,,,
-lausanne1907-766-134,lausanne1907,766,134,,"— Rochat Marius, d'Elie",1,Rochat,Marius,d'Elie,,,Voituriers,,,,,,,,alliance_from_forename
+lausanne1907-766-134,lausanne1907,766,134,,"— Rochat Marius, d'Elie",1,Rochat,,"Marius, d'Elie",,,Voituriers,,,,,,,,
 lausanne1907-766-135,lausanne1907,766,135,,"— Rochat Louis, Tri.",1,Rochat,,Louis,,,Voituriers,,Tri.,,,,,,street_rare
 lausanne1907-766-136,lausanne1907,766,136,HORLOGERIE,Contre-pivots. — Golay frères. R — Lugin-Rochat Léon — Rochat Charles-Louis fils. R — Rochat-Golay Elie. R,0,Golay,,frères,,,Contre-pivots,,,,,,,,hyphen
 lausanne1907-766-137,lausanne1907,766,137,HORLOGERIE,— Lugin-Rochat Léon,1,Lugin,Rochat,Léon,,,Contre-pivots,,,,,,,,
 lausanne1907-766-138,lausanne1907,766,138,HORLOGERIE,— Rochat Charles-Louis fils. R,1,Rochat,,Charles-Louis fils,,,Contre-pivots,,,,,,,,
 lausanne1907-766-139,lausanne1907,766,139,HORLOGERIE,— Rochat-Golay Elie. R,1,Rochat,Golay,Elie,,,Contre-pivots,,,,,,,,
-lausanne1907-767-001,lausanne1907,767,1,,"— Rochat Louis, de Jules-Isaac — Rochat Albin.",1,Rochat,Louis,de Jules-Isaac — Rochat Albin,,,,,,,,,,,alliance_from_forename
+lausanne1907-767-001,lausanne1907,767,1,,"— Rochat Louis, de Jules-Isaac — Rochat Albin.",1,Rochat,,"Louis, de Jules-Isaac — Rochat Albin",,,,,,,,,,,
 lausanne1907-767-002,lausanne1907,767,2,Contre-pivots en verre (fondeurs de).,"Rochat-Hafner Eugène, contre-pivots pour horlogerie et bijouterie.",0,Rochat,Hafner,Eugène,,,contre-pivots pour horlogerie et bijouterie,,,,,,,,hyphen surname_split
-lausanne1907-767-003,lausanne1907,767,3,Contre-pivots en verre (fondeurs de).,"— Rochat Louis, de J.-Isaac.",1,Rochat,Louis,de J.-Isaac,,,,,,,,,,,alliance_from_forename
+lausanne1907-767-003,lausanne1907,767,3,Contre-pivots en verre (fondeurs de).,"— Rochat Louis, de J.-Isaac.",1,Rochat,,"Louis, de J.-Isaac",,,,,,,,,,,
 lausanne1907-767-004,lausanne1907,767,4,Découpages.,— Rochat Gustave — Rochat Albin — Rochat Wilfrid.,1,Rochat,,Gustave — Rochat Albin — Rochat Wilfrid,,,,,,,,,,,
 lausanne1907-767-005,lausanne1907,767,5,Ecuilles et tenons.,— Golay frères. R — Rochat Charles-Louis fils. R. — Rochat-Golay Elie. R.,1,Golay,,frères. R — Rochat Charles-Louis fils. R. — Rochat-Golay Elie. R.,,,,,,,,,,,
 lausanne1907-767-006,lausanne1907,767,6,Fournitures.,— Rochat-Golay Elie. R.,1,Rochat-Golay,Golay,Elie. R.,,,,,,,,,,,
@@ -63959,7 +64128,7 @@ lausanne1907-792-066,lausanne1907,792,66,LULLY,— Pernet Alexandre,1,Pernet,,Al
 lausanne1907-792-067,lausanne1907,792,67,LULLY,— Solliard Constant,1,Solliard,,Constant,,,Propriétaires et fermiers,,,,,,,,
 lausanne1907-792-068,lausanne1907,792,68,LULLY,— Solliard Jules-Rodolphe,1,Solliard,,Jules-Rodolphe,,,Propriétaires et fermiers,,,,,,,,
 lausanne1907-792-069,lausanne1907,792,69,LULLY,— Vez Louis,1,Vez,,Louis,,,Propriétaires et fermiers,,,,,,,,
-lausanne1907-792-070,lausanne1907,792,70,LULLY,"— Vez Louis, fils.",1,Vez,Louis,fils,,,Propriétaires et fermiers,,,,,,,,alliance_from_forename
+lausanne1907-792-070,lausanne1907,792,70,LULLY,"— Vez Louis, fils.",1,Vez,,"Louis, fils",,,Propriétaires et fermiers,,,,,,,,
 lausanne1907-792-071,lausanne1907,792,71,LULLY,Sociétés. — Société du poids public. R — Société de tir.,0,Société du poids public,,,,,Sociétés,,,,,,,,
 lausanne1907-792-072,lausanne1907,792,72,LULLY,— Société de tir.,1,Société de tir,,,,,Sociétés,,,,,,,,
 lausanne1907-792-073,lausanne1907,792,73,LULLY,Tailleur. — Chevallard Henri-Jean.,0,Chevallard,,Henri-Jean,,,Tailleur,,,,,,,,
@@ -67254,7 +67423,7 @@ lausanne1907-826-083,lausanne1907,826,83,BEGNINS,Médecin. — Gaillard Aloïs. 
 lausanne1907-826-084,lausanne1907,826,84,BEGNINS,Menuisiers. — Coindet Louis — Fayet Jules.,0,Coindet,,Louis,,,Menuisiers,,,,,,,,
 lausanne1907-826-085,lausanne1907,826,85,BEGNINS,— Fayet Jules.,1,Fayet,,Jules,,,Menuisiers,,,,,,,,
 lausanne1907-826-086,lausanne1907,826,86,BEGNINS,"Meuniers. — Capt Daniel — Gallay Gustave, Cézille. T.",0,Capt,,Daniel,,,Meuniers,,,,,,,,
-lausanne1907-826-087,lausanne1907,826,87,BEGNINS,"— Gallay Gustave, Cézille. T.",1,Gallay,Gustave,Cézille,,,Meuniers,,,,,,,,alliance_from_forename
+lausanne1907-826-087,lausanne1907,826,87,BEGNINS,"— Gallay Gustave, Cézille. T.",1,Gallay,,"Gustave, Cézille",,,Meuniers,,,,,,,,
 lausanne1907-826-088,lausanne1907,826,88,BEGNINS,Modistes. — Gervais Pauline. R — Giovanna-Stucky Marguerite.,0,Gervais,,Pauline,,,Modistes,,,,,,,,
 lausanne1907-826-089,lausanne1907,826,89,BEGNINS,— Giovanna-Stucky Marguerite.,1,Giovanna-Stucky,Stucky,Marguerite,,,Modistes,,,,,,,,
 lausanne1907-826-090,lausanne1907,826,90,BEGNINS,Officier d'état civil. — Brandt Henri.,0,Brandt,,Henri,,,Officier d'état civil,,,,,,,,
@@ -68401,7 +68570,7 @@ lausanne1907-836-026,lausanne1907,836,26,VICH,Vignerons. — Bachmann Alexis —
 lausanne1907-836-027,lausanne1907,836,27,DISTRICT D'ORBE,"Cercles : Orbe, Baulmes, Romainmôtier, Vallorbe. — Population : 15,248 habitants.",0,,,,,,,,,,,,,,no_surname
 lausanne1907-836-028,lausanne1907,836,28,DISTRICT D'ORBE,"Préfet : Raymond Alphonse, Orbe. T — Substitut : Cavat Jean-Frédéric, Croy.",0,Raymond,,Alphonse,,,Préfet,,Orbe,,,1,,,
 lausanne1907-836-029,lausanne1907,836,29,DISTRICT D'ORBE,"Receveur : Rey Samuel, Orbe. — Voyer : Mercier Louis, Orbe.",0,Rey,,Samuel,,,Receveur,,Orbe,,,,,,
-lausanne1907-836-030,lausanne1907,836,30,DISTRICT D'ORBE,"Tribunal de district : Deriaz Juste, à Baulmes, président. — Lambelet Ulysse, Orbe. — Jaillet Jules-L.-F., Vallorbe, vice-président — Roy Auguste, Brethonnières. — Werly Gustave, à Corcelles. — Auberson Auguste, notaire, Orbe, greffier.",0,Deriaz,,Juste,,,président,,Baulmes,,,,,,street_rare hyphen
+lausanne1907-836-030,lausanne1907,836,30,DISTRICT D'ORBE,"Tribunal de district : Deriaz Juste, à Baulmes, président. — Lambelet Ulysse, Orbe. — Jaillet Jules-L.-F., Vallorbe, vice-président — Roy Auguste, Brethonnières. — Werly Gustave, à Corcelles. — Auberson Auguste, notaire, Orbe, greffier.",0,Deriaz,,Juste,,,président,,Baulmes,,,,,,hyphen
 lausanne1907-836-031,lausanne1907,836,31,VILLE D'ORBE,"2850 habitants. — Altitude 480 m. — Poste, télégraphe, téléphone (chemin de fer à Chavornay) et tramway électrique.",0,,,,,,,,,,,,,,no_surname
 lausanne1907-836-032,lausanne1907,836,32,VILLE D'ORBE,Beau pont sur l'Orbe. Patrie de Pierre Viret. Infirmerie. T. Colonie pénitentiaire. T.,0,,,,,,,,,,,1,,,no_surname
 lausanne1907-836-033,lausanne1907,836,33,VILLE D'ORBE,"Monuments historiques classés : Eglise, clocher, cloches, mobilier ancien. — Fontaine en face de l'Hôtel-de-Ville. — Objets vaudois au Musée archéologique. — Donjon circulaire. — Tour rectangulaire. — Restes de l'enceinte du Château. — A Boscéaz, égout romain, deux mosaïques romaines.",0,,,,,,,,,,,,,,hyphen no_surname
@@ -69816,7 +69985,7 @@ lausanne1907-852-019,lausanne1907,852,19,,"— Urech Rodolphe, pl. du Marché. R
 lausanne1907-852-020,lausanne1907,852,20,,"— Société coopérative de consommation, Jaquet L., gérant. R.",1,Société coopérative de consommation,,Jaquet L.,,,Epicerie,,,,,,,,
 lausanne1907-852-021,lausanne1907,852,21,,Ferblantiers. — Costa & Vesco — Martinelli & Fassi.,0,Costa & Vesco — Martinelli & Fassi,,,,,Ferblantiers,,,,,,,,
 lausanne1907-852-022,lausanne1907,852,22,,Fers et métaux. — Jaquet S. et H. R T,0,Jaquet,,S. et H.,,,Fers et métaux,,,,,1,,,
-lausanne1907-852-023,lausanne1907,852,23,,"— Vallotton Henri, fils. T.",1,Vallotton,Henri,fils,,,Fers et métaux,,,,,1,,,alliance_from_forename
+lausanne1907-852-023,lausanne1907,852,23,,"— Vallotton Henri, fils. T.",1,Vallotton,,"Henri, fils",,,Fers et métaux,,,,,1,,,
 lausanne1907-852-024,lausanne1907,852,24,,"Fourneaux (fabr. de). — Jaquet Louis, fils. R T",0,Jaquet,,"Louis, fils",,,Fourneaux (fabr. de),,,,,1,,,
 lausanne1907-852-025,lausanne1907,852,25,,— Spagnol Isidore,1,Spagnol,,Isidore,,,Fourneaux (fabr. de),,,,,,,,
 lausanne1907-852-026,lausanne1907,852,26,,— Viotti Valentin.,1,Viotti,,Valentin,,,Fourneaux (fabr. de),,,,,,,,
@@ -69892,7 +70061,7 @@ lausanne1907-852-095,lausanne1907,852,95,,"Porcelaine et lampisterie. — Urech 
 lausanne1907-852-096,lausanne1907,852,96,,Produits isolants (fabr. de). — Société suisse de la Clématéïte. R. (Voir la table des annonces).,0,Société suisse de la Clématéïte,,,,,Produits isolants (fabr. de),,,,,,,,
 lausanne1907-852-097,lausanne1907,852,97,,Quincaillerie. — Jaquet S. et H. R T,0,Jaquet,,S. et H.,,,Quincaillerie,,,,,1,,,
 lausanne1907-852-098,lausanne1907,852,98,,"— Urech Rodolphe, pl. du Marché. R",1,Urech,,Rodolphe,,,Quincaillerie,,pl. du Marché,,,,,,
-lausanne1907-852-099,lausanne1907,852,99,,"— Vallotton Henri, fils. R T.",1,Vallotton,Henri,fils,,,Quincaillerie,,,,,1,,,alliance_from_forename
+lausanne1907-852-099,lausanne1907,852,99,,"— Vallotton Henri, fils. R T.",1,Vallotton,,"Henri, fils",,,Quincaillerie,,,,,1,,,
 lausanne1907-852-100,lausanne1907,852,100,,Rasoirs (fabr. de). — Société des Usines métallurgiques de Vallorbe. R T.,0,Société des Usines métallurgiques de Vallorbe,,,,,Rasoirs (fabr. de),,,,,1,,,
 lausanne1907-852-101,lausanne1907,852,101,,Relieur. — Addor & Michaud. R.,0,Addor & Michaud,,,,,Relieur,,,,,,,,
 lausanne1907-853-001,lausanne1907,853,1,,Sages-femmes. — Lerresche Adrienne — Matthey-Rapin Léa.,0,Lerresche,,Adrienne,,,Sages-femmes,,,,,,,,hyphen
@@ -70255,7 +70424,7 @@ lausanne1907-856-074,lausanne1907,856,74,CORCELLES-LE-JORAT,— Chenevard-Rovey,
 lausanne1907-856-075,lausanne1907,856,75,CORCELLES-LE-JORAT,— Porchet Henri,1,Porchet,,Henri,,,Municipaux,,,,,,,,
 lausanne1907-856-076,lausanne1907,856,76,CORCELLES-LE-JORAT,"— Secrétaire municipal, Freymond Jules",1,Freymond,,Jules,,,Secrétaire municipal,,,,,,,,
 lausanne1907-856-077,lausanne1907,856,77,CORCELLES-LE-JORAT,— Huissier Porchet Alexis,1,Porchet,,Alexis,,,Huissier,,,,,,,,
-lausanne1907-856-078,lausanne1907,856,78,CORCELLES-LE-JORAT,"— Boursier, Porchet Edouard, de Louis-Daniel.",1,Porchet,Edouard,de Louis-Daniel.,,,Boursier,,,,,,,,alliance_from_forename
+lausanne1907-856-078,lausanne1907,856,78,CORCELLES-LE-JORAT,"— Boursier, Porchet Edouard, de Louis-Daniel.",1,Porchet,,"Edouard, de Louis-Daniel.",,,Boursier,,,,,,,,
 lausanne1907-856-079,lausanne1907,856,79,CORCELLES-LE-JORAT,"Aubergistes. — Liaudet Oscar, Auberge communale. R T — Carrard Ed. — Diserens Emile — Porchet Louis.",0,Liaudet,,Oscar,,,Aubergistes,,,,,1,,,
 lausanne1907-856-080,lausanne1907,856,80,CORCELLES-LE-JORAT,— Carrard Ed.,1,Carrard,,Ed.,,,Aubergistes,,,,,,,,
 lausanne1907-856-081,lausanne1907,856,81,CORCELLES-LE-JORAT,— Diserens Emile,1,Diserens,,Emile,,,Aubergistes,,,,,,,,
@@ -70300,7 +70469,7 @@ lausanne1907-856-119,lausanne1907,856,119,CORCELLES-LE-JORAT,— Porchet Mélani
 lausanne1907-856-120,lausanne1907,856,120,CORCELLES-LE-JORAT,Maréchal. — Klett Sébastian.,0,Klett,,Sébastien.,,,Maréchal,,,,,,,,
 lausanne1907-856-121,lausanne1907,856,121,CORCELLES-LE-JORAT,Mécanicien. — Chenevard Jules.,0,Chenevard,,Jules.,,,Mécanicien,,,,,,,,
 lausanne1907-856-122,lausanne1907,856,122,CORCELLES-LE-JORAT,"Rentiers. — Carrard Edouard, régent émérite — Porchet Jean, feu Jean-Philippe — Porchet Louise.",0,Carrard,,Edouard,,,Rentiers,,,,,,,,
-lausanne1907-856-123,lausanne1907,856,123,CORCELLES-LE-JORAT,"— Porchet Jean, feu Jean-Philippe",1,Porchet,Jean,feu Jean-Philippe,,,Rentiers,,,,,,,,alliance_from_forename
+lausanne1907-856-123,lausanne1907,856,123,CORCELLES-LE-JORAT,"— Porchet Jean, feu Jean-Philippe",1,Porchet,,"Jean, feu Jean-Philippe",,,Rentiers,,,,,,,,
 lausanne1907-856-124,lausanne1907,856,124,CORCELLES-LE-JORAT,— Porchet Louise.,1,Porchet,,Louise.,,,Rentiers,,,,,,,,
 lausanne1907-857-001,lausanne1907,857,1,,"Scieurs. — Chenevard-Bovey, Société du Moulin agricole. R.",0,Chenevard,Bovey,Société du Moulin agricole,,,Scieurs,,,,,,,,
 lausanne1907-857-002,lausanne1907,857,2,,Sociétés. — Société de fromagerie. R — Société de chant (Chœur d'hommes) — Société de musique (Union instrumentale) — Société de tir Union fédérale. R — Caisse locale d'assurance du bétail Société du Moulin agricole. R.,0,Société de fromagerie,,,,,Sociétés,,,,,,,,
@@ -72161,12 +72330,12 @@ lausanne1907-876-078,lausanne1907,876,78,MISSY,"Autorités communales. — Prés
 lausanne1907-876-079,lausanne1907,876,79,MISSY,"— Secrétaire, Quillet Auguste.",1,Quillet,,Auguste,Secrétaire,,Autorités communales,,,,,,,,
 lausanne1907-876-080,lausanne1907,876,80,MISSY,"Syndic, Thévoz-Quillet Auguste.",0,Thévoz,Quillet,Auguste,Syndic,,,,,,,,,,surname_split
 lausanne1907-876-081,lausanne1907,876,81,MISSY,"Municipaux, Blanc-Bonny Constant — Detrey Louis, fils — Thévoz-Blanc Paul — Morel Alfred — Roulet Samuel — Blanc - Bonny Gustave — Secrétaire, Quillet Charles, fils — Boursier, Thévoz-Péter Constant.",0,Blanc,Bonny,Constant,Municipaux,,,,,,,,,,surname_split
-lausanne1907-876-082,lausanne1907,876,82,MISSY,"— Detrey Louis, fils",1,Detrey,Louis,fils,Municipaux,,,,,,,,,,alliance_from_forename
+lausanne1907-876-082,lausanne1907,876,82,MISSY,"— Detrey Louis, fils",1,Detrey,,"Louis, fils",Municipaux,,,,,,,,,,
 lausanne1907-876-083,lausanne1907,876,83,MISSY,— Thévoz-Blanc Paul,1,Thévoz-Blanc,Blanc,Paul,Municipaux,,,,,,,,,,
 lausanne1907-876-084,lausanne1907,876,84,MISSY,— Morel Alfred,1,Morel,,Alfred,Municipaux,,,,,,,,,,
 lausanne1907-876-085,lausanne1907,876,85,MISSY,— Roulet Samuel,1,Roulet,,Samuel,Municipaux,,,,,,,,,,
 lausanne1907-876-086,lausanne1907,876,86,MISSY,— Blanc - Bonny Gustave,1,Blanc - Bonny,Bonny,Gustave,Municipaux,,,,,,,,,,
-lausanne1907-876-087,lausanne1907,876,87,MISSY,"— Secrétaire, Quillet Charles, fils",1,Quillet,Charles,fils,Secrétaire,,,,,,,,,,alliance_from_forename
+lausanne1907-876-087,lausanne1907,876,87,MISSY,"— Secrétaire, Quillet Charles, fils",1,Quillet,,"Charles, fils",Secrétaire,,,,,,,,,,
 lausanne1907-876-088,lausanne1907,876,88,MISSY,"— Boursier, Thévoz-Péter Constant.",1,Thévoz-Péter,Péter,Constant,Boursier,,,,,,,,,,
 lausanne1907-876-089,lausanne1907,876,89,MISSY,Aubergiste. — Blanc Emma.,0,Blanc,,Emma,,,Aubergiste,,,,,,,,
 lausanne1907-876-090,lausanne1907,876,90,MISSY,Charrons. — Thévoz Eugène — Diacon J.,0,Thévoz,,Eugène,,,Charrons,,,,,,,,
@@ -72206,7 +72375,7 @@ lausanne1907-876-123,lausanne1907,876,123,MISSY,— Morel-Quillet Jules,1,Morel-
 lausanne1907-876-124,lausanne1907,876,124,MISSY,— Morel-Thévoz Fritz,1,Morel-Thévoz,Thévoz,Fritz,,,Propriétaires,,,,,,,,
 lausanne1907-876-125,lausanne1907,876,125,MISSY,— Morel-Vacheron Louis,1,Morel-Vacheron,Vacheron,Louis,,,Propriétaires,,,,,,,,
 lausanne1907-876-126,lausanne1907,876,126,MISSY,— Péter - Morel Henri,1,Péter - Morel,Morel,Henri,,,Propriétaires,,,,,,,,
-lausanne1907-876-127,lausanne1907,876,127,MISSY,"— Quillet Charles, père et fils",1,Quillet,Charles,père et fils,,,Propriétaires,,,,,,,,alliance_from_forename
+lausanne1907-876-127,lausanne1907,876,127,MISSY,"— Quillet Charles, père et fils",1,Quillet,,"Charles, père et fils",,,Propriétaires,,,,,,,,
 lausanne1907-876-128,lausanne1907,876,128,MISSY,— Quillet-Cherbuin Louis,1,Quillet-Cherbuin,Cherbuin,Louis,,,Propriétaires,,,,,,,,
 lausanne1907-876-129,lausanne1907,876,129,MISSY,— Quillet-Roulet Auguste,1,Quillet-Roulet,Roulet,Auguste,,,Propriétaires,,,,,,,,
 lausanne1907-876-130,lausanne1907,876,130,MISSY,— Quillet-Thévoz Paul,1,Quillet-Thévoz,Thévoz,Paul,,,Propriétaires,,,,,,,,
@@ -73462,7 +73631,7 @@ lausanne1907-891-025,lausanne1907,891,25,,Poste. — Bovy Julien.,0,Bovy,,Julien
 lausanne1907-891-026,lausanne1907,891,26,,"Propriétaires. — Ansermet Jules — Badel Abram — Bichet Alphonse — Bichet Jules, de John — Bovy Jules — Burnet Marc-André — Burnet-Bovy François — Burnet-Raymond François — Burnet Auguste — Delamuraz Henri — Dumartheray veuve — Feignoux Samuel — Golay, veuve de Charles — Gudet Louis, juge — Gudet frères — Humbert Lucien — Pilloud Albert — Pilloud Isaline — Raymond Louis — Sergy Ch.",0,Ansermet,,Jules,,,Propriétaires,,,,,,,,
 lausanne1907-891-027,lausanne1907,891,27,,Badel Abram,1,Badel,,Abram,,,Propriétaires,,,,,,,,
 lausanne1907-891-028,lausanne1907,891,28,,Bichet Alphonse,1,Bichet,,Alphonse,,,Propriétaires,,,,,,,,
-lausanne1907-891-029,lausanne1907,891,29,,"Bichet Jules, de John",1,Bichet,Jules,de John,,,Propriétaires,,,,,,,,alliance_from_forename
+lausanne1907-891-029,lausanne1907,891,29,,"Bichet Jules, de John",1,Bichet,,"Jules, de John",,,Propriétaires,,,,,,,,
 lausanne1907-891-030,lausanne1907,891,30,,Bovy Jules,1,Bovy,,Jules,,,Propriétaires,,,,,,,,
 lausanne1907-891-031,lausanne1907,891,31,,Burnet Marc-André,1,Burnet,,Marc-André,,,Propriétaires,,,,,,,,
 lausanne1907-891-032,lausanne1907,891,32,,Burnet-Bovy François,1,Burnet,Bovy,François,,,Propriétaires,,,,,,,,
@@ -73676,7 +73845,7 @@ lausanne1907-892-103,lausanne1907,892,103,Vignerons.,Rosset Louis.,1,Rosset,,Lou
 lausanne1907-892-104,lausanne1907,892,104,MONT-LE-GRAND,683 habitants — Altitude 480 m.,0,,,,,,,,,,,,,,no_surname
 lausanne1907-892-105,lausanne1907,892,105,MONT-LE-GRAND,Tramway électrique pour Rolle.,0,,,,,,,,,,,,,,no_surname
 lausanne1907-892-106,lausanne1907,892,106,Autorités communales.,"Président du Conseil communal, de Meuron Aug. T",0,de Meuron,,Aug.,,,Président du Conseil communal,,,,,1,,,
-lausanne1907-892-107,lausanne1907,892,107,Autorités communales.,"Secrétaire, Gallay David, fils.",1,Gallay,David,fils,,,Secrétaire,,,,,,,,alliance_from_forename
+lausanne1907-892-107,lausanne1907,892,107,Autorités communales.,"Secrétaire, Gallay David, fils.",1,Gallay,,"David, fils",,,Secrétaire,,,,,,,,
 lausanne1907-892-108,lausanne1907,892,108,Autorités communales.,"Syndic, Ansermet J.",0,Ansermet,,J.,,,Syndic,,,,,,,,
 lausanne1907-892-109,lausanne1907,892,109,Autorités communales.,"Municipaux, Rosset Constant",0,Rosset,,Constant,,,Municipaux,,,,,,,,
 lausanne1907-892-110,lausanne1907,892,110,Autorités communales.,Monnard F.,1,Monnard,,F.,,,Municipaux,,,,,,,,
@@ -74765,7 +74934,7 @@ lausanne1907-907-053,lausanne1907,907,53,Menuisiers.,"Cornaz Vve, ruelle des Anc
 lausanne1907-907-054,lausanne1907,907,54,Menuisiers.,"Forney E., avenue de Plan 26. R.",0,Forney,,E.,,,Menuisiers,,avenue de Plan,26,,,,,
 lausanne1907-907-055,lausanne1907,907,55,Menuisiers.,"Fanel Georges, quai de la Veveyse 6-8. T.",0,Fanel,,Georges,,,Menuisiers,,quai de la Veveyse,6-8,,,,,
 lausanne1907-907-056,lausanne1907,907,56,Menuisiers.,"Guignard François, rue d'Italie 39.",0,Guignard,,François,,,Menuisiers,,rue d'Italie,39,,,,,
-lausanne1907-907-057,lausanne1907,907,57,Menuisiers.,"Guyot Jules, Tour-de-Peilz. R.",0,Guyot,,Jules,,,Menuisiers,,Tour-de-Peilz,,,,,,street_rare hyphen
+lausanne1907-907-057,lausanne1907,907,57,Menuisiers.,"Guyot Jules, Tour-de-Peilz. R.",0,Guyot,,Jules,,,Menuisiers,,Tour-de-Peilz,,,,,,hyphen
 lausanne1907-907-058,lausanne1907,907,58,Menuisiers.,"Hahn Georges, ruelle Anciens-Fossés 10.",0,Hahn,,Georges,,,Menuisiers,,ruelle Anciens-Fossés,10,,,,,street_rare
 lausanne1907-907-059,lausanne1907,907,59,Menuisiers.,"Jutzi Théophile, rue du Léman 6.",0,Jutzi,,Théophile,,,Menuisiers,,rue du Léman,6,,,,,
 lausanne1907-907-060,lausanne1907,907,60,Menuisiers.,"Kopp Joseph, rue du Simplon 30. R.",0,Kopp,,Joseph,,,Menuisiers,,rue du Simplon,30,,,,,
@@ -79131,7 +79300,7 @@ lausanne1907-954-095,lausanne1907,954,95,DONNELOYE,— Duc Armand,1,Duc,,Armand,
 lausanne1907-954-096,lausanne1907,954,96,DONNELOYE,"— Secrétaire municipal, Bezençon Justin",1,Bezençon,,Justin,,,Secrétaire municipal,,,,,,,,
 lausanne1907-954-097,lausanne1907,954,97,DONNELOYE,"— Boursier, Peytrignet Pierre-Eugène.",1,Peytrignet,,Pierre-Eugène,,,Boursier,,,,,,,,
 lausanne1907-954-098,lausanne1907,954,98,DONNELOYE,"Aubergistes. — Duc Armand, hôtel du Commerce — Vuagniaux Antoine, dit Henri, hôtel des Champs.",0,Duc,,Armand,,,Aubergistes,,hôtel du Commerce,,,,,,street_rare
-lausanne1907-954-099,lausanne1907,954,99,DONNELOYE,"— Vuagniaux Antoine, dit Henri, hôtel des Champs.",1,Vuagniaux,Antoine,dit Henri,,,Aubergistes,,hôtel des Champs,,,,,,street_rare alliance_from_forename
+lausanne1907-954-099,lausanne1907,954,99,DONNELOYE,"— Vuagniaux Antoine, dit Henri, hôtel des Champs.",1,Vuagniaux,,"Antoine, dit Henri",,,Aubergistes,,hôtel des Champs,,,,,,street_rare
 lausanne1907-954-100,lausanne1907,954,100,DONNELOYE,Boulanger. — Romanens Eugène — Stucky Paul.,0,Romanens,,Eugène,,,Boulanger,,,,,,,,
 lausanne1907-954-101,lausanne1907,954,101,DONNELOYE,— Stucky Paul.,1,Stucky,,Paul,,,Boulanger,,,,,,,,
 lausanne1907-954-102,lausanne1907,954,102,DONNELOYE,Charcuteries. — Billaud-Barraud veuve — Magnenat Edouard. R.,0,Billaud,Barraud,,,veuve,Charcuteries,,,,,,,,
@@ -79216,7 +79385,7 @@ lausanne1907-955-054,lausanne1907,955,54,ÉPENDES,"Syndic, Henry Aloïs.",0,Henr
 lausanne1907-955-055,lausanne1907,955,55,ÉPENDES,"Municipaux, Massonnet Edouard — du Plessis Henri. T — Massonnet Julien — Perrin Henri, fils — Secrétaire, Massonnet Jean — Boursier, du Plessis Henri.",0,Massonnet,,Edouard,,,Municipaux,,,,,,,,
 lausanne1907-955-056,lausanne1907,955,56,ÉPENDES,— du Plessis Henri. T,1,du Plessis,,Henri,,,Municipaux,,,,,1,,,
 lausanne1907-955-057,lausanne1907,955,57,ÉPENDES,— Massonnet Julien,1,Massonnet,,Julien,,,Municipaux,,,,,,,,
-lausanne1907-955-058,lausanne1907,955,58,ÉPENDES,"— Perrin Henri, fils",1,Perrin,Henri,fils,,,Municipaux,,,,,,,,alliance_from_forename
+lausanne1907-955-058,lausanne1907,955,58,ÉPENDES,"— Perrin Henri, fils",1,Perrin,,"Henri, fils",,,Municipaux,,,,,,,,
 lausanne1907-955-059,lausanne1907,955,59,ÉPENDES,"— Secrétaire, Massonnet Jean",1,Massonnet,,Jean,,,Secrétaire,,,,,,,,
 lausanne1907-955-060,lausanne1907,955,60,ÉPENDES,"— Boursier, du Plessis Henri.",1,du Plessis,,Henri,,,Boursier,,,,,,,,
 lausanne1907-955-061,lausanne1907,955,61,ÉPENDES,"Apiculteurs. — Perrin Henri, fils — Massonnet Jean.",0,Perrin,,"Henri, fils",,,Apiculteurs,,,,,,,,
@@ -79791,7 +79960,7 @@ lausanne1907-960-030,lausanne1907,960,30,VALEYRES-sous-MONTAGNY,Inspecteur du b�
 lausanne1907-960-031,lausanne1907,960,31,VALEYRES-sous-MONTAGNY,Instituteur. — Saugy J.,0,Saugy,,J.,,,Instituteur,,,,,,,,
 lausanne1907-960-032,lausanne1907,960,32,VALEYRES-sous-MONTAGNY,Maréchaux. — Margot David. — Margot Louis.,0,Margot,,"David, Louis",,,Maréchaux,,,,,,,,
 lausanne1907-960-033,lausanne1907,960,33,VALEYRES-sous-MONTAGNY,Propriétaires et fermiers. — Burdet François — Christin Alfred — Cottier Denis,0,"Burdet, Christin, Cottier",,"François, Alfred, Denis",,,Propriétaires et fermiers,,,,,,,,
-lausanne1907-960-034,lausanne1907,960,34,VALEYRES-sous-MONTAGNY,— Margot Jules — Martin Constant — Martin Jean — Pilliard Louis — Pilliard Jules — Recordon Louis — Séchaud Auguste.,1,"Margot, Martin, Pilliard, Recordon, Séchaud",Jules,"Constant, Jean, Louis, Jules, Louis, Auguste",,,Propriétaires et fermiers,,,,,,,,alliance_from_forename
+lausanne1907-960-034,lausanne1907,960,34,VALEYRES-sous-MONTAGNY,— Margot Jules — Martin Constant — Martin Jean — Pilliard Louis — Pilliard Jules — Recordon Louis — Séchaud Auguste.,1,"Margot, Martin, Pilliard, Recordon, Séchaud",,"Jules, Constant, Jean, Louis, Jules, Louis, Auguste",,,Propriétaires et fermiers,,,,,,,,
 lausanne1907-960-035,lausanne1907,960,35,VALEYRES-sous-MONTAGNY,Scieur. — Jaggi Louis.,0,Jaggi,,Louis,,,Scieur,,,,,,,,
 lausanne1907-960-036,lausanne1907,960,36,VALEYRES-sous-MONTAGNY,Sellier. — Groux Emile.,0,Groux,,Emile,,,Sellier,,,,,,,,
 lausanne1907-960-037,lausanne1907,960,37,VALEYRES-sous-MONTAGNY,Société. — Société de laiterie. R.,0,,,,,,Société de laiterie,,,,,,,,no_surname
@@ -79828,7 +79997,7 @@ lausanne1907-961-003,lausanne1907,961,3,VILLARS-sous-CHAMPVENT,"Gare à Essert, 
 lausanne1907-961-004,lausanne1907,961,4,Autorités communales.,"Président du Conseil général, Bovet Louis.",0,Bovet,,Louis,,,Président du Conseil général,,,,,,,,
 lausanne1907-961-005,lausanne1907,961,5,Autorités communales.,"Syndic, Genaine David.",0,Genaine,,David,,,Syndic,,,,,,,,
 lausanne1907-961-006,lausanne1907,961,6,Autorités communales.,"Municipaux, Wild Jean — Mercier Samuel, fils — Secrétaire, Urfer Théophile — Boursier, Meyerat L.",0,Wild,,Jean,,,Municipaux,,,,,,,,
-lausanne1907-961-007,lausanne1907,961,7,Autorités communales.,"Mercier Samuel, fils",1,Mercier,Samuel,fils,,,Municipaux,,,,,,,,alliance_from_forename
+lausanne1907-961-007,lausanne1907,961,7,Autorités communales.,"Mercier Samuel, fils",1,Mercier,,"Samuel, fils",,,Municipaux,,,,,,,,
 lausanne1907-961-008,lausanne1907,961,8,Autorités communales.,"Secrétaire, Urfer Théophile",1,Urfer,,Théophile,,,Secrétaire,,,,,,,,
 lausanne1907-961-009,lausanne1907,961,9,Autorités communales.,"Boursier, Meyerat L.",1,Meyerat,,L.,,,Boursier,,,,,,,,
 lausanne1907-961-010,lausanne1907,961,10,Cordonniers.,Chanson Emile — Wenker Alfred.,0,Chanson,,Emile,,,Cordonnier,,,,,,,,
@@ -79855,7 +80024,7 @@ lausanne1907-961-030,lausanne1907,961,30,Autorités communales.,Jaccard Justin,1
 lausanne1907-961-031,lausanne1907,961,31,Autorités communales.,Marchand Maurice,1,Marchand,,Maurice,,,Municipaux,,,,,,,,
 lausanne1907-961-032,lausanne1907,961,32,Autorités communales.,Marchand Edouard,1,Marchand,,Edouard,,,Municipaux,,,,,,,,
 lausanne1907-961-033,lausanne1907,961,33,Autorités communales.,"Secrétaire, Zbinden John",1,Zbinden,,John,,,Secrétaire,,,,,,,,
-lausanne1907-961-034,lausanne1907,961,34,Autorités communales.,"Boursier, Gaillard Eugène, fils.",1,Gaillard,Eugène,fils,,,Boursier,,,,,,,,alliance_from_forename
+lausanne1907-961-034,lausanne1907,961,34,Autorités communales.,"Boursier, Gaillard Eugène, fils.",1,Gaillard,,"Eugène, fils",,,Boursier,,,,,,,,
 lausanne1907-961-035,lausanne1907,961,35,Aubergistes.,"Jaccard Justin, Croix fédérale — Viguier Henri, Fleur de Lys — Marchand Maurice, l'Etoile. R.",0,Jaccard,,Justin,,,Aubergiste,,Croix fédérale,,,,,,
 lausanne1907-961-036,lausanne1907,961,36,Aubergistes.,"Viguier Henri, Fleur de Lys",1,Viguier,,Henri,,,Aubergiste,,Fleur de Lys,,,,,,street_rare
 lausanne1907-961-037,lausanne1907,961,37,Aubergistes.,"Marchand Maurice, l'Etoile. R.",1,Marchand,,Maurice,,,Aubergiste,,l'Etoile,,,,,,
@@ -80511,7 +80680,7 @@ lausanne1907-975-027,lausanne1907,975,27,BEX (5 députés).,"Morex, Jean-Pierre,
 lausanne1907-975-028,lausanne1907,975,28,BOTTENS (3 députés).,"Carrard, Alfred, à Lausanne.",0,Carrard,,Alfred,,,,,Lausanne,,,,,,
 lausanne1907-975-029,lausanne1907,975,29,BOTTENS (3 députés).,"Aguet, Louis, à Echallens.",0,Aguet,,Louis,,,,,Echallens,,,,,,
 lausanne1907-975-030,lausanne1907,975,30,BOTTENS (3 députés).,"Martin, Adrien, à Froideville.",0,Martin,,Adrien,,,,,Froideville,,,,,,street_rare
-lausanne1907-975-031,lausanne1907,975,31,CHAMPVENT (2 députés).,"Perrin, Emile, à Champvent.",0,Perrin,,Emile,,,,,Champvent,,,,,,street_rare
+lausanne1907-975-031,lausanne1907,975,31,CHAMPVENT (2 députés).,"Perrin, Emile, à Champvent.",0,Perrin,,Emile,,,,,Champvent,,,,,,
 lausanne1907-975-032,lausanne1907,975,32,CHAMPVENT (2 députés).,"Décoppet, Eugène, à Suscévaz.",0,Décoppet,,Eugène,,,,,Suscévaz,,,,,,street_rare
 lausanne1907-975-033,lausanne1907,975,33,CHATEAU-D'ŒX (3 députés).,"Favrod-Coune, Ch., à Château-d'Œx.",0,Favrod,Coune,Ch.,,,,,Château-d'Œx,,,,,,hyphen surname_split
 lausanne1907-975-034,lausanne1907,975,34,CHATEAU-D'ŒX (3 députés).,"Henchoz-Morier, David, à Château-d'Œx.",0,Henchoz,Morier,David,,,,,Château-d'Œx,,,,,,hyphen surname_split
@@ -80553,7 +80722,7 @@ lausanne1907-975-069,lausanne1907,975,69,GILLY (3 députés).,"Dutoit, John, à 
 lausanne1907-975-070,lausanne1907,975,70,GIMEL (3 députés).,"Wecter, Sigismond, à Saubraz.",0,Wecter,,Sigismond,,,,,Saubraz,,,,,,street_rare
 lausanne1907-975-071,lausanne1907,975,71,GIMEL (3 députés).,"Uldry, Edouard, à Gimel.",0,Uldry,,Edouard,,,,,Gimel,,,,,,
 lausanne1907-975-072,lausanne1907,975,72,GIMEL (3 députés).,"Reymond, Marc, à Gimel.",0,Reymond,,Marc,,,,,Gimel,,,,,,
-lausanne1907-975-073,lausanne1907,975,73,GINGINS (3 députés).,"Sahy, Louis, à Gingins.",0,Sahy,,Louis,,,,,Gingins,,,,,,street_rare
+lausanne1907-975-073,lausanne1907,975,73,GINGINS (3 députés).,"Sahy, Louis, à Gingins.",0,Sahy,,Louis,,,,,Gingins,,,,,,
 lausanne1907-975-074,lausanne1907,975,74,GINGINS (3 députés).,"Berlie, Louis-Ch., à La Rippe.",0,Berlie,,Louis-Ch.,,,,,La Rippe,,,,,,
 lausanne1907-975-075,lausanne1907,975,75,GINGINS (3 députés).,"Olivier, Juste, à Eysins.",0,Olivier,,Juste,,,,,Eysins,,,,,,street_rare
 lausanne1907-976-001,lausanne1907,976,1,GRANDCOUR (2 députés).,"Oulevey, Jules, à Grandcour.",0,Oulevey,,Jules,,,,,,,,,,,
@@ -81710,6 +81879,26 @@ lausanne1907-997-018,lausanne1907,997,18,Admission à l'Asile des aliénés de C
 lausanne1907-997-019,lausanne1907,997,19,Admission à l'Asile des aliénés de Cery.,a) Une déclaration signée par un médecin ;,0,,,,,,,,,,,,,,no_surname
 lausanne1907-997-020,lausanne1907,997,20,Admission à l'Asile des aliénés de Cery.,"b) Un acte de naissance ou, s'il s'agit d'une femme mariée ou veuve, un acte de mariage.",0,,,,,,,,,,,,,,no_surname
 lausanne1907-997-021,lausanne1907,997,21,,"AEG Société Générale d'Electricité Bâle. Bureau de LAUSANNE Esc. Grand-Pont, 5. Moteurs électriques. Installation de lumière.",0,AEG,,,,,Société Générale d'Electricité Bâle,,Esc. Grand-Pont,5,,,,,
+lausanne1907-998-001,lausanne1907,998,1,Directeur.,"Delessert, Camille.",0,Delessert,,Camille,,,Directeur,,,,,,,,
+lausanne1907-998-002,lausanne1907,998,2,Adjoint.,"Bideau, Louis.",0,Bideau,,Louis,,,Adjoint,,,,,,,,
+lausanne1907-998-003,lausanne1907,998,3,Caissier.,"Péclard, Elie.",0,Péclard,,Elie,,,Caissier,,,,,,,,
+lausanne1907-998-004,lausanne1907,998,4,Contrôleur.,"Cachemaille, Louis.",0,Cachemaille,,Louis,,,Contrôleur,,,,,,,,
+lausanne1907-998-005,lausanne1907,998,5,Chefs de bureaux.,"Bommeli, Jean, à la Chancellerie de la Direction.",0,Bommeli,,Jean,,,Chef de bureau,,,,,,,,
+lausanne1907-998-006,lausanne1907,998,6,Chefs de bureaux.,"Chappuis, Alfred, pour le bureau de consignation des lettres. Poste restante et voyageurs.",0,Chappuis,,Alfred,,,Chef de bureau,,,,,,,,
+lausanne1907-998-007,lausanne1907,998,7,Chefs de bureaux.,"Fäs, Gottfried, pour le bureau d'expédition des lettres.",0,Fäs,,Gottfried,,,Chef de bureau,,,,,,,,
+lausanne1907-998-008,lausanne1907,998,8,Chefs de bureaux.,"Kaiser, Joseph, pour le bureau de consignation et expedition des messageries et des remboursements.",0,Kaiser,,Joseph,,,Chef de bureau,,,,,,,,
+lausanne1907-998-009,lausanne1907,998,9,Chefs de bureaux.,"Chenaux, Emile, pour le bureau d'arrivée et distribution des messageries.",0,Chenaux,,Emile,,,Chef de bureau,,,,,,,,
+lausanne1907-998-010,lausanne1907,998,10,Chefs de bureaux.,"Couchepein, Joseph, pour le bureau du transit (gare J.-S.).",0,Couchepein,,Joseph,,,Chef de bureau,,,,,,,,
+lausanne1907-998-011,lausanne1907,998,11,Chefs de bureaux.,"Campiche, Gustave, pour le bureau des ambulants.",0,Campiche,,Gustave,,,Chef de bureau,,,,,,,,
+lausanne1907-998-012,lausanne1907,998,12,Chefs de bureaux.,"Joris, Joseph, pour le bureau des mandats, gazettes et distribution des remboursements.",0,Joris,,Joseph,,,Chef de bureau,,,,,,,,
+lausanne1907-998-013,lausanne1907,998,13,Chefs de bureaux.,"Bovey, Louis, pour le Contrôle.",0,Bovey,,Louis,,,Chef de bureau,,,,,,,,
+lausanne1907-998-014,lausanne1907,998,14,Chefs de bureaux.,"Neyroud, Julien, pour le bureau de distribution des lettres (casiers et facteurs).",0,Neyroud,,Julien,,,Chef de bureau,,,,,,,,
+lausanne1907-998-015,lausanne1907,998,15,Chefs de service.,"Rochat, Jules, pour l'Economat.",0,Rochat,,Jules,,,Chef de service,,,,,,,,
+lausanne1907-998-016,lausanne1907,998,16,Chefs de service.,"Guignard, Henri, pour le bureau du train.",0,Guignard,,Henri,,,Chef de service,,,,,,,,
+lausanne1907-998-017,lausanne1907,998,17,Chefs de service.,"Calame, Alfred, Chancellerie de la Direction.",0,Calame,,Alfred,,,Chef de service,,,,,,,,
+lausanne1907-998-018,lausanne1907,998,18,Chefs de service.,"Guignard, Ch., Chancellerie de la Direct.",0,Guignard,,Ch.,,,,,,,,,,,
+lausanne1907-998-019,lausanne1907,998,19,Chefs de service.,"Rochat, Ch., » »",0,Rochat,,Ch.,,,,,,,,,,,
+lausanne1907-998-020,lausanne1907,998,20,Chefs de service.,"Oulevay, Louis, pr le service des chèques",0,Oulevay,,Louis,,,,,,,,,,,
 lausanne1907-999-001,lausanne1907,999,1,2. Cartes postales.,Simples 5 centimes.,0,,,,,,,,,,,,,,no_surname
 lausanne1907-999-002,lausanne1907,999,2,2. Cartes postales.,Doubles (avec réponse payée) 10 »,0,,,,,,,,,,,,,,no_surname
 lausanne1907-999-003,lausanne1907,999,3,2. Cartes postales.,Les cartes postales privées (en tant qu'elles correspondent à celles de l'Administration des postes en ce qui concerne le format et la consistance du papier) sont admises à la même taxe.,0,,,,,,,,,,,,,,no_surname
