@@ -1,0 +1,193 @@
+"""92_karte.py — Karte der Einträge nach Strasse (GitHub Pages).
+
+    python scripts/92_karte.py --out web/karte.html
+
+Liest data/csv/04_entries.csv, 04_berufe.csv und die Punkte aus web/geo/ (scripts/10_geo.py) und schreibt
+eine Seite mit Leaflet: Kreise je Gemeinde 1914 (auch die Waadtländer Gemeinden 1907) und je Strasse in Lausanne, Fläche nach Zahl der Einträge, wählbar
+nach Band, Verzeichnis und «nur mit Telefon». Ein Klick führt zu den Einträgen auf der Hauptseite.
+
+Strassenpunkte: OpenStreetMap (heutige Strassenmitte). Oberfläche französisch. Strassen, die es unter
+diesem Namen nicht mehr gibt, fehlen auf der Karte und werden gezählt.
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import importlib
+import json
+import sys
+from collections import Counter, defaultdict
+from datetime import date
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+norm_street = importlib.import_module("10_geo").norm_street
+
+CSV_DIR = Path("data/csv")
+GEO = Path("web/geo")
+TELEFON = Path("web/telefon.csv")
+REPO_URL = "https://github.com/thodel/adressbuecher-lausanne"
+
+
+def counts():
+    """(Gemeinde) bzw. (Gemeinde, Strasse) → Zähler je «<Band><e|b>[t]» (t = mit Telefon)."""
+    muni, street = defaultdict(Counter), defaultdict(Counter)
+    variants = defaultdict(Counter)
+    linked = set()
+    if TELEFON.exists():
+        linked = {r["entry_id"] for r in csv.DictReader(TELEFON.open(encoding="utf-8"))}
+    for f, tab in (("04_entries.csv", "e"), ("04_berufe.csv", "b"), ("04_gemeinden.csv", "g")):
+        for r in csv.DictReader((CSV_DIR / f).open(encoding="utf-8")):
+            if not r["municipality"]:
+                continue
+            keys = [r["volume"] + tab] + ([r["volume"] + tab + "t"] if r["phone_flag"] == "1" else [])
+            for k in keys:
+                muni[r["municipality"]][k] += 1
+            if r["street_raw"] and tab != "g":  # Strassen nur für Lausanne verortet
+                sk = (r["municipality"], norm_street(r["street_raw"]))
+                for k in keys:
+                    street[sk][k] += 1
+                variants[sk][r["street_raw"]] += 1
+    return muni, street, variants, len(linked)
+
+
+def load_points(name: str, key) -> dict:
+    p = GEO / name
+    if not p.exists():
+        return {}
+    return {key(r): (float(r["lat"]), float(r["lon"])) for r in csv.DictReader(p.open(encoding="utf-8")) if r["lat"]}
+
+
+TEMPLATE = r"""<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Carte Lausanne 1896–1907</title>
+<meta name="description" content="Carte des entrées de l'Indicateur vaudois 1896 et 1907 (Lausanne) par rue.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Layout: Karte füllt den Rest unter einem schmalen Kopf mit Steuerung. */
+:root { --bg: #f6f5f1; --paper: #ffffff; --fg: #1d2129; --muted: #5c6370; --line: #d9d7cf; --accent: #7a2e2e;
+  --street: #7a2e2e; --muni: #2d5f7a; --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #15171b; --paper: #1d2026; --fg: #e8e6df;
+  --muted: #a39f94; --line: #353942; --accent: #d08a84; --street: #e0928b; --muni: #7fb6d6; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #15171b; --paper: #1d2026; --fg: #e8e6df; --muted: #a39f94; --line: #353942;
+  --accent: #d08a84; --street: #e0928b; --muni: #7fb6d6; color-scheme: dark }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.4;
+  display: flex; flex-direction: column; box-sizing: border-box;
+  padding: 16px max(16px, env(safe-area-inset-right, 0px)) 16px max(16px, env(safe-area-inset-left, 0px)); gap: 10px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; }
+.nav { font-size: 0.9rem; color: var(--muted); }
+.nav a, .sub a, .leaflet-popup-content a { color: var(--accent); }
+.nav a { font-weight: 600; text-decoration: none; }
+h1 { font-size: 1.3rem; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); font-size: 0.88rem; margin: 0; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 0.92rem; }
+select { font: inherit; padding: 5px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--fg); }
+select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.key { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); }
+.dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; opacity: .8; }
+#map { flex: 1 1 auto; min-height: 420px; border: 1px solid var(--line); border-radius: 8px; }
+.leaflet-container { font-family: var(--font-body); }
+.leaflet-popup-content { font-size: 14px; }
+.leaflet-popup-content b { font-weight: 700; }
+@media (max-width: 600px) { #map { min-height: 65vh; } }
+</style>
+<header>
+  <nav class="nav"><a href="./">Lausanne : entrées</a> · <a href="karte.html">Carte</a> · <a href="https://thodel.github.io/vernetzte-schweiz/">Vernetzte Schweiz</a> · <a href="__REPO__">Dépôt</a></nav>
+  <h1>Carte : Indicateur vaudois 1896 et 1907, Lausanne</h1>
+  <p class="sub">État au __DATE__ · surface du cercle = nombre d'entrées. Communes de 1914 (bleu) et rues de Lausanne (rouge, position OpenStreetMap, milieu actuel de la rue). __UNPLACED__</p>
+</header>
+<div class="toolbar">
+  <select id="vol" aria-label="Volume"><option value="">1896 et 1907</option><option value="1896">1896</option><option value="1907">1907</option></select>
+  <select id="tab" aria-label="Répertoire"><option value="">tous les répertoires</option><option value="e">habitants</option><option value="b">registre professionnel</option><option value="g">communes vaudoises (1907)</option></select>
+  <label><input type="checkbox" id="tel"> seulement avec téléphone ☏</label>
+  <label class="key"><input type="checkbox" id="showMuni" checked><span class="dot" style="background:var(--muni)"></span> communes</label>
+  <label class="key"><input type="checkbox" id="showStreet" checked><span class="dot" style="background:var(--street)"></span> rues de Lausanne</label>
+  <span class="sub" id="sum" aria-live="polite"></span>
+</div>
+<div id="map" role="region" aria-label="Carte"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const MUNI = __MUNI__;      // [Name, lat, lon, {Zähler}]
+const STREETS = __STREETS__; // [Gemeinde, Strasse, lat, lon, {Zähler}, [Schreibweisen]]
+const $ = id => document.getElementById(id);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+const map = L.map('map', { scrollWheelZoom: true }).setView([46.56, 6.65], 10);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+const muniLayer = L.layerGroup().addTo(map), streetLayer = L.layerGroup().addTo(map);
+function n(c) {
+  const vols = $('vol').value ? [$('vol').value] : ['1896', '1907'], tabs = $('tab').value ? [$('tab').value] : ['e', 'b', 'g'], t = $('tel').checked ? 't' : '';
+  let s = 0; for (const v of vols) for (const k of tabs) s += c[v + k + t] || 0; return s;
+}
+function link(params) {
+  const p = new URLSearchParams({ tab: $('tab').value === 'b' ? 'berufe' : $('tab').value === 'g' || (params.gem && params.gem !== 'Lausanne') ? 'gemeinden' : 'einwohner', ...params });
+  if (p.get('gem') === 'Lausanne') p.delete('gem');
+  if ($('vol').value) p.set('vol', $('vol').value);
+  if ($('tel').checked) p.set('tel', '1');
+  return 'index.html?' + p.toString();
+}
+function draw() {
+  muniLayer.clearLayers(); streetLayer.clearLayers();
+  const mc = css('--muni'), sc = css('--street');
+  let tm = 0, ts = 0;
+  const maxM = Math.max(1, ...MUNI.map(m => n(m[3]))), maxS = Math.max(1, ...STREETS.map(x => n(x[4])));  // Fläche relativ zum grössten Kreis
+  if ($('showMuni').checked) for (const [name, lat, lon, c] of MUNI) {
+    const k = n(c); tm += k; if (!k) continue;
+    L.circleMarker([lat, lon], { radius: 4 + 36 * Math.sqrt(k / maxM), color: mc, weight: 1.5, fillColor: mc, fillOpacity: 0.25 })
+      .bindPopup(`<b>${esc(name)}</b><br>${k.toLocaleString('fr-CH')} entrées<br><a href="${link({ gem: name })}">voir les entrées</a>`)
+      .bindTooltip(`${name}: ${k}`).addTo(muniLayer);
+  }
+  if ($('showStreet').checked) for (const [m, st, lat, lon, c, vars] of STREETS) {
+    const k = n(c); ts += k; if (!k) continue;
+    L.circleMarker([lat, lon], { radius: 2.5 + 22 * Math.sqrt(k / maxS), color: sc, weight: 1, fillColor: sc, fillOpacity: 0.5 })
+      .bindPopup(`<b>${esc(st)}</b><br>${k.toLocaleString('fr-CH')} entrées<br><small>imprimé : ${vars.map(esc).join(', ')}</small><br><a href="${link({ sk: st })}">voir les entrées</a>`)
+      .bindTooltip(`${st}: ${k}`).addTo(streetLayer);
+  }
+  $('sum').textContent = `${tm.toLocaleString('fr-CH')} entrées par commune · ${ts.toLocaleString('fr-CH')} dans des rues localisées de Lausanne`;
+}
+for (const id of ['vol', 'tab', 'tel', 'showMuni', 'showStreet']) $(id).addEventListener('change', draw);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+draw();
+</script>
+</html>
+"""
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--out", type=Path, required=True)
+    args = ap.parse_args()
+    muni, street, variants, _ = counts()
+    mpts = load_points("municipalities.csv", lambda r: r["municipality"])
+    spts = load_points("streets.csv", lambda r: (r["municipality"], r["street_norm"]))
+    manual = GEO / "streets_manual.csv"
+    if manual.exists():
+        spts.update({(r["municipality"], r["street_norm"]): (float(r["lat"]), float(r["lon"]))
+                     for r in csv.DictReader(manual.open(encoding="utf-8")) if r["lat"]})
+    M = [[m, *mpts[m], dict(c)] for m, c in sorted(muni.items()) if m in mpts]
+    S, lost_streets, lost_entries = [], 0, 0
+    for (m, st), c in sorted(street.items()):
+        if (m, st) in spts:
+            S.append([m, st, *spts[(m, st)], dict(c), [v for v, _ in variants[(m, st)].most_common(4)]])
+        else:
+            lost_streets += 1
+            lost_entries += sum(v for k, v in c.items() if not k.endswith("t"))
+    total = sum(sum(v for k, v in c.items() if not k.endswith("t")) for c in street.values())
+    fmt = lambda x: f"{x:,}".replace(",", "\u202f")
+    unplaced = (f"{len(S)} des {len(street)} noms de rue localisés ; {fmt(lost_entries)} des {fmt(total)} entrées avec rue "
+                f"sont dans des rues sans position (nom changé, rare ou erreur de lecture).")
+    html = (TEMPLATE.replace("__MUNI__", json.dumps(M, ensure_ascii=False, separators=(",", ":")))
+            .replace("__STREETS__", json.dumps(S, ensure_ascii=False, separators=(",", ":")))
+            .replace("__UNPLACED__", unplaced).replace("__REPO__", REPO_URL)
+            .replace("__DATE__", date.today().strftime("%d.%m.%Y")))
+    args.out.parent.mkdir(parents=True, exist_ok=True)
+    args.out.write_text(html, encoding="utf-8")
+    print(f"{unplaced} → {args.out}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,2 @@
+web/normdaten.csv aus thodel/vernetzte-schweiz @ 0bac003239896f35ad733204a76848abe1c75e50
+(data/norm/hls_coverage.csv.gz, data/ref/wikidata_persons.csv.gz, data/ref/municipalities_1914.csv) mit scripts/82_normdaten.py; ungeprüfte Kandidaten

@@ -14,6 +14,25 @@ Dazu aus dem Band 1907 **die übrigen Waadtländer Gemeinden** (S. 670–962): 2
 Seite = Bildnummer im IIIF-Manifest von Scriptorium (BCU Lausanne): 1896 Objekt 170201, 1907 Objekt 170211
 (`data/csv/00_volumes.csv`).
 
+## Seite
+
+Durchsuchbare Seite auf Französisch: https://thodel.github.io/adressbuecher-lausanne/ (Karte: `karte.html`).
+Filter nach Band, Gemeinde, Strasse, Konfidenz, Hinweis und Telefon; je Zeile Link auf die Seite bei Scriptorium
+(`zoom/<Objekt>/view?page=<Bild>`), Flagging wie bei Aarau, Basel, Baden und Bern.
+
+- `python scripts/90_seite.py --out _site` und `python scripts/92_karte.py --out _site/karte.html` bauen sie lokal;
+  GitHub Actions baut und veröffentlicht sie bei jedem Push.
+- Verknüpfungen in `web/`, erzeugt mit den Skripten und eingecheckt, damit der Bau ohne Netz und ohne
+  vernetzte-schweiz läuft:
+  - `telefon.csv` (`scripts/80_telefon.py --vs …`): Einträge mit ☎ → PTT-Telefonbuch (gedruckte Nummer + Name,
+    sonst Verknüpfung von Vernetzte Schweiz); Quelle und Commit in `telefon_source.txt`.
+  - `baende.csv` (`scripts/81_baende.py`): dieselbe Person im anderen Band.
+  - `normdaten.csv` (`scripts/82_normdaten.py --vs …`): ungeprüfte Kandidaten aus HLS/DHS und Wikidata.
+  - `geo/` (`scripts/10_geo.py streets`): Strassen nach OpenStreetMap (Nominatim, Cache in `geo/nominatim_cache.json`).
+- Flags von der Seite: CSV exportieren, `python scripts/91_merge_flags.py <datei.csv>`, committen.
+- Die Waadtländer Gemeinden 1907 stehen im Reiter «Communes vaudoises» (Filter nach Gemeinde, Gemeindekreise auf der Karte).
+- Plan und offene Teile (Rues et places): `docs/SITE_PLAN.md`.
+
 ## Dateien
 
 Schema wie [adressbuecher-aarau](https://github.com/thodel/adressbuecher-aarau), dazu `municipality`
