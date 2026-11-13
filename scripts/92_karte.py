@@ -21,7 +21,8 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-norm_street = importlib.import_module("10_geo").norm_street
+_geo = importlib.import_module("10_geo")
+norm_street, loose, manual_points = _geo.norm_street, _geo.loose, _geo.manual_points
 
 CSV_DIR = Path("data/csv")
 GEO = Path("web/geo")
@@ -32,7 +33,7 @@ REPO_URL = "https://github.com/thodel/adressbuecher-lausanne"
 def counts():
     """(Gemeinde) bzw. (Gemeinde, Strasse) → Zähler je «<Band><e|b>[t]» (t = mit Telefon)."""
     muni, street = defaultdict(Counter), defaultdict(Counter)
-    variants = defaultdict(Counter)
+    variants, names = defaultdict(Counter), defaultdict(Counter)
     linked = set()
     if TELEFON.exists():
         linked = {r["entry_id"] for r in csv.DictReader(TELEFON.open(encoding="utf-8"))}
@@ -44,11 +45,14 @@ def counts():
             for k in keys:
                 muni[r["municipality"]][k] += 1
             if r["street_raw"] and tab != "g":  # Strassen nur für Lausanne verortet
-                sk = (r["municipality"], norm_street(r["street_raw"]))
+                st = norm_street(r["street_raw"])
+                sk = (r["municipality"], loose(st))  # Schreibvarianten derselben Strasse: ein Kreis
+                names[sk][st] += 1
                 for k in keys:
                     street[sk][k] += 1
                 variants[sk][r["street_raw"]] += 1
-    return muni, street, variants, len(linked)
+    label = {k: c.most_common(1)[0][0] for k, c in names.items()}
+    return muni, street, variants, label
 
 
 def load_points(name: str, key) -> dict:
@@ -161,18 +165,16 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--out", type=Path, required=True)
     args = ap.parse_args()
-    muni, street, variants, _ = counts()
+    muni, street, variants, label = counts()
     mpts = load_points("municipalities.csv", lambda r: r["municipality"])
-    spts = load_points("streets.csv", lambda r: (r["municipality"], r["street_norm"]))
-    manual = GEO / "streets_manual.csv"
-    if manual.exists():
-        spts.update({(r["municipality"], r["street_norm"]): (float(r["lat"]), float(r["lon"]))
-                     for r in csv.DictReader(manual.open(encoding="utf-8")) if r["lat"]})
+    spts = load_points("streets.csv", lambda r: (r["municipality"], loose(r["street_norm"])))
+    manual = manual_points()  # von Hand gesetzt: gilt für alle Schreibvarianten
+    spts.update(manual)
     M = [[m, *mpts[m], dict(c)] for m, c in sorted(muni.items()) if m in mpts]
     S, lost_streets, lost_entries = [], 0, 0
     for (m, st), c in sorted(street.items()):
         if (m, st) in spts:
-            S.append([m, st, *spts[(m, st)], dict(c), [v for v, _ in variants[(m, st)].most_common(4)]])
+            S.append([m, label[(m, st)], *spts[(m, st)], dict(c), [v for v, _ in variants[(m, st)].most_common(4)]])
         else:
             lost_streets += 1
             lost_entries += sum(v for k, v in c.items() if not k.endswith("t"))

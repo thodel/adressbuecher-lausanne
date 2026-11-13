@@ -24,7 +24,8 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-norm_street = importlib.import_module("10_geo").norm_street
+_geo = importlib.import_module("10_geo")
+norm_street, loose, manual_points = _geo.norm_street, _geo.loose, _geo.manual_points
 
 CSV_DIR = Path("data/csv")
 REVIEW = Path("data/review/flags.csv")
@@ -113,6 +114,13 @@ def load_geo() -> dict[str, list[int]]:
             for r in csv.DictReader(p.open(encoding="utf-8")):
                 if r["lat"]:
                     out[key(r)] = list(lv95(float(r["lat"]), float(r["lon"])))
+    manual = manual_points()  # von Hand gesetzt: gilt für alle Schreibvarianten
+    p = Path("web/geo/streets.csv")
+    if manual and p.exists():
+        for r in csv.DictReader(p.open(encoding="utf-8")):
+            pt = manual.get((r["municipality"], loose(r["street_norm"])))
+            if pt:
+                out[r["municipality"] + "|" + r["street_norm"]] = list(lv95(*pt))
     return out
 
 
