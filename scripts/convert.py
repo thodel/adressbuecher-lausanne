@@ -17,6 +17,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+import communes
+
 ROOT = Path(__file__).resolve().parents[1]
 QWEN = ROOT / "data" / "qwen"
 CSV = ROOT / "data" / "csv"
@@ -40,7 +42,7 @@ METHOD = "qwen3.8-27b, Bild 2x"
 MUNICIPALITY = "Lausanne"
 SECTIONS = {
     "1896": [("einwohner", 15, 217), ("berufe", 219, 290)],
-    "1907": [("einwohner", 21, 294), ("berufe", 311, 411)],
+    "1907": [("einwohner", 21, 294), ("berufe", 311, 411), ("gemeinden", 670, 962)],
 }
 
 MIN_ENTRIES = 10  # weniger Einträge auf einer Seite: Inserat oder Zwischenseite
@@ -85,14 +87,104 @@ def clean_street(street: str, number: str) -> tuple[str, str]:
     return street, number
 
 
+# Kopfzeilen einer Gemeinde: Einwohnerzahl, Post, Bahn, Bezirksbehörden ohne Person
+COMMUNE_HEAD = re.compile(r"\d[\d' ]*\s*hab(?:itants|\.)|^(?:Gare|Dépôt de poste|Bureau de poste|Altitude|Poste,|"
+                          r"Cercles\s*:|Monuments|Hameau de)", re.I)
+
+
+def split_persons(r: dict) -> list[dict]:
+    """«Bovay, Burdet» / «Sylvain, Octave»: eine Zeile der Lesung mit mehreren Personen wird geteilt."""
+    sn, fn = r["surname"].split(", "), r["forename"].split(", ")
+    if len(sn) < 2 or len(sn) != len(fn):
+        return [r]
+    return [{**r, "surname": a, "forename": b, "seq": f"{r['seq']}.{i}"} for i, (a, b) in enumerate(zip(sn, fn), 1)]
+
+
+# «Municipaux, Perey Auguste — Chevalley Louis — Wagnière Gustave»: Namen nach Gedankenstrich, die die Lesung
+# nicht als eigene Zeile ausgibt. Nur Teile der Form «Name[-Allianz] Vorname[, Adresse]».
+DASH_NAME = re.compile(r"^(?:(?:à|au|aux)\s+)?([A-ZÉÈ][\w'’éèêàâüöäçï]+(?:-[A-ZÉÈ][\w'’éèêàâüöäçï]+)?)\s+"
+                       r"([A-ZÉÈ][\w'’éèêàâüöäçï.]*(?:-[A-ZÉÈ][\w'’éèêàâüöäçï.]*)?\.?)(?:\s*,\s*(.*))?$")
+
+
+def dash_persons(rows: list[dict]) -> list[dict]:
+    """Ergänzt Personen aus Gedankenstrich-Listen, die in den folgenden Zeilen der Lesung fehlen."""
+    out = []
+    for i, r in enumerate(rows):
+        out.append(r)
+        parts = [x.strip(" .") for x in re.split(r"\s+[—–]\s+", r["text"])]
+        if len(parts) < 3:
+            continue
+        # Familienname und Vornamen-Anfang ohne Zeichen und Marken («Ch. T» = «Ch»): Perey Auguste ≠ Perey Albert
+        who = lambda sur, fn: (sur.split("-")[0].lower(), re.sub(r"\b[RT]\b|\W", "", fn)[:3].lower())
+        near = {who(x["surname"], x["forename"]) for x in rows[i:i + len(parts) + 2]}
+        for k, part in enumerate(parts[1:], 1):
+            m = DASH_NAME.match(re.sub(r"\.?\s*\bR\b\.?\s*T?\b.*$|\s+T\s*\d*$", "", part))
+            if not m or who(m.group(1), m.group(2)) in near:
+                continue
+            sur, fn, rest = m.group(1), m.group(2), (m.group(3) or "")
+            out.append({**r, "seq": f"{r['seq']}.d{k}", "text": part, "surname": sur.split("-")[0],
+                        "alliance_name": sur.split("-", 1)[1] if "-" in sur else "", "forename": fn,
+                        "street": rest, "building_no": "", "phone": "", "dash_prefix": "0",
+                        "qa_flags": "aus_liste"})
+            near.add(who(sur, fn))
+    return out
+
+
+def muni_finder(volume: str, rows: list[dict]):
+    """Gemeinde einer Zeile im Teil «gemeinden» (nur 1907): die letzte Überschrift davor."""
+    if not any(n == "gemeinden" for n, _, _ in SECTIONS[volume]):
+        return lambda page, seq: MUNICIPALITY
+    st = communes.starts(rows, communes.load_ref())
+
+    def find(page: int, seq: int) -> str:
+        cur = ""
+        for p, s, m, _ in st:
+            if (p, s) <= (page, seq):
+                cur = m
+        return cur
+    return find
+
+
+# Cercle de Montreux 1907: nach den Köpfen der drei Gemeinden (S. 919) folgt EIN Berufsverzeichnis für
+# den ganzen Kreis (S. 920–938). Die Gemeinde kommt dort aus dem Ortsteil in der Adresse; ohne Ortsteil
+# («Grand'Rue», «av. du Kursaal») bleibt der Eintrag ohne Gemeinde.
+MONTREUX_TRADES = ((920, 1), (939, 46))
+MONTREUX_PARTS = {
+    "Le Châtelard-Montreux": r"Clarens|Vernex|Chailly|Brent|Tavel|Baugy|Chernex|Sonzier|Pertit|Les Avants|Sâles|"
+                             r"Burier|Châtelard|Rouvenaz|Tavel",
+    "Les Planches": r"Territet|Glion|Collonges?|Planches|Bon[- ]Port|Caux|Veraye",
+    "Veytaux": r"Veytaux|Chillon|Grandchamp",
+}
+
+
+def montreux(text: str) -> str:
+    found = {m for m, rx in MONTREUX_PARTS.items() if re.search(rf"\b(?:{rx})\b", text)}
+    return found.pop() if len(found) == 1 else ""
+
+
 def convert(volume: str) -> tuple[list[dict], Counter]:
     rows = list(csv.DictReader(open(QWEN / volume / "entries.csv", encoding="utf-8")))
     pages = Counter(int(r["page"]) for r in rows)
+    muni_of = muni_finder(volume, rows)
+    rows = [x for r in rows for x in split_persons(r)]
+    if any(n == "gemeinden" for n, _, _ in SECTIONS[volume]):
+        rows = dash_persons(rows)
     out, stats = [], Counter()
     last = ("", "")  # Adresse des vorigen Eintrags, für «m. a.» (même adresse)
     for r in rows:
-        page, seq = int(r["page"]), int(r["seq"])
+        page, seq = int(r["page"]), int(r["seq"].split(".")[0])
         sec = section_of(volume, page)
+        muni = MUNICIPALITY
+        if sec == "gemeinden":
+            muni = muni_of(page, seq)
+            if MONTREUX_TRADES[0] <= (page, seq) <= MONTREUX_TRADES[1]:
+                muni = montreux(r["text"])
+                if not muni:
+                    stats["Montreux ohne Ortsteil"] += 1
+                    continue
+            if not muni or COMMUNE_HEAD.search(r["text"]):
+                stats["Bezirkskopf oder Gemeindekopf"] += 1
+                continue
         if not sec:
             stats["ausserhalb der Verzeichnisse"] += 1
             continue
@@ -114,7 +206,8 @@ def convert(volume: str) -> tuple[list[dict], Counter]:
         flags = [f for f in r["qa_flags"].split(";") if f]
         firm = bool(FIRM.search(f"{surname} {r['forename']} {r['text'][:60]}")) and not WIDOW.search(r["text"])
         out.append({
-            "entry_id": f"{volume}-{sec}-{page:03d}-{seq:03d}", "volume": volume, "page": page,
+            "entry_id": f"{volume}-{sec}-{page:03d}-{seq:03d}" + ("-" + r["seq"].split(".", 1)[1].replace(".", "-") if "." in r["seq"] else ""),
+            "volume": volume, "page": page,
             "section": sec, "line_from": seq, "line_to": seq,
             "entry_type": "firma" if firm else "person", "citizen_flag": "",
             "dash_prefix": r["dash_prefix"], "surname": surname,
@@ -127,22 +220,24 @@ def convert(volume: str) -> tuple[list[dict], Counter]:
             "parse_method": METHOD,
             "parse_confidence": "medium" if {"street_rare", "hyphen", "unreadable", "surname_split"} & set(flags)
             else "high",
-            "residual": "", "text": r["text"], "municipality": MUNICIPALITY, "qa_flags": ";".join(flags),
+            "residual": "", "text": r["text"], "municipality": muni, "qa_flags": ";".join(flags),
         })
         stats[sec] += 1
     return out, stats
 
 
 def main() -> None:
-    entries, berufe, sections = [], [], []
+    entries, berufe, gemeinden, sections = [], [], [], []
     for volume in SECTIONS:
         rows, stats = convert(volume)
         entries += [r for r in rows if r["section"] == "einwohner"]
         berufe += [r for r in rows if r["section"] == "berufe"]
+        gemeinden += [r for r in rows if r["section"] == "gemeinden"]
         sections += [{"volume": volume, "section": n, "page_from": a, "page_to": b} for n, a, b in SECTIONS[volume]]
         print(volume, dict(sorted(stats.items())))
     CSV.mkdir(parents=True, exist_ok=True)
     for name, rows, fields in (("04_entries.csv", entries, FIELDS), ("04_berufe.csv", berufe, FIELDS),
+                               ("04_gemeinden.csv", gemeinden, FIELDS),
                                ("03_sections.csv", sections, ["volume", "section", "page_from", "page_to"]),
                                ("10_authority_links.csv", [], AUTH_FIELDS)):
         with open(CSV / name, "w", newline="", encoding="utf-8") as f:

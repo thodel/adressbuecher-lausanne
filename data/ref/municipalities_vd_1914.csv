@@ -1,0 +1,389 @@
+bfs,name,district
+5621,Aclens,District de Morges
+5742,Agiez,District d'Orbe
+5401,Aigle,District d'Aigle
+5851,Allaman,District de Rolle
+5421,Apples,District d'Aubonne
+5701,Arnex-sur-Nyon,District de Nyon
+5743,Arnex-sur-Orbe,District d'Orbe
+5901,Arrissoules,District d'Yverdon
+5702,Arzier,District de Nyon
+5511,Assens,District d'Echallens
+5422,Aubonne,District d'Aubonne
+5451,Avenches,District d'Avenches
+5744,Ballaigues,District d'Orbe
+5423,Ballens,District d'Aubonne
+5703,Bassins,District de Nyon
+5745,Baulmes,District d'Orbe
+5746,Bavois,District d'Orbe
+5704,Begnins,District de Nyon
+5452,Bellerive (VD),District d'Avenches
+5581,Belmont-sur-Lausanne,District de Lausanne
+5902,Belmont-sur-Yverdon,District d'Yverdon
+5512,Bercher,District de Moudon
+5424,Berolle,District d'Aubonne
+5471,Bettens,District de Cossonay
+5402,Bex,District d'Aigle
+5903,Bioley-Magnoux,District d'Yverdon
+5513,Bioley-Orjulaz,District d'Echallens
+5425,Bière,District d'Aubonne
+5881,Blonay,District de Vevey
+5747,Bofflens,District d'Orbe
+5705,Bogis-Bossey,District de Nyon
+5551,Bonvillars,District de Grandson
+5706,Borex,District de Nyon
+5514,Bottens,District d'Echallens
+,Bougy,District d'Aubonne
+5661,Boulens,District de Moudon
+5472,Bournens,District de Cossonay
+5473,Boussens,District de Cossonay
+5622,Bremblens,District de Morges
+5662,Brenles,District de Moudon
+5515,Bretigny-sur-Morrens,District d'Echallens
+5748,Bretonnières,District d'Orbe
+5623,Buchillon,District de Morges
+5552,Bullet,District de Grandson
+5852,Bursinel,District de Rolle
+5853,Bursins,District de Rolle
+5854,Burtigny,District de Rolle
+,Bussigny-sur-Morges,District de Morges
+5781,Bussigny-sur-Oron,District d'Oron
+5625,Bussy-sur-Morges,District de Morges
+5663,Bussy-sur-Moudon,District de Moudon
+5782,Carrouge (VD),District d'Oron
+5811,Cerniaz (VD),District de Payerne
+5453,Chabrey,District d'Avenches
+5904,Chamblon,District d'Yverdon
+5553,Champagne,District de Grandson
+5454,Champmartin,District d'Avenches
+5812,Champtauroz,District de Payerne
+5905,Champvent,District d'Yverdon
+5906,Chanéaz,District d'Yverdon
+,Chapelle (VD),District de Moudon
+5882,Chardonne,District de Vevey
+5626,Chardonney-sur-Morges,District de Morges
+5707,Chavannes-de-Bogis,District de Nyon
+5708,Chavannes-des-Bois,District de Nyon
+5907,Chavannes-le-Chêne,District d'Yverdon
+5475,Chavannes-le-Veyron,District de Cossonay
+5627,Chavannes-près-Renens,District de Morges
+5665,Chavannes-sur-Moudon,District de Moudon
+5749,Chavornay,District d'Orbe
+5666,Chesalles-sur-Moudon,District de Moudon
+5784,Chesalles-sur-Oron,District d'Oron
+5909,Cheseaux-Noréaz,District d'Yverdon
+5582,Cheseaux-sur-Lausanne,District de Lausanne
+5403,Chessel,District d'Aigle
+5476,Chevilly,District de Cossonay
+5813,Chevroux,District de Payerne
+5601,Chexbres,District de Lavaux
+5628,Chigny,District de Morges
+5841,Château-d'Oex,District du Pays-d'Enhaut
+5783,Châtillens,District d'Oron
+5709,Chéserex,District de Nyon
+,Chêne-Paquier,District d'Yverdon
+5629,Clarmont,District de Morges
+5710,Coinsins,District de Nyon
+5630,Colombier (VD),District de Morges
+5814,Combremont-le-Grand,District de Payerne
+5815,Combremont-le-Petit,District de Payerne
+5711,Commugny,District de Nyon
+5554,Concise,District de Grandson
+5455,Constantine,District d'Avenches
+5712,Coppet,District de Nyon
+5404,Corbeyrier,District d'Aigle
+5785,Corcelles-le-Jorat,District d'Oron
+5555,Corcelles-près-Concise,District de Grandson
+5816,Corcelles-près-Payerne,District de Payerne
+5751,Corcelles-sur-Chavornay,District d'Orbe
+5667,Correvon,District de Moudon
+5883,Corseaux,District de Vevey
+,Corsier (VD),District de Vevey
+5477,Cossonay,District de Cossonay
+5478,Cottens (VD),District de Cossonay
+5713,Crans-près-Céligny,District de Nyon
+5714,Crassier,District de Nyon
+5668,Cremin,District de Moudon
+5583,Crissier,District de Lausanne
+5910,Cronay,District d'Yverdon
+5752,Croy,District d'Orbe
+5479,Cuarnens,District de Cossonay
+5911,Cuarny,District d'Yverdon
+5456,Cudrefin,District d'Avenches
+5516,Cugy (VD),District d'Echallens
+5602,Cully,District de Lavaux
+5669,Curtilles,District de Moudon
+5480,Daillens,District de Cossonay
+5631,Denens,District de Morges
+5670,Denezy,District de Moudon
+5632,Denges,District de Morges
+5481,Dizy,District de Cossonay
+5517,Dommartin,District d'Echallens
+5671,Dompierre (VD),District de Moudon
+5457,Donatyre,District d'Avenches
+5913,Donneloye,District d'Yverdon
+5715,Duillier,District de Nyon
+5855,Dully,District de Rolle
+5912,Démoret,District d'Yverdon
+5518,Echallens,District d'Echallens
+5633,Echandens,District de Morges
+5634,Echichens,District de Morges
+5519,Eclagnens,District d'Echallens
+5482,Eclépens,District de Cossonay
+5787,Ecoteaux,District d'Oron
+5635,Ecublens (VD),District de Morges
+5753,Envy,District d'Orbe
+5584,Epalinges,District de Lausanne
+5914,Ependes (VD),District d'Yverdon
+5603,Epesses,District de Lavaux
+5915,Essert-Pittet,District d'Yverdon
+5916,Essert-sous-Champvent,District d'Yverdon
+5788,Essertes,District d'Oron
+5856,Essertines-sur-Rolle,District de Rolle
+5520,Essertines-sur-Yverdon,District d'Echallens
+5521,Etagnières,District d'Echallens
+5636,Etoy,District de Morges
+5716,Eysins,District de Nyon
+5458,Faoug,District d'Avenches
+5789,Ferlens (VD),District d'Oron
+5483,Ferreyres,District de Cossonay
+5522,Fey,District d'Echallens
+5556,Fiez,District de Grandson
+5557,Fontaines-sur-Grandson,District de Grandson
+5558,Fontanezier,District de Grandson
+5604,Forel (Lavaux),District de Lavaux
+5672,Forel-sur-Lucens,District de Moudon
+5717,Founex,District de Nyon
+5523,Froideville,District d'Echallens
+5427,Féchy,District d'Aubonne
+5718,Genolier,District de Nyon
+5559,Giez,District de Grandson
+5857,Gilly,District de Rolle
+5428,Gimel,District d'Aubonne
+5719,Gingins,District de Nyon
+5720,Givrins,District de Nyon
+5721,Gland,District de Nyon
+5484,Gollion,District de Cossonay
+5917,Gossens,District d'Yverdon
+5524,Goumoens-la-Ville,District d'Echallens
+5525,Goumoens-le-Jux,District d'Echallens
+5485,Grancy,District de Cossonay
+5817,Grandcour,District de Payerne
+5560,Grandevent,District de Grandson
+5561,Grandson,District de Grandson
+5605,Grandvaux,District de Lavaux
+,Granges (VD),District de Payerne
+5722,Grens,District de Nyon
+5918,Gressy,District d'Yverdon
+5405,Gryon,District d'Aigle
+5819,Henniez,District de Payerne
+5673,Hermenches,District de Moudon
+5885,Jongny,District de Vevey
+5585,Jouxtens-Mézery,District de Lausanne
+5754,Juriens,District d'Orbe
+5871,L'Abbaye,District de la Vallée
+5741,L'Abergement,District d'Orbe
+5486,L'Isle,District de Cossonay
+,La Chaux (VD),District de Cossonay
+5758,La Praz,District d'Orbe
+5726,La Rippe,District de Nyon
+5797,La Rogivue,District d'Oron
+5498,La Sarraz,District de Cossonay
+5889,La Tour-de-Peilz,District de Vevey
+5586,Lausanne,District de Lausanne
+5406,Lavey-Morcles,District d'Aigle
+5637,Lavigny,District de Morges
+5872,Le Chenit,District de la Vallée
+,Le Châtelard-Montreux,District de Vevey
+5873,Le Lieu,District de la Vallée
+5587,Le Mont-sur-Lausanne,District de Lausanne
+5731,Le Vaud,District de Nyon
+5750,Les Clées,District d'Orbe
+5786,Les Cullayes,District d'Oron
+,Les Planches,District de Vevey
+5800,Les Tavernes,District d'Oron
+5801,Les Thioleyres,District d'Oron
+5407,Leysin,District d'Aigle
+5755,Lignerolle,District d'Orbe
+5638,Lonay,District de Morges
+5429,Longirod,District d'Aubonne
+5674,Lovatens,District de Moudon
+5675,Lucens,District de Moudon
+5858,Luins,District de Rolle
+5639,Lully (VD),District de Morges
+5487,Lussery,District de Cossonay
+,Lussy (VD),District de Morges
+5606,Lutry,District de Lavaux
+5526,Malapalud,District d'Echallens
+5790,Maracon,District d'Oron
+5430,Marchissy,District d'Aubonne
+5820,Marnand,District de Payerne
+5676,Martherenges,District de Moudon
+5919,Mathod,District d'Yverdon
+5562,Mauborget,District de Grandson
+5488,Mauraz,District de Cossonay
+5489,Mex (VD),District de Cossonay
+5723,Mies,District de Nyon
+5821,Missy,District de Payerne
+5490,Moiry,District de Cossonay
+5431,Mollens (VD),District d'Aubonne
+5921,Molondin,District d'Yverdon
+5641,Monnaz,District de Morges
+5491,Mont-la-Ville,District de Cossonay
+5859,Mont-sur-Rolle,District de Rolle
+5922,Montagny-près-Yverdon,District d'Yverdon
+5677,Montaubion-Chardonney,District de Moudon
+5756,Montcherand,District d'Orbe
+5432,Montherod,District d'Aubonne
+5459,Montmagny,District d'Avenches
+5792,Montpreveyres,District d'Oron
+5492,Montricher,District de Cossonay
+5642,Morges,District de Morges
+5527,Morrens (VD),District d'Echallens
+5678,Moudon,District de Moudon
+5460,Mur (VD),District d'Avenches
+5563,Mutrux,District de Grandson
+5920,Mézery-près-Donneloye,District d'Yverdon
+5791,Mézières (VD),District d'Oron
+5528,Naz,District d'Echallens
+,Neyruz (VD),District de Moudon
+5564,Novalles,District de Grandson
+5408,Noville,District d'Aigle
+5724,Nyon,District de Nyon
+5680,Ogens,District de Moudon
+5461,Oleyres,District d'Avenches
+5409,Ollon,District d'Aigle
+5565,Onnens (VD),District de Grandson
+5923,Oppens,District d'Yverdon
+5757,Orbe,District d'Orbe
+5924,Orges,District d'Yverdon
+5410,Ormont-Dessous,District d'Aigle
+5411,Ormont-Dessus,District d'Aigle
+5493,Orny,District de Cossonay
+5793,Oron-la-Ville,District d'Oron
+5794,Oron-le-Châtel,District d'Oron
+5925,Orzens,District d'Yverdon
+5529,Oulens-sous-Echallens,District d'Echallens
+5681,Oulens-sur-Lucens,District de Moudon
+5530,Pailly,District d'Echallens
+5795,Palézieux,District d'Oron
+5494,Pampigny,District de Cossonay
+5588,Paudex,District de Lausanne
+5822,Payerne,District de Payerne
+5796,Peney-le-Jorat,District d'Oron
+5495,Penthalaz,District de Cossonay
+5496,Penthaz,District de Cossonay
+5531,Penthéréaz,District d'Echallens
+5860,Perroy,District de Rolle
+5682,Peyres-Possens,District de Moudon
+5433,Pizy,District d'Aubonne
+5533,Poliez-Pittet,District d'Echallens
+5532,Poliez-le-Grand,District d'Echallens
+5497,Pompaples,District de Cossonay
+5926,Pomy,District d'Yverdon
+5927,Prahins,District d'Yverdon
+5725,Prangins,District de Nyon
+5759,Premier,District d'Orbe
+5589,Prilly,District de Lausanne
+5566,Provence,District de Grandson
+5643,Préverenges,District de Morges
+5683,Prévonloup,District de Moudon
+5607,Puidoux,District de Lavaux
+5590,Pully,District de Lausanne
+5760,Rances,District d'Orbe
+5591,Renens (VD),District de Lausanne
+5412,Rennaz,District d'Aigle
+5644,Reverolle,District de Morges
+5608,Riex,District de Lavaux
+5609,Rivaz,District de Lavaux
+5413,Roche (VD),District d'Aigle
+5861,Rolle,District de Rolle
+5761,Romainmôtier,District d'Orbe
+5567,Romairon,District de Grandson
+5592,Romanel-sur-Lausanne,District de Lausanne
+5645,Romanel-sur-Morges,District de Morges
+5798,Ropraz,District d'Oron
+5684,Rossenges,District de Moudon
+5823,Rossens (VD),District de Payerne
+5842,Rossinière,District du Pays-d'Enhaut
+5843,Rougemont,District du Pays-d'Enhaut
+5928,Rovray,District d'Yverdon
+5534,Rueyres,District d'Echallens
+5535,Saint-Barthélemy (VD),District d'Echallens
+5727,Saint-Cergue,District de Nyon
+5685,Saint-Cierges,District de Moudon
+5434,Saint-George,District d'Aubonne
+5435,Saint-Livres,District d'Aubonne
+5888,Saint-Légier-La Chiésaz,District de Vevey
+5436,Saint-Oyens,District d'Aubonne
+5646,Saint-Prex,District de Morges
+5610,Saint-Saphorin (Lavaux),District de Lavaux
+5647,Saint-Saphorin-sur-Morges,District de Morges
+5648,Saint-Sulpice (VD),District de Morges
+5568,Sainte-Croix,District de Grandson
+5686,Sarzens,District de Moudon
+5824,Sassel,District de Payerne
+5437,Saubraz,District d'Aubonne
+5611,Savigny,District de Lavaux
+5826,Seigneux,District de Payerne
+5499,Senarclens,District de Cossonay
+5762,Sergey,District d'Orbe
+5799,Servion,District d'Oron
+5728,Signy-Avenex,District de Nyon
+5687,Sottens,District de Moudon
+5929,Suchy,District d'Yverdon
+5536,Sugnens,District d'Echallens
+5501,Sullens,District de Cossonay
+5930,Suscévaz,District d'Yverdon
+5688,Syens,District de Moudon
+5825,Sédeilles,District de Payerne
+5500,Sévery,District de Cossonay
+5729,Tannay,District de Nyon
+5862,Tartegnin,District de Rolle
+5689,Thierrens,District de Moudon
+5649,Tolochenaz,District de Morges
+5827,Trey,District de Payerne
+5931,Treycovagnes,District d'Yverdon
+5828,Treytorrens (Payerne),District de Payerne
+5730,Trélex,District de Nyon
+5932,Ursins,District d'Yverdon
+5933,Valeyres-sous-Montagny,District d'Yverdon
+5763,Valeyres-sous-Rances,District d'Orbe
+5934,Valeyres-sous-Ursins,District d'Yverdon
+5462,Vallamand,District d'Avenches
+5764,Vallorbe,District d'Orbe
+5569,Vaugondry,District de Grandson
+5765,Vaulion,District d'Orbe
+5650,Vaux-sur-Morges,District de Morges
+5890,Vevey,District de Vevey
+5891,Veytaux,District de Vevey
+5732,Vich,District de Nyon
+5829,Villars-Bramard,District de Payerne
+5570,Villars-Burquin,District de Grandson
+5935,Villars-Epeney,District d'Yverdon
+5502,Villars-Lussery,District de Cossonay
+5691,Villars-Mendraz,District de Moudon
+5651,Villars-Sainte-Croix,District de Morges
+5538,Villars-Tiercelin,District d'Echallens
+5690,Villars-le-Comte,District de Moudon
+5463,Villars-le-Grand,District d'Avenches
+5537,Villars-le-Terroir,District d'Echallens
+5936,Villars-sous-Champvent,District d'Yverdon
+5652,Villars-sous-Yens,District de Morges
+5830,Villarzel,District de Payerne
+5414,Villeneuve (VD),District d'Aigle
+5612,Villette (Lavaux),District de Lavaux
+5863,Vinzel,District de Rolle
+5539,Vuarrens,District d'Echallens
+5692,Vucherens,District de Moudon
+5503,Vufflens-la-Ville,District de Cossonay
+5653,Vufflens-le-Château,District de Morges
+5937,Vugelles-La Mothe,District d'Yverdon
+5802,Vuibroye,District d'Oron
+5766,Vuiteboeuf,District d'Orbe
+5803,Vulliens,District d'Oron
+5654,Vullierens,District de Morges
+5655,Yens,District de Morges
+5938,Yverdon,District d'Yverdon
+5939,Yvonand,District d'Yverdon
+5415,Yvorne,District d'Aigle
