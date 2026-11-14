@@ -21,6 +21,7 @@ from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import site_nav  # noqa: E402  gemeinsame Navigation
 _geo = importlib.import_module("10_geo")
 norm_street, loose, manual_points = _geo.norm_street, _geo.loose, _geo.manual_points
 
@@ -98,9 +99,11 @@ select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); ou
 .leaflet-popup-content { font-size: 14px; }
 .leaflet-popup-content b { font-weight: 700; }
 @media (max-width: 600px) { #map { min-height: 65vh; } }
+__NAVCSS__
 </style>
+__CITYBAR__
 <header>
-  <nav class="nav"><a href="./">Lausanne : entrées</a> · <a href="karte.html">Carte</a> · <a href="https://thodel.github.io/vernetzte-schweiz/">Vernetzte Schweiz</a> · <a href="__REPO__">Dépôt</a></nav>
+  __CITYNAV__
   <h1>Carte : Indicateur vaudois 1896 et 1907, Lausanne</h1>
   <p class="sub">État au __DATE__ · surface du cercle = nombre d'entrées. Communes de 1914 (bleu) et rues de Lausanne (rouge, position OpenStreetMap, milieu actuel de la rue). __UNPLACED__</p>
 </header>
@@ -182,7 +185,7 @@ def main() -> None:
     fmt = lambda x: f"{x:,}".replace(",", "\u202f")
     unplaced = (f"{len(S)} des {len(street)} noms de rue localisés ; {fmt(lost_entries)} des {fmt(total)} entrées avec rue "
                 f"sont dans des rues sans position (nom changé, rare ou erreur de lecture).")
-    html = (TEMPLATE.replace("__MUNI__", json.dumps(M, ensure_ascii=False, separators=(",", ":")))
+    html = (TEMPLATE.replace("__CITYBAR__", site_nav.city_bar('lausanne', 'fr')).replace("__CITYNAV__", site_nav.city_nav('Lausanne 1896–1907', 'https://github.com/thodel/adressbuecher-lausanne', "map", 'fr')).replace("__NAVCSS__", site_nav.CSS).replace("__MUNI__", json.dumps(M, ensure_ascii=False, separators=(",", ":")))
             .replace("__STREETS__", json.dumps(S, ensure_ascii=False, separators=(",", ":")))
             .replace("__UNPLACED__", unplaced).replace("__REPO__", REPO_URL)
             .replace("__DATE__", date.today().strftime("%d.%m.%Y")))
