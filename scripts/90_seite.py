@@ -27,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 _geo = importlib.import_module("10_geo")
 norm_street, loose, manual_points = _geo.norm_street, _geo.loose, _geo.manual_points
 import site_nav  # noqa: E402  gemeinsame Navigation und Feldsuche aller Adressbuch-Seiten
+import site_fonts  # noqa: E402  Schriften lokal (fonts/)
 
 CSV_DIR = Path("data/csv")
 REVIEW = Path("data/review/flags.csv")
@@ -166,7 +167,7 @@ TEMPLATE = r"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Indicateur vaudois 1896–1907</title>
 <meta name="description" content="Les adresses de Lausanne de l'Indicateur vaudois 1896 et 1907, lues par machine (qwen3.8), avec recherche par nom, profession et rue, et lien vers la page chez Scriptorium.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Code+Pro:wght@400;600&display=swap">
+<link rel="stylesheet" href="fonts/fonts.css">
 <style>
 /* Layout: Werkzeug wie Aarau/Basel/Baden — Kopf mit Hinweis und Filtern, darunter eine Tabelle, die den Rest füllt. */
 :root {
@@ -560,6 +561,7 @@ def main() -> None:
             .replace("__REPO__", REPO_URL)
             .replace("__DATE__", date.today().strftime("%d.%m.%Y")))
     (args.out / "index.html").write_text(html, encoding="utf-8")
+    site_fonts.copy(args.out)
     print(f"{len(reported)} gemeldete Flags → {args.out / 'index.html'}")
 
 
