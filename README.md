@@ -16,12 +16,16 @@ Seite = Bildnummer im IIIF-Manifest von Scriptorium (BCU Lausanne): 1896 Objekt 
 
 ## Seite
 
-Durchsuchbare Seite auf Französisch: https://thodel.github.io/adressbuecher-lausanne/ (Karte: `karte.html`).
-Filter nach Band, Gemeinde, Strasse, Konfidenz, Hinweis und Telefon; je Zeile Link auf die Seite bei Scriptorium
-(`zoom/<Objekt>/view?page=<Bild>`), Flagging wie bei Aarau, Basel, Baden und Bern.
+Oberfläche französisch. Startseite: Suche über alle Bände (Liste, Karte, Facetten, Zeitstrahl) mit Seite je Eintrag:
+https://thodel.github.io/adressbuecher-lausanne/ (`scripts/89_suche.py` mit dem gemeinsamen `scripts/site_search.py`).
+Im Teil «Communes vaudoises» ist die Gemeinde das Gebiet (Facette).
 
-- `python scripts/90_seite.py --out _site` und `python scripts/92_karte.py --out _site/karte.html` bauen sie lokal;
-  GitHub Actions baut und veröffentlicht sie bei jedem Push.
+Korrekturmodus (Kontrollseite): https://thodel.github.io/adressbuecher-lausanne/korrektur/ — Filter nach Band, Gemeinde,
+Strasse, Konfidenz, Hinweis und Telefon; je Zeile Link auf die Seite bei Scriptorium (`zoom/<Objekt>/view?page=<Bild>`),
+Flagging wie bei Aarau, Basel, Baden und Bern. Karte: `karte.html`.
+
+- `python scripts/90_seite.py --out _site/korrektur`, `python scripts/92_karte.py --out _site/karte.html` und zuletzt
+  `python scripts/89_suche.py --out _site` bauen alles lokal wie Pages; GitHub Actions baut und veröffentlicht bei jedem Push.
 - Verknüpfungen in `web/`, erzeugt mit den Skripten und eingecheckt, damit der Bau ohne Netz und ohne
   vernetzte-schweiz läuft:
   - `telefon.csv` (`scripts/80_telefon.py --vs …`): Einträge mit ☎ → PTT-Telefonbuch (gedruckte Nummer + Name,
