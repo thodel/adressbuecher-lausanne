@@ -36,11 +36,12 @@ CITY = {
     "nav": [["karte.html", "Carte : communes et rues"]],
     "note": "Source : Indicateur vaudois 1896 et 1907 (BCU Lausanne, cote 1C 478, numérisé chez Scriptorium). Texte lu "
             "par qwen3.8 (Université de Berne), sans correction manuelle. En 1907, les communes vaudoises "
-            "(images 670–962) ; la commune sert de « quartier ».",
+            "(images 670–962).",
     "page_note": "Les images ne sont que liées (conditions de réutilisation non clarifiées) ; « page » est le numéro "
                  "d'image chez Scriptorium.",
     "parts": {k: label for k, label, *_ in K.TABS},
     "volumes": K.VOLUMES,
+    "ui": {"area": "Commune", "area_l": "Commune", "filters": "Filtres : volume, partie, commune, rue, profession"},
 }
 CORE = {"entry_id", "volume", "page", "surname", "forename", "alliance_name", "maiden_name", "occupation_raw",
         "street_raw", "building_no", "text", "telefon", "other_volume", "authority", "zeitreise", "street_key",
@@ -133,6 +134,7 @@ def main() -> None:
                     "maiden": r.get("maiden_name", ""), "occupation": r.get("occupation_raw", ""),
                     "street": street, "no": r.get("building_no", ""),
                     "area": muni if key == "gemeinden" else "",
+                    "place": muni if key == "gemeinden" else "",  # Karte: ohne Strasse der Punkt der Gemeinde
                     "origin": "" if key == "berufe" else r.get("origin_raw", ""), "title": r.get("title", ""), "heading": r.get("heading", ""),
                     "text": r.get("text", ""), "page": page,
                     "page_url": (f"https://www.scriptorium.ch/zoom/{K.SCRIPTORIUM[vol]}/view?page={page}&p=separate"
